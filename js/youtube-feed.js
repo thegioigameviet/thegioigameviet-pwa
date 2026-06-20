@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <div class="entry-header">
 
-                        <h3 class="entry-title">
+                        <h4 class="entry-title">
                             <a href="${video.url}"
                                target="_blank"
                                rel="noopener">
