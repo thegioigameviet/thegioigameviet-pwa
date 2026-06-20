@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T13:49:05.124Z",
+  "updated": "2026-06-20T19:16:38.589Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -8,19 +8,12 @@
   "total": 6,
   "videos": [
     {
-      "id": "FjS-JJogUog",
-      "title": "So sánh 2 tựa game Call of DragonsVs Rise of Kingdoms #ROK #cod",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/FjS-JJogUog/hqdefault.jpg",
-      "published": "2026-06-20T10:25:41Z",
-      "url": "https://www.youtube.com/watch?v=FjS-JJogUog"
-    },
-    {
       "id": "ZnNK5dpu8H0",
       "title": "LORDNINE: Phân Tích TRỌNG KIẾM - Cỗ Máy Hủy Diệt Tuyến Đầu Liệu Có Lỗi Game?",
       "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Nếu anh em đã quá chán lối chơi cấu rỉa, \"thả diều\" mệt mỏi và ...",
       "thumbnail": "https://i.ytimg.com/vi/ZnNK5dpu8H0/hqdefault.jpg",
       "published": "2026-06-19T04:52:24Z",
+      "duration": 480,
       "url": "https://www.youtube.com/watch?v=ZnNK5dpu8H0"
     },
     {
@@ -29,23 +22,8 @@
       "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Anh em đã quá chán với những chuyến phiêu lưu bắt Pokémon ...",
       "thumbnail": "https://i.ytimg.com/vi/gbDKLj0gheg/hqdefault.jpg",
       "published": "2026-06-19T01:03:34Z",
+      "duration": 553,
       "url": "https://www.youtube.com/watch?v=gbDKLj0gheg"
-    },
-    {
-      "id": "9L91Q2RqFIw",
-      "title": "Where Winds Meet sẽ Update phiên bản 1.8 vào ngày 25/6, AE sẵn sàng đón chờ phiên bản mới chưa?",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/9L91Q2RqFIw/hqdefault.jpg",
-      "published": "2026-06-19T00:01:36Z",
-      "url": "https://www.youtube.com/watch?v=9L91Q2RqFIw"
-    },
-    {
-      "id": "_dfo-RnR8II",
-      "title": "Ứng dụng Của Thế Giới Game Việt trên điện thoại, giúp tra cứu thông tin nhanh chóng và tiện lợi.",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/_dfo-RnR8II/hqdefault.jpg",
-      "published": "2026-06-18T15:12:21Z",
-      "url": "https://www.youtube.com/watch?v=_dfo-RnR8II"
     },
     {
       "id": "4kNg766PLCo",
@@ -53,7 +31,35 @@
       "description": "Nếu anh em là mẫu game thủ thích cảm giác áp sát mục tiêu, tung ra những chuỗi đòn chí mạng liên tục và tiễn đối thủ về thành ...",
       "thumbnail": "https://i.ytimg.com/vi/4kNg766PLCo/hqdefault.jpg",
       "published": "2026-06-18T05:28:17Z",
+      "duration": 631,
       "url": "https://www.youtube.com/watch?v=4kNg766PLCo"
+    },
+    {
+      "id": "ulwcK7MVle4",
+      "title": "LORDNINE: Phân Tích KIẾM KHIÊN - Chiến Binh Toàn Năng Càng Về Late Càng Lỗi Game",
+      "description": "Nếu anh em đang tìm kiếm một class vừa có thể farm khỏe, săn quái vượt lực chiến, đấu PvP mạnh và càng chơi lâu càng trở nên ...",
+      "thumbnail": "https://i.ytimg.com/vi/ulwcK7MVle4/hqdefault.jpg",
+      "published": "2026-06-18T01:10:11Z",
+      "duration": 548,
+      "url": "https://www.youtube.com/watch?v=ulwcK7MVle4"
+    },
+    {
+      "id": "XK2Wkat2IFE",
+      "title": "Hướng Dẫn Build Quyền Giáp Tà Phái: Combo Thiên Chỉ Thùy Tượng x Trảm Tuyết Đao Pháp",
+      "description": "Chào anh em đồng môn đã quay trở lại với Thế Giới Game Việt! Cuối tháng này, bộ võ học mới Quyền Giáp – Thiên Chỉ Thùy ...",
+      "thumbnail": "https://i.ytimg.com/vi/XK2Wkat2IFE/hqdefault.jpg",
+      "published": "2026-06-14T00:56:38Z",
+      "duration": 550,
+      "url": "https://www.youtube.com/watch?v=XK2Wkat2IFE"
+    },
+    {
+      "id": "hK2GmZwIrbM",
+      "title": "Call of Dragons vs Rise of Kingdoms: Sự Sáng Tạo Hay Chiêu Trò &quot;Đổi Skin&quot; Bào Tiền?",
+      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Suốt từ năm 2023 cho đến nay, cộng đồng game thủ hệ chiến thuật ...",
+      "thumbnail": "https://i.ytimg.com/vi/hK2GmZwIrbM/hqdefault.jpg",
+      "published": "2026-06-13T01:15:14Z",
+      "duration": 747,
+      "url": "https://www.youtube.com/watch?v=hK2GmZwIrbM"
     }
   ]
 }
