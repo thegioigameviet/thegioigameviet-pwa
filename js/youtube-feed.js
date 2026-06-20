@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!container) return;
 
-    fetch("https://pwa.thegioigameviet.com/youtube.json?" + Date.now())
-        .then(res => res.json())
+    fetch("https://pwa.thegioigameviet.com/youtube.json")
+        .then(response => response.json())
         .then(data => {
 
-            if (!data.videos || !data.videos.length) return;
+            if (!data.videos || data.videos.length === 0) return;
 
             let html = '<div class="video-items">';
 
-            data.videos.forEach(function(video){
+            data.videos.forEach(video => {
 
                 html += `
                 <article class="video-item">
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <a class="entry-image-wrap"
                        href="${video.url}"
                        target="_blank"
-                       rel="noopener noreferrer">
+                       rel="noopener">
 
                         <img
                             src="${video.thumbnail}"
@@ -34,27 +34,22 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h3 class="entry-title">
                             <a href="${video.url}"
                                target="_blank"
-                               rel="noopener noreferrer">
-
-                               ${video.title}
-
+                               rel="noopener">
+                                ${video.title}
                             </a>
                         </h3>
 
                     </div>
 
-                </article>
-                `;
+                </article>`;
 
             });
 
-            html += '</div>';
+            html += "</div>";
 
             container.innerHTML = html;
 
         })
-        .catch(function(err){
-            console.log("YouTube Feed:", err);
-        });
+        .catch(console.error);
 
 });
