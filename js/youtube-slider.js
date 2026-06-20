@@ -68,9 +68,11 @@ alt="${video.title}">
 </div>
 
 <h3 class="yt-title">
-
-${video.title}
-
+    <a href="${video.url}"
+       target="_blank"
+       rel="noopener">
+       ${video.title}
+    </a>
 </h3>
 
 </a>
