@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!container) return;
 
-    fetch("https://pwa.thegioigameviet.com/youtube-feed.json?" + Date.now())
+    fetch("https://pwa.thegioigameviet.com/youtube.json?" + Date.now())
         .then(res => res.json())
         .then(data => {
 
