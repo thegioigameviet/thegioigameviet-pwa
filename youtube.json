@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T03:36:40.624Z",
+  "updated": "2026-06-22T11:43:07.163Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "ZahQxGPP5d4",
+      "title": "LORDNINE: Phân Tích KHIÊN CHIẾN - Vũ Khí Treo Máy Quốc Dân Toàn Diện Nhất Cho Dân Cày Chay",
+      "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Nếu anh em đang tìm kiếm một class có thể đứng vững giữa bầy ...",
+      "thumbnail": "https://i.ytimg.com/vi/ZahQxGPP5d4/hqdefault.jpg",
+      "published": "2026-06-22T11:24:03Z",
+      "duration": 648,
+      "url": "https://www.youtube.com/watch?v=ZahQxGPP5d4"
+    },
     {
       "id": "ZlDewaVu2TY",
       "title": "Top 8 Game Giống Rise of Kingdoms Đáng Chơi Nhất 2026: Bất Ngờ Siêu Phẩm SLG Lịch Sử Việt Nam!",
@@ -51,15 +60,6 @@
       "published": "2026-06-14T00:56:38Z",
       "duration": 550,
       "url": "https://www.youtube.com/watch?v=XK2Wkat2IFE"
-    },
-    {
-      "id": "hK2GmZwIrbM",
-      "title": "Call of Dragons vs Rise of Kingdoms: Sự Sáng Tạo Hay Chiêu Trò &quot;Đổi Skin&quot; Bào Tiền?",
-      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Suốt từ năm 2023 cho đến nay, cộng đồng game thủ hệ chiến thuật ...",
-      "thumbnail": "https://i.ytimg.com/vi/hK2GmZwIrbM/hqdefault.jpg",
-      "published": "2026-06-13T01:15:14Z",
-      "duration": 747,
-      "url": "https://www.youtube.com/watch?v=hK2GmZwIrbM"
     }
   ]
 }
