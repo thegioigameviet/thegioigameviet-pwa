@@ -1,11 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
+function initCharacterGrid() {
 
     const filters = document.querySelectorAll(".character-filter");
 
     filters.forEach(filter => {
 
         const search = filter.querySelector(".character-search");
-
         const buttons = filter.querySelectorAll("button");
 
         const grid = filter.nextElementSibling;
@@ -16,31 +15,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let currentType = "all";
 
-        function updateCards(){
+        function updateCards() {
 
-            const keyword = search.value.toLowerCase().trim();
+            const keyword = search
+                ? search.value.toLowerCase().trim()
+                : "";
 
-            cards.forEach(card=>{
+            cards.forEach(card => {
 
                 const type = card.dataset.type || "";
 
-                const name = card.dataset.name || "";
+                const title =
+                    card.querySelector("h3")?.textContent.toLowerCase() || "";
 
-                const matchType = currentType==="all" || type.includes(currentType);
+                const matchType =
+                    currentType === "all" ||
+                    type.includes(currentType);
 
-                const matchName = name.includes(keyword);
+                const matchName =
+                    title.includes(keyword);
 
-                card.classList.toggle("hidden", !(matchType && matchName));
+                card.classList.toggle(
+                    "hidden",
+                    !(matchType && matchName)
+                );
 
             });
 
         }
 
-        buttons.forEach(btn=>{
+        buttons.forEach(btn => {
 
-            btn.addEventListener("click",()=>{
+            btn.addEventListener("click", () => {
 
-                buttons.forEach(b=>b.classList.remove("active"));
+                buttons.forEach(b =>
+                    b.classList.remove("active")
+                );
 
                 btn.classList.add("active");
 
@@ -52,8 +62,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
         });
 
-        search.addEventListener("input",updateCards);
+        if (search) {
+            search.addEventListener("input", updateCards);
+        }
+
+        updateCards();
 
     });
 
-});
+}
+
+if (document.readyState === "loading") {
+
+    document.addEventListener(
+        "DOMContentLoaded",
+        initCharacterGrid
+    );
+
+} else {
+
+    initCharacterGrid();
+
+}
