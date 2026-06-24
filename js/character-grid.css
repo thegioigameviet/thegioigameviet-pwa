@@ -1,0 +1,173 @@
+/*==================================================
+ Character Grid v1.0
+ TheGioiGameViet
+==================================================*/
+
+/* ===== GRID ===== */
+
+.character-grid{
+    display:grid;
+    grid-template-columns:repeat(5,minmax(0,1fr));
+    gap:18px;
+    margin:20px 0;
+}
+
+/* ===== CARD ===== */
+
+.character-card{
+    display:flex;
+    flex-direction:column;
+    text-decoration:none;
+    color:inherit;
+    transition:.25s;
+}
+
+.character-card:hover{
+    transform:translateY(-3px);
+}
+
+.character-card img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:14px;
+}
+
+/* ===== NAME ===== */
+
+.character-card h3{
+    margin:8px 0 6px;
+    font-size:15px;
+    font-weight:600;
+    line-height:1.35;
+    text-align:center;
+
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+
+/* ===== TAGS ===== */
+
+.character-tags{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:6px;
+}
+
+.character-tags span{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:4px 8px;
+
+    border-radius:30px;
+
+    font-size:11px;
+    font-weight:600;
+    line-height:1;
+    color:#fff;
+}
+
+/* ===== TAG COLOR ===== */
+
+.thetuong1{
+    background:#e74c3c;
+}
+
+.thetuong2{
+    background:#3498db;
+}
+
+.thetuong3{
+    background:#2ecc71;
+}
+
+.thetuong4{
+    background:#f39c12;
+}
+
+.thetuong5{
+    background:#9b59b6;
+}
+
+.thetuong6{
+    background:#7f8c8d;
+}
+.character-card.hidden{
+    display:none;
+}
+
+.character-filter{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.character-filter input{
+
+    flex:1;
+
+    min-width:220px;
+
+    padding:10px 14px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+}
+
+.character-filter button{
+
+    padding:10px 14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.character-filter button.active{
+
+    background:#2d7ef7;
+
+    color:#fff;
+
+}
+/* ===== TABLET ===== */
+
+@media(max-width:991px){
+
+.character-grid{
+    grid-template-columns:repeat(4,1fr);
+    gap:16px;
+}
+
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+.character-grid{
+    grid-template-columns:repeat(3,1fr);
+    gap:14px;
+}
+
+.character-card h3{
+    font-size:14px;
+}
+
+.character-tags span{
+    font-size:10px;
+    padding:4px 7px;
+}
+
+}
