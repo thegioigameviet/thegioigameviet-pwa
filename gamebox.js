@@ -89,7 +89,7 @@ postBody.style.display='none';
             ${data.description || ''}
           </div>
 
-        <div class="download-group"> <a class="download-btn android-btn" href="${data.android || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img border="0" height="30" src="https://pwa.thegioigameviet.com/images/android.webp" width="30" /></span><span style="color: black;"> Tải Android </a></span> <a class="download-btn ios-btn" href="${data.ios || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img border="0" height="30" src="https://pwa.thegioigameviet.com/images/ios.webp" width="30" /></span><span style="color: white;"> Tải iOS </span></a> </div>
+        <div class="download-group"> <a class="download-btn android-btn" href="${data.android || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img alt="Dowload Android" border="0" height="30" src="https://pwa.thegioigameviet.com/images/android.webp" width="30" /></span><span style="color: black;"> Tải Android </a></span> <a class="download-btn ios-btn" href="${data.ios || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img alt="Dowload IOS" border="0" height="30" src="https://pwa.thegioigameviet.com/images/ios.webp" width="30" /></span><span style="color: white;"> Tải iOS </span></a> </div>
 
         </div>
 
