@@ -211,3 +211,13 @@
 .character-card.hidden{
     display:none;
 }
+
+.character-card.tim img{
+
+    border:3px solid #9b59b6;
+
+    border-radius:14px;
+
+    box-shadow:0 0 10px rgba(155,89,182,.35);
+
+}
