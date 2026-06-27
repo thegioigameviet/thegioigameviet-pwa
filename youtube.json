@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T02:38:47.858Z",
+  "updated": "2026-06-27T08:29:51.966Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "iq6LDSYQuJw",
+      "title": "Where Winds Meet: &quot;Cú Lừa&quot; Trần Tử Hy Trở Lại - Đại Cập Nhật Giang Nam Khủng Nhất Lịch Sử!",
+      "description": "Ngày 26 tháng 6 vừa qua, Where Winds Meet (Yến Vân Thập Lục Thanh) phiên bản Trung Quốc đã chính thức tung ra bản cập ...",
+      "thumbnail": "https://i.ytimg.com/vi/iq6LDSYQuJw/hqdefault.jpg",
+      "published": "2026-06-27T07:08:17Z",
+      "duration": 730,
+      "url": "https://www.youtube.com/watch?v=iq6LDSYQuJw"
+    },
     {
       "id": "boT7OB6l0HM",
       "title": "Vua Săn Boss Cày Chay! Tại Sao Nỏ LORDNINE Là Class Đáng Chơi Nhất Cho Hệ F2P?",
@@ -51,15 +60,6 @@
       "published": "2026-06-21T05:59:46Z",
       "duration": 817,
       "url": "https://www.youtube.com/watch?v=ZlDewaVu2TY"
-    },
-    {
-      "id": "XK2Wkat2IFE",
-      "title": "Hướng Dẫn Build Quyền Giáp Tà Phái: Combo Thiên Chỉ Thùy Tượng x Trảm Tuyết Đao Pháp",
-      "description": "Chào anh em đồng môn đã quay trở lại với Thế Giới Game Việt! Cuối tháng này, bộ võ học mới Quyền Giáp – Thiên Chỉ Thùy ...",
-      "thumbnail": "https://i.ytimg.com/vi/XK2Wkat2IFE/hqdefault.jpg",
-      "published": "2026-06-14T00:56:38Z",
-      "duration": 550,
-      "url": "https://www.youtube.com/watch?v=XK2Wkat2IFE"
     }
   ]
 }
