@@ -71,6 +71,11 @@
     line-height:1;
     color:#fff;
 }
+.character-link{
+    display:block;
+    color:inherit;
+    text-decoration:none;
+}
 
 /* ===== TAG COLOR ===== */
 
