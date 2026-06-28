@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Cloudinary Image Uploader</title>
+
+    <link rel="stylesheet" href="uploader.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <h1>📤 Image Uploader</h1>
+
+        <p>
+            Upload ảnh lên Cloudinary và lấy mã Blogger.
+        </p>
+
+    </header>
+
+
+    <!-- ================= UPLOAD ================= -->
+
+    <section
+        class="upload-box"
+        id="dropZone">
+
+        <div class="upload-icon">
+            📷
+        </div>
+
+        <h2>Kéo thả ảnh vào đây</h2>
+
+        <p>hoặc</p>
+
+        <button id="selectBtn">
+
+            Chọn ảnh
+
+        </button>
+
+        <input
+            id="fileInput"
+            type="file"
+            multiple
+            hidden
+            accept="image/*">
+
+    </section>
+
+
+    <!-- ================= PRESET ================= -->
+
+    <section class="setting-box">
+
+        <h2>Cài đặt</h2>
+
+        <div class="setting-grid">
+
+            <!-- PRESET -->
+
+            <div class="setting-item">
+
+                <label>
+
+                    Preset
+
+                </label>
+
+                <select id="preset">
+
+                    <option value="banner">
+
+                        Banner
+
+                    </option>
+
+                    <option value="screenshot">
+
+                        Screenshot
+
+                    </option>
+
+                    <option value="character">
+
+                        Character Icon
+
+                    </option>
+
+                    <option value="logo">
+
+                        Logo / PNG
+
+                    </option>
+
+                    <option value="custom">
+
+                        Custom
+
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- FOLDER -->
+
+            <div class="setting-item">
+
+                <label>
+
+                    Folder
+
+                </label>
+
+                <input
+                    id="folder"
+                    type="text"
+                    placeholder="rise-of-kingdoms">
+
+            </div>
+
+
+            <!-- WATERMARK -->
+
+            <div class="setting-item">
+
+                <label>
+
+                    Watermark
+
+                </label>
+
+                <input
+                    id="watermark"
+                    type="checkbox">
+
+            </div>
+
+
+            <!-- RESIZE -->
+
+            <div class="setting-item">
+
+                <label>
+
+                    Resize
+
+                </label>
+
+                <select id="resize">
+
+                    <option value="0">
+
+                        Không resize
+
+                    </option>
+
+                    <option value="320">
+
+                        320 px
+
+                    </option>
+
+                    <option value="480">
+
+                        480 px
+
+                    </option>
+
+                    <option value="640">
+
+                        640 px
+
+                    </option>
+
+                    <option value="800">
+
+                        800 px
+
+                    </option>
+
+                    <option value="1024">
+
+                        1024 px
+
+                    </option>
+
+                    <option value="1200">
+
+                        1200 px
+
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- QUALITY -->
+
+            <div class="setting-item">
+
+                <label>
+
+                    Quality
+
+                </label>
+
+                <select id="quality">
+
+                    <option value="auto">
+
+                        Auto
+
+                    </option>
+
+                    <option value="100">
+
+                        100
+
+                    </option>
+
+                    <option value="90">
+
+                        90
+
+                    </option>
+
+                    <option value="80">
+
+                        80
+
+                    </option>
+
+                    <option value="70">
+
+                        70
+
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- FORMAT -->
+
+            <div class="setting-item">
+
+                <label>
+
+                    Format
+
+                </label>
+
+                <select id="format">
+
+                    <option value="auto">
+
+                        Auto
+
+                    </option>
+
+                    <option value="webp">
+
+                        WebP
+
+                    </option>
+
+                    <option value="avif">
+
+                        AVIF
+
+                    </option>
+
+                    <option value="png">
+
+                        PNG
+
+                    </option>
+
+                    <option value="jpg">
+
+                        JPG
+
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TOOLBAR ================= -->
+
+    <section class="toolbar">
+
+        <button id="uploadBtn">
+
+            Upload
+
+        </button>
+
+        <button id="copyAllBtn">
+
+            Copy Blogger
+
+        </button>
+
+        <button id="clearBtn">
+
+            Xóa danh sách
+
+        </button>
+
+    </section>
+
+
+    <!-- ================= STATS ================= -->
+
+    <section class="stats">
+
+        <div>
+
+            <strong id="totalFiles">
+
+                0
+
+            </strong>
+
+            <span>Ảnh</span>
+
+        </div>
+
+        <div>
+
+            <strong id="totalSize">
+
+                0 MB
+
+            </strong>
+
+            <span>Dung lượng</span>
+
+        </div>
+
+        <div>
+
+            <strong id="uploadedCount">
+
+                0
+
+            </strong>
+
+            <span>Đã upload</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FILE TABLE ================= -->
+
+    <section class="file-list">
+
+        <table>
+
+            <thead>
+
+            <tr>
+
+                <th>Tên</th>
+
+                <th>Dung lượng</th>
+
+                <th>Tiến trình</th>
+
+                <th>Trạng thái</th>
+
+                <th>Thao tác</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="fileTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- ================= PREVIEW ================= -->
+
+    <section class="preview">
+
+        <h2>
+
+            Xem trước
+
+        </h2>
+
+        <img
+            id="previewImage"
+            src=""
+            alt="Preview">
+
+    </section>
+
+</div>
+
+
+<script src="config.js"></script>
+
+<script src="cloudinary.js"></script>
+
+<script src="uploader.js"></script>
+
+</body>
+
+</html>
