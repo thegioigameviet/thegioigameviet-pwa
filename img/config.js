@@ -13,10 +13,10 @@
 const CLOUDINARY = {
 
     // Cloud Name
-    cloudName: "YOUR_CLOUD_NAME",
+    cloudName: "dbmyv6u9r",
 
     // Upload Preset (Unsigned)
-    uploadPreset: "YOUR_UPLOAD_PRESET",
+    uploadPreset: "thegioigameviet",
 
     // Thư mục mặc định
     defaultFolder: "uploads"
