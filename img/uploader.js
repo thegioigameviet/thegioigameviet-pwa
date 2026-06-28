@@ -39,19 +39,7 @@ const uploadedCount = document.getElementById("uploadedCount");
 // STATE
 // ==========================================
 
-const uploader = {
-
-    queue: [],
-
-    uploading: 0,
-
-    completed: 0,
-
-    failed: 0,
-
-    paused: false
-
-};
+const queue = [];
 
 
 // ==========================================
