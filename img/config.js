@@ -110,7 +110,7 @@ const PRESETS = {
 const WATERMARK = {
 
     // Public ID của logo watermark
-    publicId: "watermark",
+    publicId: "logoanh.png",
 
     // Góc hiển thị
     gravity: "south_east",
