@@ -1,90 +1,117 @@
 /**
- * ==========================================
+ * =====================================================
  * uploader.js
- * Part 1
- * Khởi tạo + DOM + Preset + Drag & Drop + Queue
- * ==========================================
+ * Foundation
+ * DOM + State + Init + Drag & Drop
+ * =====================================================
  */
 
-// ==========================================
-// DOM
-// ==========================================
+"use strict";
 
-const fileInput = document.getElementById("fileInput");
-const selectBtn = document.getElementById("selectBtn");
-const uploadBtn = document.getElementById("uploadBtn");
-const clearBtn = document.getElementById("clearBtn");
-const copyAllBtn = document.getElementById("copyAllBtn");
+/* =====================================================
+   DOM
+===================================================== */
 
-const dropZone = document.getElementById("dropZone");
+const DOM = {
 
-const presetSelect = document.getElementById("preset");
-const folderInput = document.getElementById("folder");
+    fileInput: document.getElementById("fileInput"),
+    selectBtn: document.getElementById("selectBtn"),
+    uploadBtn: document.getElementById("uploadBtn"),
+    clearBtn: document.getElementById("clearBtn"),
+    copyAllBtn: document.getElementById("copyAllBtn"),
 
-const watermarkInput = document.getElementById("watermark");
-const resizeInput = document.getElementById("resize");
-const qualityInput = document.getElementById("quality");
-const formatInput = document.getElementById("format");
+    dropZone: document.getElementById("dropZone"),
 
-const previewImage = document.getElementById("previewImage");
+    preset: document.getElementById("preset"),
+    folder: document.getElementById("folder"),
 
-const fileTable = document.getElementById("fileTable");
+    watermark: document.getElementById("watermark"),
+    resize: document.getElementById("resize"),
+    quality: document.getElementById("quality"),
+    format: document.getElementById("format"),
 
-const totalFiles = document.getElementById("totalFiles");
-const totalSize = document.getElementById("totalSize");
-const uploadedCount = document.getElementById("uploadedCount");
+    table: document.getElementById("fileTable"),
+
+    preview: document.getElementById("previewImage"),
+
+    totalFiles: document.getElementById("totalFiles"),
+    totalSize: document.getElementById("totalSize"),
+    uploaded: document.getElementById("uploadedCount")
+
+};
 
 
-// ==========================================
-// STATE
-// ==========================================
+/* =====================================================
+   State
+===================================================== */
 
-const queue = [];
+const App = {
+
+    queue: [],
+
+    uploading: false,
+
+    uploadedCount: 0,
+
+    totalBytes: 0
+
+};
 
 
-// ==========================================
-// INIT
-// ==========================================
+/* =====================================================
+   Init
+===================================================== */
 
-init();
+document.addEventListener("DOMContentLoaded", init);
 
-function init() {
 
-    // Folder mặc định
-    folderInput.value = CLOUDINARY.defaultFolder;
+function init(){
 
-    // Preset mặc định
-    applyPreset("banner");
+    initConfig();
 
-    // Event
     bindEvents();
 
 }
 
 
-// ==========================================
-// EVENT
-// ==========================================
+/* =====================================================
+   Config
+===================================================== */
 
-function bindEvents() {
+function initConfig(){
 
-    selectBtn.addEventListener("click", () => {
+    DOM.folder.value = CLOUDINARY.defaultFolder;
 
-        fileInput.click();
+    applyPreset(DOM.preset.value);
+
+}
+
+
+/* =====================================================
+   Bind Events
+===================================================== */
+
+function bindEvents(){
+
+    DOM.selectBtn.addEventListener("click", () => {
+
+        DOM.fileInput.click();
 
     });
 
 
-    fileInput.addEventListener("change", (e) => {
+    DOM.fileInput.addEventListener("change", e => {
 
         addFiles(e.target.files);
 
+        e.target.value = "";
+
     });
 
 
-    presetSelect.addEventListener("change", () => {
+    DOM.preset.addEventListener("change", () => {
 
-        applyPreset(presetSelect.value);
+        applyPreset(DOM.preset.value);
 
     });
 
@@ -94,56 +121,18 @@ function bindEvents() {
 }
 
 
-// ==========================================
-// PRESET
-// ==========================================
+/* =====================================================
+   Drag & Drop
+===================================================== */
 
-function applyPreset(name) {
-
-    const preset = PRESETS[name];
-
-    if (!preset) return;
-
-    watermarkInput.checked = preset.watermark;
-
-    resizeInput.value = preset.resize;
-
-    qualityInput.value = preset.quality;
-
-    formatInput.value = preset.format;
-
-
-    // Custom được chỉnh
-
-    const editable = name === "custom";
-
-    watermarkInput.disabled = !editable;
-
-    resizeInput.disabled = !editable;
-
-    qualityInput.disabled = !editable;
-
-    formatInput.disabled = !editable;
-
-}
-
-
-// ==========================================
-// DRAG & DROP
-// ==========================================
-
-function initDragDrop() {
+function initDragDrop(){
 
     [
         "dragenter",
         "dragover"
-    ].forEach(eventName => {
+    ].forEach(event => {
 
-        dropZone.addEventListener(
-            eventName,
-            highlight,
-            false
-        );
+        DOM.dropZone.addEventListener(event, dragEnter);
 
     });
 
@@ -151,137 +140,170 @@ function initDragDrop() {
     [
         "dragleave",
         "drop"
-    ].forEach(eventName => {
+    ].forEach(event => {
 
-        dropZone.addEventListener(
-            eventName,
-            unHighlight,
-            false
-        );
+        DOM.dropZone.addEventListener(event, dragLeave);
 
     });
 
 
-    dropZone.addEventListener(
-        "dragover",
-        preventDefaults,
-        false
-    );
-
-    dropZone.addEventListener(
-        "drop",
-        handleDrop,
-        false
-    );
+    DOM.dropZone.addEventListener("drop", handleDrop);
 
 }
 
 
-function preventDefaults(e) {
+function dragEnter(e){
 
     e.preventDefault();
 
     e.stopPropagation();
 
-}
-
-
-function highlight() {
-
-    dropZone.classList.add("dragover");
+    DOM.dropZone.classList.add("dragover");
 
 }
 
 
-function unHighlight() {
+function dragLeave(e){
 
-    dropZone.classList.remove("dragover");
+    e.preventDefault();
 
-}
+    e.stopPropagation();
 
-
-function handleDrop(e) {
-
-    preventDefaults(e);
-
-    const files = e.dataTransfer.files;
-
-    addFiles(files);
+    DOM.dropZone.classList.remove("dragover");
 
 }
 
 
-// ==========================================
-// QUEUE
-// ==========================================
+function handleDrop(e){
 
-function addFiles(files) {
+    e.preventDefault();
 
-    [...files].forEach(file => {
+    e.stopPropagation();
 
-        if (!validateFile(file)) {
+    DOM.dropZone.classList.remove("dragover");
 
-            return;
+    if(!e.dataTransfer.files.length){
 
-        }
+        return;
 
-        queue.push({
+    }
+
+    addFiles(e.dataTransfer.files);
+
+}
+
+
+/* =====================================================
+   Helpers
+===================================================== */
+
+function applyPreset(name){
+
+    const preset = PRESETS[name];
+
+    if(!preset){
+
+        return;
+
+    }
+
+    DOM.watermark.checked = preset.watermark;
+
+    DOM.resize.value = preset.resize;
+
+    DOM.quality.value = preset.quality;
+
+    DOM.format.value = preset.format;
+
+    const editable = (name === "custom");
+
+    DOM.watermark.disabled = !editable;
+    DOM.resize.disabled = !editable;
+    DOM.quality.disabled = !editable;
+    DOM.format.disabled = !editable;
+
+}
+
+
+function formatSize(bytes){
+
+    if(bytes < 1024){
+
+        return bytes + " B";
+
+    }
+
+    if(bytes < 1024 * 1024){
+
+        return (bytes / 1024).toFixed(1) + " KB";
+
+    }
+
+    return (bytes / 1024 / 1024).toFixed(2) + " MB";
+
+}
+/* =====================================================
+   Queue Manager
+===================================================== */
+
+/**
+ * Thêm nhiều ảnh vào Queue
+ */
+function addFiles(fileList){
+
+    [...fileList].forEach(file=>{
+
+        if(!validateFile(file)) return;
+
+        App.queue.push({
 
             id: crypto.randomUUID(),
 
             file,
 
-            status: "waiting",
+            alt: generateAlt(file.name),
 
-            progress: 0,
+            progress:0,
 
-            result: null
+            status:"waiting",
+
+            result:null,
+
+            error:null
 
         });
 
     });
 
-    renderQueue();
+    renderTable();
 
     updateStats();
 
 }
 
 
-// ==========================================
-// VALIDATE
-// ==========================================
+/**
+ * Kiểm tra file hợp lệ
+ */
+function validateFile(file){
 
-function validateFile(file) {
+    if(!UPLOAD.acceptedTypes.includes(file.type)){
 
-    if (
-        !UPLOAD.acceptedTypes.includes(file.type)
-    ) {
-
-        alert(
-            `${file.name} không đúng định dạng.`
-        );
+        alert(file.name + " không đúng định dạng.");
 
         return false;
 
     }
 
+    if(file.size > (UPLOAD.maxFileSize*1024*1024)){
 
-    const maxSize =
-        UPLOAD.maxFileSize * 1024 * 1024;
-
-    if (file.size > maxSize) {
-
-        alert(
-            `${file.name} vượt quá dung lượng cho phép.`
-        );
+        alert(file.name + " vượt quá dung lượng.");
 
         return false;
 
     }
 
-
-    if (queue.length >= UPLOAD.maxFiles) {
+    if(App.queue.length>=UPLOAD.maxFiles){
 
         alert("Đã vượt quá số lượng ảnh.");
 
@@ -294,168 +316,296 @@ function validateFile(file) {
 }
 
 
-// ==========================================
-// RENDER QUEUE
-// ==========================================
-
-function renderQueue() {
-
-    fileTable.innerHTML = "";
-
-    queue.forEach(item => {
-
-        const row = document.createElement("tr");
-
-        row.innerHTML = `
-
-<td>
-
-${item.file.name}
-
-</td>
-
-<td>
-
-${formatSize(item.file.size)}
-
-</td>
-
-<td>
-
-<div class="progress">
-
-<div
-class="progress-bar"
-id="progress-${item.id}">
-</div>
-
-</div>
-
-</td>
-
-<td id="status-${item.id}">
-
-${item.status}
-
-</td>
-
-<td id="action-${item.id}">
-
--
-
-</td>
-
-`;
-
-        fileTable.appendChild(row);
-
-    });
-
-}
-
-
-// ==========================================
-// STATS
-// ==========================================
-
-function updateStats() {
-
-    totalFiles.textContent = queue.length;
-
-    const size =
-        queue.reduce(
-            (sum, item) => sum + item.file.size,
-            0
-        );
-
-    totalSize.textContent =
-        formatSize(size);
-
-    uploadedCount.textContent =
-        queue.filter(
-            item => item.status === "done"
-        ).length;
-
-}
-
-
-// ==========================================
-// UTIL
-// ==========================================
-
-function formatSize(bytes) {
-
-    if (bytes < 1024) {
-
-        return bytes + " B";
-
-    }
-
-    if (bytes < 1024 * 1024) {
-
-        return (
-            (bytes / 1024).toFixed(1) +
-            " KB"
-        );
-
-    }
-
-    return (
-        (bytes / 1024 / 1024).toFixed(2) +
-        " MB"
-    );
-
-}
 /**
- * ==========================================
- * uploader.js
- * Part 2
- * Upload Manager + Upload Queue + Progress
- * ==========================================
+ * Xóa 1 ảnh
  */
+function removeFile(id){
 
-// ==========================================
-// Upload Button
-// ==========================================
+    App.queue=App.queue.filter(item=>item.id!==id);
 
-uploadBtn.addEventListener("click", startUpload);
-
-
-// ==========================================
-// START
-// ==========================================
-
-async function startUpload() {
-
-    // Không upload nếu queue rỗng
-    if (queue.length === 0) {
-
-        alert("Chưa có ảnh.");
-
-        return;
-
-    }
-
-    uploadBtn.disabled = true;
-
-    const waiting = queue.filter(item => item.status === "waiting");
-
-    await runConcurrent(waiting);
-
-    uploadBtn.disabled = false;
+    renderTable();
 
     updateStats();
 
 }
 
 
-// ==========================================
-// Upload Concurrent
-// ==========================================
+/**
+ * Xóa toàn bộ
+ */
+function clearQueue(){
 
-async function runConcurrent(items) {
+    App.queue=[];
+
+    DOM.table.innerHTML="";
+
+    DOM.preview.removeAttribute("src");
+
+    DOM.preview.style.display="none";
+
+    updateStats();
+
+}
+
+
+/**
+ * ALT mặc định
+ */
+function generateAlt(filename){
+
+    return filename
+
+        .replace(/\.[^/.]+$/,"")
+
+        .replace(/[-_]+/g," ")
+
+        .replace(/\s+/g," ")
+
+        .trim();
+
+}
+
+
+/**
+ * Cập nhật thống kê
+ */
+function updateStats(){
+
+    DOM.totalFiles.textContent=App.queue.length;
+
+    App.totalBytes=App.queue.reduce((sum,item)=>{
+
+        return sum+item.file.size;
+
+    },0);
+
+    DOM.totalSize.textContent=formatSize(App.totalBytes);
+
+    DOM.uploaded.textContent=
+
+        App.queue.filter(item=>item.status==="done").length;
+
+}
+
+
+
+/* =====================================================
+   Render Table
+===================================================== */
+
+function renderTable(){
+
+    DOM.table.innerHTML="";
+
+    App.queue.forEach(item=>{
+
+        const tr=document.createElement("tr");
+
+        tr.innerHTML=`
+
+<td>${item.file.name}</td>
+
+<td>
+
+<input
+
+class="alt-input"
+
+data-id="${item.id}"
+
+value="${item.alt}">
+
+</td>
+
+<td>${formatSize(item.file.size)}</td>
+
+<td>
+
+<div class="progress">
+
+<div
+
+class="progress-bar"
+
+id="progress-${item.id}"
+
+style="width:${item.progress}%">
+
+</div>
+
+</div>
+
+</td>
+
+<td
+
+id="status-${item.id}">
+
+${statusText(item.status)}
+
+</td>
+
+<td
+
+id="action-${item.id}">
+
+<button
+
+class="remove-btn"
+
+data-id="${item.id}">
+
+Xóa
+
+</button>
+
+</td>
+
+`;
+
+        DOM.table.appendChild(tr);
+
+    });
+
+}
+
+
+/**
+ * Chuyển trạng thái
+ */
+function statusText(status){
+
+    switch(status){
+
+        case"waiting":
+
+            return"Đang chờ";
+
+        case"uploading":
+
+            return"Đang upload";
+
+        case"done":
+
+            return"Hoàn thành";
+
+        case"error":
+
+            return"Lỗi";
+
+        default:
+
+            return status;
+
+    }
+
+}
+
+
+/* =====================================================
+   Event Delegation
+===================================================== */
+
+DOM.table.addEventListener("click",e=>{
+
+    if(e.target.classList.contains("remove-btn")){
+
+        removeFile(e.target.dataset.id);
+
+    }
+
+});
+
+
+DOM.table.addEventListener("input",e=>{
+
+    if(e.target.classList.contains("alt-input")){
+
+        const item=App.queue.find(
+
+            x=>x.id===e.target.dataset.id
+
+        );
+
+        if(item){
+
+            item.alt=e.target.value;
+
+        }
+
+    }
+
+});
+
+
+/* =====================================================
+   Clear Button
+===================================================== */
+
+DOM.clearBtn.addEventListener("click",()=>{
+
+    if(confirm("Xóa toàn bộ?")){
+
+        clearQueue();
+
+    }
+
+});
+
+/* ==========================================
+   Upload Button
+========================================== */
+
+DOM.uploadBtn.addEventListener("click", startUpload);
+
+async function startUpload() {
+
+    if (App.uploading) return;
+
+    const waiting = App.queue.filter(item => item.status === "waiting");
+
+    if (!waiting.length) {
+
+        alert("Không có ảnh để upload.");
+
+        return;
+
+    }
+
+    App.uploading = true;
+
+    DOM.uploadBtn.disabled = true;
+
+    await runWorkers(waiting);
+
+    App.uploading = false;
+
+    DOM.uploadBtn.disabled = false;
+
+    updateStats();
+
+}
+/* ==========================================
+   Worker Queue
+========================================== */
+
+async function runWorkers(list) {
 
     let index = 0;
+
+    async function worker() {
+
+        while (true) {
+
+            if (index >= list.length) break;
+
+            const item = list[index++];
+
+            await uploadFile(item);
+
+        }
+
+    }
 
     const workers = [];
 
@@ -467,51 +617,16 @@ async function runConcurrent(items) {
 
     await Promise.all(workers);
 
-
-    async function worker() {
-
-        while (true) {
-
-            if (index >= items.length) {
-
-                break;
-
-            }
-
-            const item = items[index++];
-
-            await uploadItem(item);
-
-        }
-
-    }
-
 }
+/* ==========================================
+   Upload One File
+========================================== */
 
-
-// ==========================================
-// Upload One File
-// ==========================================
-
-async function uploadItem(item) {
+async function uploadFile(item) {
 
     item.status = "uploading";
 
-    updateStatus(item);
-
-    const options = {
-
-        folder: folderInput.value.trim(),
-
-        watermark: watermarkInput.checked,
-
-        resize: Number(resizeInput.value),
-
-        quality: qualityInput.value,
-
-        format: formatInput.value
-
-    };
+    renderStatus(item);
 
     try {
 
@@ -519,56 +634,62 @@ async function uploadItem(item) {
 
             item.file,
 
-            options,
+            {
 
-            (percent) => {
+                folder: DOM.folder.value,
+
+                watermark: DOM.watermark.checked,
+
+                resize: Number(DOM.resize.value),
+
+                quality: DOM.quality.value,
+
+                format: DOM.format.value
+
+            },
+
+            percent => {
 
                 item.progress = percent;
 
-                updateProgress(item);
+                renderProgress(item);
 
             }
 
         );
 
-        item.status = "done";
+        item.result = result;
 
         item.progress = 100;
 
-        item.result = result;
+        item.status = "done";
 
-        updateProgress(item);
+        renderProgress(item);
 
-        updateStatus(item);
+        renderStatus(item);
 
-        updateAction(item);
-
-        updateStats();
+        renderAction(item);
 
     }
 
-    catch (error) {
+    catch (err) {
 
-        console.error(error);
+        console.error(err);
 
         item.status = "error";
 
-        updateStatus(item);
+        renderStatus(item);
+
+        renderAction(item);
 
     }
 
 }
-
-
-// ==========================================
-// Progress
-// ==========================================
-
-function updateProgress(item) {
+function renderProgress(item) {
 
     const bar = document.getElementById(
 
-        `progress-${item.id}`
+        "progress-" + item.id
 
     );
 
@@ -577,312 +698,24 @@ function updateProgress(item) {
     bar.style.width = item.progress + "%";
 
 }
-
-
-// ==========================================
-// Status
-// ==========================================
-
-function updateStatus(item) {
+function renderStatus(item) {
 
     const td = document.getElementById(
 
-        `status-${item.id}`
+        "status-" + item.id
 
     );
 
     if (!td) return;
 
-    switch (item.status) {
-
-        case "waiting":
-
-            td.textContent = "Đang chờ";
-
-            break;
-
-        case "uploading":
-
-            td.textContent = "Đang upload";
-
-            break;
-
-        case "done":
-
-            td.textContent = "Hoàn thành";
-
-            break;
-
-        case "error":
-
-            td.textContent = "Lỗi";
-
-            break;
-
-    }
+    td.textContent = statusText(item.status);
 
 }
-
-
-// ==========================================
-// Action
-// ==========================================
-
-function updateAction(item) {
+function renderAction(item) {
 
     const td = document.getElementById(
 
-        `action-${item.id}`
-
-    );
-
-    if (!td) return;
-
-    td.innerHTML = `
-
-<button
-class="copy-url"
-data-id="${item.id}">
-URL
-</button>
-
-<button
-class="copy-blogger"
-data-id="${item.id}">
-Blogger
-</button>
-
-<button
-class="preview"
-data-id="${item.id}">
-Preview
-</button>
-
-`;
-
-}
-
-/**
- * ==========================================
- * uploader.js
- * Part 3
- * Preview + Copy + Clear + Retry + Events
- * ==========================================
- */
-
-// ==========================================
-// Event Delegation
-// ==========================================
-
-fileTable.addEventListener("click", async (e) => {
-
-    const button = e.target;
-
-    const id = button.dataset.id;
-
-    if (!id) return;
-
-    const item = queue.find(file => file.id === id);
-
-    if (!item) return;
-
-    // Copy URL
-    if (button.classList.contains("copy-url")) {
-
-        await copyText(item.result.optimizedUrl);
-
-        return;
-
-    }
-
-    // Copy Blogger
-    if (button.classList.contains("copy-blogger")) {
-
-        const html = BLOGGER.template
-            .replace("{URL}", item.result.optimizedUrl)
-            .replace("{ALT}", generateAlt(item.file.name));
-
-        await copyText(html);
-
-        return;
-
-    }
-
-    // Preview
-    if (button.classList.contains("preview")) {
-
-        preview(item);
-
-        return;
-
-    }
-
-    // Retry
-    if (button.classList.contains("retry")) {
-
-        retryUpload(item);
-
-        return;
-
-    }
-
-    // Remove
-    if (button.classList.contains("remove")) {
-
-        removeItem(item.id);
-
-        return;
-
-    }
-
-});
-
-
-// ==========================================
-// Preview
-// ==========================================
-
-function preview(item) {
-
-    previewImage.src = item.result.optimizedUrl;
-
-    previewImage.style.display = "block";
-
-}
-
-
-// ==========================================
-// Clipboard
-// ==========================================
-
-async function copyText(text) {
-
-    try {
-
-        await navigator.clipboard.writeText(text);
-
-    }
-
-    catch {
-
-        alert("Không thể copy.");
-
-    }
-
-}
-
-
-// ==========================================
-// Retry
-// ==========================================
-
-async function retryUpload(item) {
-
-    item.status = "waiting";
-
-    item.progress = 0;
-
-    item.result = null;
-
-    updateStatus(item);
-
-    updateProgress(item);
-
-    await uploadItem(item);
-
-}
-
-
-// ==========================================
-// Remove
-// ==========================================
-
-function removeItem(id) {
-
-    const index = queue.findIndex(
-
-        item => item.id === id
-
-    );
-
-    if (index === -1) return;
-
-    queue.splice(index, 1);
-
-    renderQueue();
-
-    updateStats();
-
-}
-
-
-// ==========================================
-// Clear
-// ==========================================
-
-clearBtn.addEventListener("click", () => {
-
-    if (!confirm("Xóa toàn bộ danh sách?")) {
-
-        return;
-
-    }
-
-    queue.length = 0;
-
-    fileTable.innerHTML = "";
-
-    previewImage.removeAttribute("src");
-
-    previewImage.style.display = "none";
-
-    updateStats();
-
-});
-
-
-// ==========================================
-// Copy All Blogger
-// ==========================================
-
-copyAllBtn.addEventListener("click", async () => {
-
-    const completed = queue.filter(
-
-        item => item.status === "done"
-
-    );
-
-    if (completed.length === 0) {
-
-        return;
-
-    }
-
-    const html = completed.map(item => {
-
-        return BLOGGER.template
-
-            .replace("{URL}", item.result.optimizedUrl)
-
-            .replace("{ALT}", generateAlt(item.file.name));
-
-    }).join("\n\n");
-
-    await copyText(html);
-
-});
-
-
-// ==========================================
-// Update Action Buttons
-// ==========================================
-
-function updateAction(item) {
-
-    const td = document.getElementById(
-
-        `action-${item.id}`
+        "action-" + item.id
 
     );
 
@@ -892,28 +725,16 @@ function updateAction(item) {
 
         td.innerHTML = `
 
-<button
-class="copy-url"
-data-id="${item.id}">
+<button class="copy-url" data-id="${item.id}">
 URL
 </button>
 
-<button
-class="copy-blogger"
-data-id="${item.id}">
+<button class="copy-blogger" data-id="${item.id}">
 Blogger
 </button>
 
-<button
-class="preview"
-data-id="${item.id}">
+<button class="preview-btn" data-id="${item.id}">
 Preview
-</button>
-
-<button
-class="remove"
-data-id="${item.id}">
-Xóa
 </button>
 
 `;
@@ -924,15 +745,11 @@ Xóa
 
         td.innerHTML = `
 
-<button
-class="retry"
-data-id="${item.id}">
+<button class="retry-btn" data-id="${item.id}">
 Retry
 </button>
 
-<button
-class="remove"
-data-id="${item.id}">
+<button class="remove-btn" data-id="${item.id}">
 Xóa
 </button>
 
@@ -941,3 +758,332 @@ Xóa
     }
 
 }
+/* =====================================================
+   Copy Manager + Preview
+===================================================== */
+
+/**
+ * Copy văn bản vào Clipboard
+ */
+async function copyText(text){
+
+    try{
+
+        await navigator.clipboard.writeText(text);
+
+        showToast("Đã sao chép.");
+
+    }
+
+    catch{
+
+        alert("Không thể sao chép.");
+
+    }
+
+}
+
+
+/**
+ * Sinh HTML Blogger
+ */
+function bloggerHTML(item){
+
+    const alt = item.alt || "";
+
+    return `<img src="${item.result.optimizedUrl}" alt="${alt}" loading="lazy">`;
+
+}
+
+
+/**
+ * Sinh HTML chuẩn
+ */
+function htmlImage(item){
+
+    const alt = item.alt || "";
+
+    return `<img src="${item.result.secureUrl}" alt="${alt}">`;
+
+}
+
+
+/**
+ * Copy URL
+ */
+function copyURL(id){
+
+    const item = App.queue.find(x=>x.id===id);
+
+    if(!item || !item.result) return;
+
+    copyText(item.result.secureUrl);
+
+}
+
+
+/**
+ * Copy Blogger
+ */
+function copyBlogger(id){
+
+    const item = App.queue.find(x=>x.id===id);
+
+    if(!item || !item.result) return;
+
+    copyText(bloggerHTML(item));
+
+}
+
+
+/**
+ * Copy HTML
+ */
+function copyHTML(id){
+
+    const item = App.queue.find(x=>x.id===id);
+
+    if(!item || !item.result) return;
+
+    copyText(htmlImage(item));
+
+}
+
+
+/* =====================================================
+   Preview
+===================================================== */
+
+function previewImage(id){
+
+    const item = App.queue.find(x=>x.id===id);
+
+    if(!item || !item.result) return;
+
+    DOM.preview.src = item.result.secureUrl;
+
+    DOM.preview.style.display = "block";
+
+}
+
+
+/* =====================================================
+   Event Delegation
+===================================================== */
+
+DOM.table.addEventListener("click",(e)=>{
+
+    const id = e.target.dataset.id;
+
+    if(!id) return;
+
+    if(e.target.classList.contains("copy-url")){
+
+        copyURL(id);
+
+    }
+
+    if(e.target.classList.contains("copy-blogger")){
+
+        copyBlogger(id);
+
+    }
+
+    if(e.target.classList.contains("copy-html")){
+
+        copyHTML(id);
+
+    }
+
+    if(e.target.classList.contains("preview-btn")){
+
+        previewImage(id);
+
+    }
+
+});
+
+
+/* =====================================================
+   Toast
+===================================================== */
+
+function showToast(message){
+
+    let toast = document.getElementById("toast");
+
+    if(!toast){
+
+        toast = document.createElement("div");
+
+        toast.id = "toast";
+
+        document.body.appendChild(toast);
+
+    }
+
+    toast.textContent = message;
+
+    toast.classList.add("show");
+
+    clearTimeout(showToast.timer);
+
+    showToast.timer = setTimeout(()=>{
+
+        toast.classList.remove("show");
+
+    },2000);
+
+}
+/* =====================================================
+   Retry Upload
+===================================================== */
+
+async function retryUpload(id){
+
+    const item = App.queue.find(x => x.id === id);
+
+    if(!item) return;
+
+    item.status = "waiting";
+    item.progress = 0;
+    item.error = null;
+
+    renderProgress(item);
+    renderStatus(item);
+    renderAction(item);
+
+    await uploadFile(item);
+
+    updateStats();
+
+}
+
+
+/* =====================================================
+   Copy All
+===================================================== */
+
+function copyAll(format = "blogger"){
+
+    const done = App.queue.filter(item => item.status === "done");
+
+    if(!done.length){
+
+        showToast("Chưa có ảnh nào.");
+
+        return;
+
+    }
+
+    let output = "";
+
+    switch(format){
+
+        case "url":
+
+            output = done
+                .map(item => item.result.secureUrl)
+                .join("\n");
+
+            break;
+
+        case "html":
+
+            output = done
+                .map(item => htmlImage(item))
+                .join("\n");
+
+            break;
+
+        default:
+
+            output = done
+                .map(item => bloggerHTML(item))
+                .join("\n");
+
+    }
+
+    copyText(output);
+
+}
+
+
+/* =====================================================
+   Copy All Button
+===================================================== */
+
+DOM.copyAllBtn.addEventListener("click", () => {
+
+    copyAll("blogger");
+
+});
+
+
+/* =====================================================
+   Event Delegation (Retry)
+===================================================== */
+
+DOM.table.addEventListener("click", e => {
+
+    const id = e.target.dataset.id;
+
+    if(!id) return;
+
+    if(e.target.classList.contains("retry-btn")){
+
+        retryUpload(id);
+
+    }
+
+});
+
+
+/* =====================================================
+   Toast (Improved)
+===================================================== */
+
+function showToast(message){
+
+    let toast = document.getElementById("toast");
+
+    if(!toast){
+
+        toast = document.createElement("div");
+
+        toast.id = "toast";
+
+        document.body.appendChild(toast);
+
+    }
+
+    toast.textContent = message;
+
+    toast.className = "show";
+
+    clearTimeout(showToast.timer);
+
+    showToast.timer = setTimeout(() => {
+
+        toast.classList.remove("show");
+
+    },2000);
+
+}
+
+
+/* =====================================================
+   Finish
+===================================================== */
+
+window.addEventListener("beforeunload", e => {
+
+    if(App.uploading){
+
+        e.preventDefault();
+
+        e.returnValue = "";
+
+    }
+
+});
