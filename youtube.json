@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T02:53:04.669Z",
+  "updated": "2026-06-28T08:44:53.985Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -44,15 +44,6 @@
       "url": "https://www.youtube.com/watch?v=NJK5lOIY0D0"
     },
     {
-      "id": "fZ-pVrVMGO8",
-      "title": "Nghịch Thủy Hàn vs Where Winds Meet: Đại Chiến Bom Tấn Võ Hiệp Ngày 26/6",
-      "description": "Ngày 26/6 tới đây sẽ là một cột mốc lịch sử của dòng game kiếm hiệp thế giới mở! Cả hai \"ông lớn\" nhà NetEase là Nghịch Thủy ...",
-      "thumbnail": "https://i.ytimg.com/vi/fZ-pVrVMGO8/hqdefault.jpg",
-      "published": "2026-06-23T02:01:41Z",
-      "duration": 725,
-      "url": "https://www.youtube.com/watch?v=fZ-pVrVMGO8"
-    },
-    {
       "id": "ZahQxGPP5d4",
       "title": "LORDNINE: Phân Tích KHIÊN CHIẾN - Vũ Khí Treo Máy Quốc Dân Toàn Diện Nhất Cho Dân Cày Chay",
       "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Nếu anh em đang tìm kiếm một class có thể đứng vững giữa bầy ...",
@@ -60,6 +51,15 @@
       "published": "2026-06-22T11:24:03Z",
       "duration": 648,
       "url": "https://www.youtube.com/watch?v=ZahQxGPP5d4"
+    },
+    {
+      "id": "XK2Wkat2IFE",
+      "title": "Hướng Dẫn Build Quyền Giáp Tà Phái: Combo Thiên Chỉ Thùy Tượng x Trảm Tuyết Đao Pháp",
+      "description": "Chào anh em đồng môn đã quay trở lại với Thế Giới Game Việt! Cuối tháng này, bộ võ học mới Quyền Giáp – Thiên Chỉ Thùy ...",
+      "thumbnail": "https://i.ytimg.com/vi/XK2Wkat2IFE/hqdefault.jpg",
+      "published": "2026-06-14T00:56:38Z",
+      "duration": 550,
+      "url": "https://www.youtube.com/watch?v=XK2Wkat2IFE"
     }
   ]
 }
