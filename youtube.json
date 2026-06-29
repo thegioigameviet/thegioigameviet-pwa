@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T19:10:33.413Z",
+  "updated": "2026-06-29T02:53:32.841Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "OxO8972ToMs",
+      "title": "VLTK 1 3D Chính Thức Cập Bến Việt Nam: TÂN VÕ LÂM - Game Đẹp Nghẹt Thở, Không Cần VPN!",
+      "description": "Nếu là khán giả theo dõi kênh từ lâu, chắc hẳn anh em vẫn còn nhớ khoảng nửa năm trước, mình đã từng giới thiệu siêu phẩm ...",
+      "thumbnail": "https://i.ytimg.com/vi/OxO8972ToMs/hqdefault.jpg",
+      "published": "2026-06-29T01:27:41Z",
+      "duration": 492,
+      "url": "https://www.youtube.com/watch?v=OxO8972ToMs"
+    },
     {
       "id": "Lx26OeP3m4c",
       "title": "LORDNINE: Phân Tích TAY KHÔNG - Class Mới Nhất Liệu Có Đột Phá Được Meta Đao Kiếm?",
@@ -26,15 +35,6 @@
       "url": "https://www.youtube.com/watch?v=iq6LDSYQuJw"
     },
     {
-      "id": "boT7OB6l0HM",
-      "title": "Vua Săn Boss Cày Chay! Tại Sao Nỏ LORDNINE Là Class Đáng Chơi Nhất Cho Hệ F2P?",
-      "description": "Nếu anh em đam mê lối chơi xả đạn liên tục, tốc độ đánh nhanh đến mức chóng mặt và thích nhìn thanh máu của Boss tụt dốc ...",
-      "thumbnail": "https://i.ytimg.com/vi/boT7OB6l0HM/hqdefault.jpg",
-      "published": "2026-06-25T11:17:44Z",
-      "duration": 577,
-      "url": "https://www.youtube.com/watch?v=boT7OB6l0HM"
-    },
-    {
       "id": "NJK5lOIY0D0",
       "title": "LORDNINE: Pháp Trượng - Class Cày Cấp Nhanh Nhất Dành Cho Dân Cày Chay!",
       "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Nếu anh em đang tìm kiếm một class trong LORDNINE có khả năng ...",
@@ -44,22 +44,22 @@
       "url": "https://www.youtube.com/watch?v=NJK5lOIY0D0"
     },
     {
-      "id": "XK2Wkat2IFE",
-      "title": "Hướng Dẫn Build Quyền Giáp Tà Phái: Combo Thiên Chỉ Thùy Tượng x Trảm Tuyết Đao Pháp",
-      "description": "Chào anh em đồng môn đã quay trở lại với Thế Giới Game Việt! Cuối tháng này, bộ võ học mới Quyền Giáp – Thiên Chỉ Thùy ...",
-      "thumbnail": "https://i.ytimg.com/vi/XK2Wkat2IFE/hqdefault.jpg",
-      "published": "2026-06-14T00:56:38Z",
-      "duration": 550,
-      "url": "https://www.youtube.com/watch?v=XK2Wkat2IFE"
+      "id": "8W4ePhkupXI",
+      "title": "Where Winds Meet: Vị Trí 7 Người Tuyết Ẩn Nhận Ngay Đàn Vàng Cực Phẩm!",
+      "description": "Chào anh em đồng môn trên kênh Thế Giới Game Việt! Bản đồ Hoàng Cung Khai Phong trong Where Winds Meet quả thực là ...",
+      "thumbnail": "https://i.ytimg.com/vi/8W4ePhkupXI/hqdefault.jpg",
+      "published": "2026-05-30T13:52:07Z",
+      "duration": 374,
+      "url": "https://www.youtube.com/watch?v=8W4ePhkupXI"
     },
     {
-      "id": "hK2GmZwIrbM",
-      "title": "Call of Dragons vs Rise of Kingdoms: Sự Sáng Tạo Hay Chiêu Trò &quot;Đổi Skin&quot; Bào Tiền?",
-      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Suốt từ năm 2023 cho đến nay, cộng đồng game thủ hệ chiến thuật ...",
-      "thumbnail": "https://i.ytimg.com/vi/hK2GmZwIrbM/hqdefault.jpg",
-      "published": "2026-06-13T01:15:14Z",
-      "duration": 747,
-      "url": "https://www.youtube.com/watch?v=hK2GmZwIrbM"
+      "id": "de4uU6JBVN8",
+      "title": "Clash of Clans vs Rise of Kingdoms: Sự Tiến Hóa Hay Cái Bẫy &quot;Mất Ngủ&quot; Của Game Chiến Thuật?",
+      "description": "Chào anh em đồng môn trên kênh Thế Giới Game Việt! Hôm nay chúng ta sẽ cùng ngồi lại, uống một ngụm trà và bàn về câu ...",
+      "thumbnail": "https://i.ytimg.com/vi/de4uU6JBVN8/hqdefault.jpg",
+      "published": "2026-05-26T02:03:06Z",
+      "duration": 562,
+      "url": "https://www.youtube.com/watch?v=de4uU6JBVN8"
     }
   ]
 }
