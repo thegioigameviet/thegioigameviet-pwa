@@ -1,0 +1,1122 @@
+/* =====================================================
+   RESET
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background:#f3f5f9;
+
+    color:#333;
+
+    line-height:1.5;
+
+}
+
+
+/* =====================================================
+   LAYOUT
+===================================================== */
+
+.container{
+
+    max-width:1400px;
+
+    margin:30px auto;
+
+    padding:20px;
+
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.header{
+
+    background:#fff;
+
+    border-radius:14px;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,.08);
+
+}
+
+.header h1{
+
+    font-size:30px;
+
+    color:#2d5cff;
+
+    margin-bottom:8px;
+
+}
+
+.header p{
+
+    color:#777;
+
+    font-size:15px;
+
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.btn{
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:10px 18px;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    transition:.25s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.primary{
+
+    background:#2d5cff;
+
+    color:#fff;
+
+}
+
+.success{
+
+    background:#18a558;
+
+    color:#fff;
+
+}
+
+.secondary{
+
+    background:#666;
+
+    color:#fff;
+
+}
+
+.danger{
+
+    background:#d43c3c;
+
+    color:#fff;
+
+}
+
+
+/* =====================================================
+   INPUT
+===================================================== */
+
+input,
+select{
+
+    width:100%;
+
+    padding:9px 12px;
+
+    border:1px solid #d8dce3;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+    outline:none;
+
+}
+
+input:focus,
+select:focus{
+
+    border-color:#2d5cff;
+
+}
+
+
+/* =====================================================
+   SECTION
+===================================================== */
+
+section{
+
+    background:#fff;
+
+    border-radius:14px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,.06);
+
+}
+/* =====================================================
+   UPLOAD BOX
+===================================================== */
+
+.upload-box{
+
+    border:3px dashed #2d5cff;
+
+    border-radius:14px;
+
+    text-align:center;
+
+    padding:45px 20px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.upload-box:hover{
+
+    background:#f7faff;
+
+}
+
+.upload-box.dragover{
+
+    background:#eaf2ff;
+
+    border-color:#0b57d0;
+
+    transform:scale(1.01);
+
+}
+
+.upload-icon{
+
+    font-size:56px;
+
+    margin-bottom:15px;
+
+}
+
+.upload-box h2{
+
+    font-size:24px;
+
+    color:#2d5cff;
+
+    margin-bottom:10px;
+
+}
+
+.upload-box p{
+
+    color:#666;
+
+    margin-bottom:18px;
+
+}
+
+.upload-box button{
+
+    min-width:170px;
+
+}
+
+
+/* =====================================================
+   SETTINGS
+===================================================== */
+
+.settings{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(200px,1fr));
+
+    gap:18px;
+
+}
+
+.setting{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.setting label{
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:8px;
+
+    color:#555;
+
+}
+
+.setting input[type=text]{
+
+    height:42px;
+
+}
+
+.setting select{
+
+    height:42px;
+
+}
+
+
+/* =====================================================
+   CHECKBOX
+===================================================== */
+
+.setting.checkbox{
+
+    justify-content:flex-end;
+
+}
+
+.setting.checkbox label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+    margin-bottom:0;
+
+}
+
+.setting.checkbox input{
+
+    width:18px;
+
+    height:18px;
+
+    cursor:pointer;
+
+}
+
+
+/* =====================================================
+   DISABLED
+===================================================== */
+
+.setting input:disabled,
+.setting select:disabled{
+
+    background:#f2f3f5;
+
+    color:#999;
+
+    cursor:not-allowed;
+
+}
+
+
+/* =====================================================
+   PRESET EFFECT
+===================================================== */
+
+#preset{
+
+    font-weight:600;
+
+}
+
+#preset option{
+
+    padding:6px;
+
+}
+
+
+/* =====================================================
+   FOLDER
+===================================================== */
+
+#folder{
+
+    font-family:Consolas,monospace;
+
+}
+
+
+/* =====================================================
+   SETTING GROUP HOVER
+===================================================== */
+
+.setting{
+
+    padding:12px;
+
+    border-radius:10px;
+
+    transition:.25s;
+
+}
+
+.setting:hover{
+
+    background:#f8f9fb;
+
+}
+
+
+/* =====================================================
+   RANGE SUPPORT (Nếu sau này đổi Resize thành slider)
+===================================================== */
+
+input[type=range]{
+
+    width:100%;
+
+    cursor:pointer;
+
+}
+
+
+/* =====================================================
+   SMALL LABEL
+===================================================== */
+
+.setting small{
+
+    margin-top:6px;
+
+    color:#888;
+
+    font-size:12px;
+
+}
+/* =====================================================
+   TOOLBAR
+===================================================== */
+
+.toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.toolbar-left{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+}
+
+.toolbar-right{
+
+    min-width:260px;
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+#searchInput{
+
+    max-width:320px;
+
+}
+
+
+/* =====================================================
+   STATS
+===================================================== */
+
+.stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:18px;
+
+}
+
+.stat-card{
+
+    background:#fff;
+
+    border:1px solid #ececec;
+
+    border-radius:12px;
+
+    padding:18px;
+
+    text-align:center;
+
+    transition:.25s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+}
+
+.stat-title{
+
+    display:block;
+
+    font-size:13px;
+
+    color:#777;
+
+    margin-bottom:10px;
+
+}
+
+.stat-value{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#2d5cff;
+
+}
+
+
+/* =====================================================
+   TABLE
+===================================================== */
+
+.table-wrapper{
+
+    overflow:auto;
+
+}
+
+.table-wrapper table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    min-width:1200px;
+
+}
+
+.table-wrapper thead{
+
+    background:#2d5cff;
+
+    color:#fff;
+
+}
+
+.table-wrapper th{
+
+    padding:14px 10px;
+
+    font-size:14px;
+
+    text-align:left;
+
+}
+
+.table-wrapper td{
+
+    padding:12px 10px;
+
+    border-bottom:1px solid #ececec;
+
+    vertical-align:middle;
+
+}
+
+.table-wrapper tbody tr{
+
+    transition:.25s;
+
+}
+
+.table-wrapper tbody tr:hover{
+
+    background:#f7faff;
+
+}
+
+
+/* =====================================================
+   ALT INPUT
+===================================================== */
+
+.alt-input{
+
+    width:100%;
+
+    min-width:180px;
+
+}
+
+
+/* =====================================================
+   PROGRESS
+===================================================== */
+
+.progress{
+
+    width:100%;
+
+    height:10px;
+
+    background:#ececec;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+}
+
+.progress-bar{
+
+    width:0;
+
+    height:100%;
+
+    background:#2d5cff;
+
+    transition:width .3s;
+
+}
+
+
+/* =====================================================
+   STATUS BADGE
+===================================================== */
+
+.status{
+
+    display:inline-block;
+
+    padding:5px 10px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+.status.waiting{
+
+    background:#fff4d8;
+
+    color:#b37b00;
+
+}
+
+.status.uploading{
+
+    background:#dbeafe;
+
+    color:#0b57d0;
+
+}
+
+.status.done{
+
+    background:#dff7e8;
+
+    color:#16803c;
+
+}
+
+.status.error{
+
+    background:#fde4e4;
+
+    color:#c62828;
+
+}
+
+
+/* =====================================================
+   ACTION BUTTONS
+===================================================== */
+
+.action-group{
+
+    display:flex;
+
+    gap:6px;
+
+    flex-wrap:wrap;
+
+}
+
+.action-group button{
+
+    border:none;
+
+    padding:6px 10px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-size:12px;
+
+    transition:.2s;
+
+}
+
+.action-group button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.copy-url{
+
+    background:#2d5cff;
+
+    color:#fff;
+
+}
+
+.copy-blogger{
+
+    background:#18a558;
+
+    color:#fff;
+
+}
+
+.copy-html{
+
+    background:#444;
+
+    color:#fff;
+
+}
+
+.preview-btn{
+
+    background:#8e44ad;
+
+    color:#fff;
+
+}
+
+.retry-btn{
+
+    background:#ff9800;
+
+    color:#fff;
+
+}
+
+.remove-btn{
+
+    background:#d43c3c;
+
+    color:#fff;
+
+}
+
+
+/* =====================================================
+   FILE NAME
+===================================================== */
+
+.file-name{
+
+    font-weight:600;
+
+    word-break:break-word;
+
+}
+
+
+/* =====================================================
+   SIZE
+===================================================== */
+
+.file-size{
+
+    white-space:nowrap;
+
+    font-size:13px;
+
+    color:#666;
+
+}
+/* =====================================================
+   PREVIEW PANEL
+===================================================== */
+
+.preview-panel{
+
+    display:grid;
+
+    grid-template-columns:380px 1fr;
+
+    gap:25px;
+
+    align-items:flex-start;
+
+}
+
+.preview-image{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:320px;
+
+    background:#f7f8fa;
+
+    border:2px dashed #d8dce3;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+.preview-image img{
+
+    max-width:100%;
+
+    max-height:500px;
+
+    display:block;
+
+}
+
+.preview-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.info-row{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+}
+
+.info-row label{
+
+    font-weight:600;
+
+    color:#555;
+
+    font-size:14px;
+
+}
+
+.info-row input{
+
+    background:#fafafa;
+
+}
+
+.preview-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-top:10px;
+
+}
+
+
+/* =====================================================
+   TOAST
+===================================================== */
+
+.toast{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    background:#2d5cff;
+
+    color:#fff;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.2);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:.25s;
+
+    z-index:9999;
+
+}
+
+.toast.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer{
+
+    text-align:center;
+
+    color:#888;
+
+    font-size:13px;
+
+    margin:30px 0 10px;
+
+}
+
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+    height:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ececec;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#b7bcc7;
+
+    border-radius:50px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#8c93a3;
+
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width:1200px){
+
+    .preview-panel{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .toolbar{
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+    }
+
+    .toolbar-right{
+
+        justify-content:stretch;
+
+    }
+
+    #searchInput{
+
+        max-width:none;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .container{
+
+        padding:12px;
+
+        margin:10px auto;
+
+    }
+
+    .header h1{
+
+        font-size:24px;
+
+    }
+
+    .upload-box{
+
+        padding:30px 15px;
+
+    }
+
+    .upload-icon{
+
+        font-size:42px;
+
+    }
+
+    .settings{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .stats{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .preview-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .preview-buttons .btn{
+
+        width:100%;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .toolbar-left{
+
+        flex-direction:column;
+
+    }
+
+    .toolbar-left .btn{
+
+        width:100%;
+
+    }
+
+    .table-wrapper{
+
+        font-size:13px;
+
+    }
+
+}
+
