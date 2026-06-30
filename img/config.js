@@ -115,7 +115,7 @@ const WATERMARK = {
     gravity: "north_west",
 
     // Độ mờ
-    opacity: 10,
+    opacity: 100,
 
     // Khoảng cách mép
     offsetX: 20,
