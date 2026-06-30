@@ -109,8 +109,8 @@ const PRESETS = {
 
 const WATERMARK = {
 
-    publicId: "uploads/1000009317_w69mtm",
-    height: 50,
+    publicId: "uploads:1000009317_w69mtm",
+    height: 40,
     // Góc hiển thị
     gravity: "north_west",
 
