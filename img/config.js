@@ -109,14 +109,13 @@ const PRESETS = {
 
 const WATERMARK = {
 
-    // Public ID của logo watermark
-    publicId: "logoanh.png",
-
+    publicId: "uploads/1000009317_w69mtm",
+    height: 50,
     // Góc hiển thị
-    gravity: "south_east",
+    gravity: "north_west",
 
     // Độ mờ
-    opacity: 60,
+    opacity: 10,
 
     // Khoảng cách mép
     offsetX: 20,
