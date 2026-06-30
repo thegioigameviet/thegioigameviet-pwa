@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Thế Giới Game Việt Image Uploader</title>
+
+<link rel="stylesheet" href="uploader2.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header class="header">
+
+<h1>Thế Giới Game Việt Image Uploader</h1>
+
+<p>
+Resize • Watermark • WebP • Blogger
+</p>
+
+</header>
+
+
+<!-- =========================
+Upload Box
+========================== -->
+
+<section
+id="dropZone"
+class="upload-box">
+
+<div class="upload-icon">
+
+📷
+
+</div>
+
+<h2>
+
+Kéo thả ảnh vào đây
+
+</h2>
+
+<p>
+
+hoặc
+
+</p>
+
+<button
+id="selectBtn"
+type="button">
+
+Chọn ảnh
+
+</button>
+
+<input
+id="fileInput"
+type="file"
+accept="image/*"
+multiple
+hidden>
+
+</section>
+
+
+<!-- =========================
+Settings
+========================== -->
+
+<section class="settings">
+
+<div class="setting">
+
+<label>
+
+Preset
+
+</label>
+
+<select id="preset">
+
+<option value="banner">
+
+Banner
+
+</option>
+
+<option value="thumbnail">
+
+Thumbnail
+
+</option>
+
+<option value="icon">
+
+Icon
+
+</option>
+
+<option value="custom">
+
+Custom
+
+</option>
+
+</select>
+
+</div>
+
+
+<div class="setting">
+
+<label>
+
+Folder
+
+</label>
+
+<input
+id="folder"
+type="text">
+
+</div>
+
+
+<div class="setting checkbox">
+
+<label>
+
+<input
+id="watermark"
+type="checkbox">
+
+Watermark
+
+</label>
+
+</div>
+
+
+<div class="setting">
+
+<label>
+
+Resize
+
+</label>
+
+<select id="resize">
+
+<option value="0">
+
+Original
+
+</option>
+
+<option value="640">
+
+640 px
+
+</option>
+
+<option value="800">
+
+800 px
+
+</option>
+
+<option value="1200">
+
+1200 px
+
+</option>
+
+</select>
+
+</div>
+
+
+<div class="setting">
+
+<label>
+
+Quality
+
+</label>
+
+<select id="quality">
+
+<option value="auto">
+
+Auto
+
+</option>
+
+<option value="80">
+
+80%
+
+</option>
+
+<option value="90">
+
+90%
+
+</option>
+
+<option value="100">
+
+100%
+
+</option>
+
+</select>
+
+</div>
+
+
+<div class="setting">
+
+<label>
+
+Format
+
+</label>
+
+<select id="format">
+
+<option value="auto">
+
+Auto
+
+</option>
+
+<option value="webp">
+
+WebP
+
+</option>
+
+<option value="jpg">
+
+JPG
+
+</option>
+
+<option value="png">
+
+PNG
+
+</option>
+
+</select>
+
+</div>
+
+</section>
+
+<!-- =========================
+Toolbar
+========================== -->
+
+<section class="toolbar">
+
+<div class="toolbar-left">
+
+<button
+id="uploadBtn"
+class="btn primary">
+
+⬆ Upload
+
+</button>
+
+<button
+id="copyAllBtn"
+class="btn success">
+
+📋 Copy Blogger
+
+</button>
+
+<button
+id="copyHTMLBtn"
+class="btn secondary">
+
+&lt;/&gt; Copy HTML
+
+</button>
+
+<button
+id="copyURLBtn"
+class="btn secondary">
+
+🔗 Copy URL
+
+</button>
+
+<button
+id="clearBtn"
+class="btn danger">
+
+🗑 Xóa danh sách
+
+</button>
+
+</div>
+
+
+<div class="toolbar-right">
+
+<input
+id="searchInput"
+type="search"
+placeholder="🔍 Tìm ảnh...">
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+Stats
+========================== -->
+
+<section class="stats">
+
+<div class="stat-card">
+
+<span class="stat-title">
+
+Tổng ảnh
+
+</span>
+
+<span
+id="totalFiles"
+class="stat-value">
+
+0
+
+</span>
+
+</div>
+
+
+<div class="stat-card">
+
+<span class="stat-title">
+
+Dung lượng
+
+</span>
+
+<span
+id="totalSize"
+class="stat-value">
+
+0 MB
+
+</span>
+
+</div>
+
+
+<div class="stat-card">
+
+<span class="stat-title">
+
+Đã Upload
+
+</span>
+
+<span
+id="uploadedCount"
+class="stat-value">
+
+0
+
+</span>
+
+</div>
+
+
+<div class="stat-card">
+
+<span class="stat-title">
+
+Tiết kiệm
+
+</span>
+
+<span
+id="savedSize"
+class="stat-value">
+
+0%
+
+</span>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+File Table
+========================== -->
+
+<section class="table-wrapper">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th width="60">
+
+#
+
+</th>
+
+<th>
+
+Tên File
+
+</th>
+
+<th width="220">
+
+ALT
+
+</th>
+
+<th width="100">
+
+Size
+
+</th>
+
+<th width="90">
+
+Status
+
+</th>
+
+<th width="170">
+
+Progress
+
+</th>
+
+<th width="320">
+
+Action
+
+</th>
+
+</tr>
+
+</thead>
+
+
+<tbody id="fileTable">
+
+<!-- uploader.js render -->
+
+</tbody>
+
+</table>
+
+</section>
+
+<!-- =========================
+Preview Panel
+========================== -->
+
+<section class="preview-panel">
+
+<div class="preview-header">
+
+<h2>
+
+🖼 Preview
+
+</h2>
+
+</div>
+
+<div class="preview-body">
+
+<div class="preview-image">
+
+<img
+id="previewImage"
+src=""
+alt=""
+style="display:none;">
+
+</div>
+
+<div class="preview-info">
+
+<div class="info-row">
+
+<label>URL</label>
+
+<input
+id="previewURL"
+type="text"
+readonly>
+
+</div>
+
+<div class="info-row">
+
+<label>ALT</label>
+
+<input
+id="previewALT"
+type="text"
+readonly>
+
+</div>
+
+<div class="info-row">
+
+<label>Kích thước</label>
+
+<input
+id="previewDimension"
+type="text"
+readonly>
+
+</div>
+
+<div class="info-row">
+
+<label>Dung lượng</label>
+
+<input
+id="previewSize"
+type="text"
+readonly>
+
+</div>
+
+<div class="info-row">
+
+<label>Public ID</label>
+
+<input
+id="previewPublicId"
+type="text"
+readonly>
+
+</div>
+
+<div class="preview-buttons">
+
+<button
+id="copyPreviewURL"
+class="btn secondary">
+
+🔗 Copy URL
+
+</button>
+
+<button
+id="copyPreviewHTML"
+class="btn secondary">
+
+&lt;/&gt; Copy HTML
+
+</button>
+
+<button
+id="copyPreviewBlogger"
+class="btn success">
+
+📋 Copy Blogger
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+Toast
+========================== -->
+
+<div
+id="toast"
+class="toast">
+
+Đã sao chép.
+
+</div>
+
+
+<!-- =========================
+Footer
+========================== -->
+
+<footer class="footer">
+
+Cloudinary Image Uploader v2.0
+
+</footer>
+
+
+<!-- =========================
+Scripts
+========================== -->
+
+<script src="config.js"></script>
+
+<script src="cloudinary.js"></script>
+
+<script src="uploader.js"></script>
+
+</div>
+
+</body>
+
+</html>
