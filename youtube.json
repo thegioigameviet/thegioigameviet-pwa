@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-01T02:53:19.464Z",
+  "updated": "2026-07-01T09:36:11.724Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 5,
+  "total": 6,
   "videos": [
     {
       "id": "DK7IBEI3YK8",
@@ -35,22 +35,31 @@
       "url": "https://www.youtube.com/watch?v=iq6LDSYQuJw"
     },
     {
-      "id": "Ke_zMDTZdOs",
-      "title": "Where Winds Meet Cho Newbie  | Lộ Trình Lên Cấp 80 Chuẩn Nhất | Không Kẹt Cấp Không, Phí Tài Nguyên",
-      "description": "Như huynh đệ tỷ muội đều đã rõ, Where Winds Meet hiện đã mở cấp tối đa lên đến 80, kéo theo rất nhiều thay đổi trong lộ trình ...",
-      "thumbnail": "https://i.ytimg.com/vi/Ke_zMDTZdOs/hqdefault.jpg",
-      "published": "2026-01-23T05:29:59Z",
-      "duration": 645,
-      "url": "https://www.youtube.com/watch?v=Ke_zMDTZdOs"
+      "id": "boT7OB6l0HM",
+      "title": "Vua Săn Boss Cày Chay! Tại Sao Nỏ LORDNINE Là Class Đáng Chơi Nhất Cho Hệ F2P?",
+      "description": "Nếu anh em đam mê lối chơi xả đạn liên tục, tốc độ đánh nhanh đến mức chóng mặt và thích nhìn thanh máu của Boss tụt dốc ...",
+      "thumbnail": "https://i.ytimg.com/vi/boT7OB6l0HM/hqdefault.jpg",
+      "published": "2026-06-25T11:17:44Z",
+      "duration": 577,
+      "url": "https://www.youtube.com/watch?v=boT7OB6l0HM"
     },
     {
-      "id": "3rNoWJyavdw",
-      "title": "Gameplay Và GiftCode Kiếm Khách Phong Lăng – MMORPG Võ Hiệp Kết Duyên, Hóa Thần Chiến Đấu",
-      "description": "Hôm nay chúng ta sẽ cùng khám phá Kiếm Khách Phong Lăng – một game MMORPG võ hiệp 3D cực kỳ cuốn hút với đồ họa ...",
-      "thumbnail": "https://i.ytimg.com/vi/3rNoWJyavdw/hqdefault.jpg",
-      "published": "2025-06-21T05:34:35Z",
-      "duration": 502,
-      "url": "https://www.youtube.com/watch?v=3rNoWJyavdw"
+      "id": "NJK5lOIY0D0",
+      "title": "LORDNINE: Pháp Trượng - Class Cày Cấp Nhanh Nhất Dành Cho Dân Cày Chay!",
+      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Nếu anh em đang tìm kiếm một class trong LORDNINE có khả năng ...",
+      "thumbnail": "https://i.ytimg.com/vi/NJK5lOIY0D0/hqdefault.jpg",
+      "published": "2026-06-24T04:57:03Z",
+      "duration": 730,
+      "url": "https://www.youtube.com/watch?v=NJK5lOIY0D0"
+    },
+    {
+      "id": "XK2Wkat2IFE",
+      "title": "Hướng Dẫn Build Quyền Giáp Tà Phái: Combo Thiên Chỉ Thùy Tượng x Trảm Tuyết Đao Pháp",
+      "description": "Chào anh em đồng môn đã quay trở lại với Thế Giới Game Việt! Cuối tháng này, bộ võ học mới Quyền Giáp – Thiên Chỉ Thùy ...",
+      "thumbnail": "https://i.ytimg.com/vi/XK2Wkat2IFE/hqdefault.jpg",
+      "published": "2026-06-14T00:56:38Z",
+      "duration": 550,
+      "url": "https://www.youtube.com/watch?v=XK2Wkat2IFE"
     }
   ]
 }
