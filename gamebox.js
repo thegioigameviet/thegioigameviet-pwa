@@ -75,14 +75,17 @@ postBody.style.display='none';
 
             <div class="meta-item">
               <span>🎮 Thể loại:</span>
-              <strong>${data.category || ''}</strong>
+              <strong>${data.category || 'Đang Cập Nhật'}</strong>
             </div>
 
             <div class="meta-item">
               <span>🏢 Nhà phát hành:</span>
-              <strong>${data.publisher || ''}</strong>
+              <strong>${data.publisher || 'Đang Cập Nhật'}</strong>
             </div>
-
+  <div class="meta-item">
+    <span>📅 Ngày phát hành:</span>
+    <strong>${data.release || 'Đang Cập Nhật'}</strong>
+  </div>
           </div>
 
           <div class="game-description">
