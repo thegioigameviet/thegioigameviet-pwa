@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T19:46:43.454Z",
+  "updated": "2026-07-08T02:07:05.587Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "K62tAp5axTg",
+      "title": "Where Winds Meet: Vị Trí 11 ĐÀN VÀNG Bất Kiến Sơn Trang &amp; Cửu Lưu Môn - Thành Công 100%",
+      "description": "Sức nóng của bom tấn kiếm hiệp thế giới mở Where Winds Meet (Yến Vân Thập Lục Thanh) chưa bao giờ hạ nhiệt. Đúng vào ...",
+      "thumbnail": "https://i.ytimg.com/vi/K62tAp5axTg/hqdefault.jpg",
+      "published": "2026-07-08T01:47:19Z",
+      "duration": 541,
+      "url": "https://www.youtube.com/watch?v=K62tAp5axTg"
+    },
     {
       "id": "SRbTp_lAsMk",
       "title": "Cách Tải Wuthering Waves Mới Nhất 2026 Cho Android &amp; iOS - Thành Công 100%!",
@@ -51,15 +60,6 @@
       "published": "2026-06-29T01:27:41Z",
       "duration": 492,
       "url": "https://www.youtube.com/watch?v=OxO8972ToMs"
-    },
-    {
-      "id": "iq6LDSYQuJw",
-      "title": "Where Winds Meet: &quot;Cú Lừa&quot; Trần Tử Hy Trở Lại - Đại Cập Nhật Giang Nam Khủng Nhất Lịch Sử!",
-      "description": "Ngày 26 tháng 6 vừa qua, Where Winds Meet (Yến Vân Thập Lục Thanh) phiên bản Trung Quốc đã chính thức tung ra bản cập ...",
-      "thumbnail": "https://i.ytimg.com/vi/iq6LDSYQuJw/hqdefault.jpg",
-      "published": "2026-06-27T07:08:17Z",
-      "duration": 730,
-      "url": "https://www.youtube.com/watch?v=iq6LDSYQuJw"
     }
   ]
 }
