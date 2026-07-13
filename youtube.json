@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T08:57:20.538Z",
+  "updated": "2026-07-13T14:19:27.323Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "dZAgNbRPZbY",
+      "title": "Hướng Dẫn Cài VIỆT HÓA Neverness To Everness (NTE) Trên Android - Không Root, Đổi Font Tùy Ý!",
+      "description": "Bom tấn nhập vai hành động thế giới mở bối cảnh đô thị hiện đại Neverness To Everness (NTE) do Hotta Studio phát triển đang ...",
+      "thumbnail": "https://i.ytimg.com/vi/dZAgNbRPZbY/hqdefault.jpg",
+      "published": "2026-07-13T11:33:46Z",
+      "duration": 735,
+      "url": "https://www.youtube.com/watch?v=dZAgNbRPZbY"
+    },
     {
       "id": "7smWF4BvMXA",
       "title": "Võ Lâm 1 Lên Đồ Họa 3D? KIẾM VŨ SƠN HÀ - Game Thuần Việt Đa Nền Tảng + Full Giftcode!",
@@ -51,15 +60,6 @@
       "published": "2026-07-04T01:12:40Z",
       "duration": 726,
       "url": "https://www.youtube.com/watch?v=JwmoEMSXsHM"
-    },
-    {
-      "id": "SavU_XXXOiI",
-      "title": "Thiên Long Bát Bộ Mobile Tái Xuất: TÀNG LONG BẤT BẠI - Open Beta 4/7 Chuẩn Cày Cuốc Cổ Điển!",
-      "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Nếu là thế hệ game thủ 8x, 9x từng có một thời thanh xuân dữ dội, ...",
-      "thumbnail": "https://i.ytimg.com/vi/SavU_XXXOiI/hqdefault.jpg",
-      "published": "2026-07-02T07:33:06Z",
-      "duration": 363,
-      "url": "https://www.youtube.com/watch?v=SavU_XXXOiI"
     }
   ]
 }
