@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T01:55:47.215Z",
+  "updated": "2026-07-14T07:52:44.176Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "UbUAPsHKpss",
+      "title": "Việt Hóa Wuthering Waves Android Siêu Nhanh - Bước Chuẩn Bị &amp; Fix Lỗi Chi Tiết",
+      "description": "Sau hơn một năm ra mắt, bom tấn nhập vai hành động thế giới mở Wuthering Waves của nhà Kuro Games vẫn chứng minh được ...",
+      "thumbnail": "https://i.ytimg.com/vi/UbUAPsHKpss/hqdefault.jpg",
+      "published": "2026-07-14T02:04:29Z",
+      "duration": 740,
+      "url": "https://www.youtube.com/watch?v=UbUAPsHKpss"
+    },
     {
       "id": "dZAgNbRPZbY",
       "title": "Hướng Dẫn Cài VIỆT HÓA Neverness To Everness (NTE) Trên Android - Không Root, Đổi Font Tùy Ý!",
@@ -51,15 +60,6 @@
       "published": "2026-07-06T01:50:47Z",
       "duration": 725,
       "url": "https://www.youtube.com/watch?v=SRbTp_lAsMk"
-    },
-    {
-      "id": "JwmoEMSXsHM",
-      "title": "Game Việt Trỗi Dậy! Top 6 Bom Tấn Lịch Sử &amp; Thần Thoại Việt Đang Càn Quét Meta Đón Đầu 2026",
-      "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Trong nhiều năm qua, thị trường game mobile Việt Nam gần như ...",
-      "thumbnail": "https://i.ytimg.com/vi/JwmoEMSXsHM/hqdefault.jpg",
-      "published": "2026-07-04T01:12:40Z",
-      "duration": 726,
-      "url": "https://www.youtube.com/watch?v=JwmoEMSXsHM"
     }
   ]
 }
