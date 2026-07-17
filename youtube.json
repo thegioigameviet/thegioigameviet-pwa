@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T07:59:23.749Z",
+  "updated": "2026-07-17T13:15:09.051Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "MXtgCmXOx0c",
+      "title": "Chỉ vì một cục Bát Âm mà náo loạn cả vùng Giang Nam, cuối cùng ai mới là kẻ thắng cuộc?",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/MXtgCmXOx0c/hqdefault.jpg",
+      "published": "2026-07-17T12:35:35Z",
+      "duration": 108,
+      "url": "https://www.youtube.com/watch?v=MXtgCmXOx0c"
+    },
     {
       "id": "DVyUxWFOFUs",
       "title": "Trận Chiến Giang Nam Giành &quot;Bát Âm&quot; Và Cái Kết Cười Ra Nước Mắt | Where Winds Meet Phim Ngắn #1",
@@ -51,15 +60,6 @@
       "published": "2026-07-08T01:47:19Z",
       "duration": 541,
       "url": "https://www.youtube.com/watch?v=K62tAp5axTg"
-    },
-    {
-      "id": "SRbTp_lAsMk",
-      "title": "Cách Tải Wuthering Waves Mới Nhất 2026 Cho Android &amp; iOS - Thành Công 100%!",
-      "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Nếu anh em là tín đồ của thể loại nhập vai hành động thế giới mở ...",
-      "thumbnail": "https://i.ytimg.com/vi/SRbTp_lAsMk/hqdefault.jpg",
-      "published": "2026-07-06T01:50:47Z",
-      "duration": 725,
-      "url": "https://www.youtube.com/watch?v=SRbTp_lAsMk"
     }
   ]
 }
