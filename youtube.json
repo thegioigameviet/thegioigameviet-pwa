@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T18:58:48.432Z",
+  "updated": "2026-07-18T01:55:16.436Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "LFLU88nnI3U",
+      "title": "Where Winds Meet: 3 Cách Kiếm BẢO TIỀN Nhiều Nhất - Đổi CORE Mua Ngoại Trang Cho F2P!",
+      "description": "Một thông tin chấn động dành cho các dân cày chay (F2P) của siêu phẩm kiếm hiệp thế giới mở Where Winds Meet (Yến Vân ...",
+      "thumbnail": "https://i.ytimg.com/vi/LFLU88nnI3U/hqdefault.jpg",
+      "published": "2026-07-18T01:29:16Z",
+      "duration": 545,
+      "url": "https://www.youtube.com/watch?v=LFLU88nnI3U"
+    },
     {
       "id": "MXtgCmXOx0c",
       "title": "Chỉ vì một cục Bát Âm mà náo loạn cả vùng Giang Nam, cuối cùng ai mới là kẻ thắng cuộc?",
@@ -51,15 +60,6 @@
       "published": "2026-07-10T09:28:43Z",
       "duration": 724,
       "url": "https://www.youtube.com/watch?v=EJFT2VDe_io"
-    },
-    {
-      "id": "K62tAp5axTg",
-      "title": "Where Winds Meet: Vị Trí 11 ĐÀN VÀNG Bất Kiến Sơn Trang &amp; Cửu Lưu Môn - Thành Công 100%",
-      "description": "Sức nóng của bom tấn kiếm hiệp thế giới mở Where Winds Meet (Yến Vân Thập Lục Thanh) chưa bao giờ hạ nhiệt. Đúng vào ...",
-      "thumbnail": "https://i.ytimg.com/vi/K62tAp5axTg/hqdefault.jpg",
-      "published": "2026-07-08T01:47:19Z",
-      "duration": 541,
-      "url": "https://www.youtube.com/watch?v=K62tAp5axTg"
     }
   ]
 }
