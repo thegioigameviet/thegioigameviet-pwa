@@ -98,9 +98,17 @@ postBody.style.display='none';
 
       </div>
 
-      <div class="game-gallery">
+<div class="gallery-wrapper">
+
+    <button class="gallery-prev">❮</button>
+
+    <div class="game-gallery">
         ${galleryHTML}
-      </div>
+    </div>
+
+    <button class="gallery-next">❯</button>
+
+</div>
 
     </section>
   `;
@@ -116,4 +124,26 @@ postBody.style.display='none';
 
 postBody.innerHTML = content;
 postBody.style.display='';
+  const gallery = document.querySelector(".game-gallery");
+
+if (gallery) {
+
+    const prev = document.querySelector(".gallery-prev");
+    const next = document.querySelector(".gallery-next");
+
+    next.addEventListener("click", () => {
+        gallery.scrollBy({
+            left: 340,
+            behavior: "smooth"
+        });
+    });
+
+    prev.addEventListener("click", () => {
+        gallery.scrollBy({
+            left: -340,
+            behavior: "smooth"
+        });
+    });
+
+}
 });
