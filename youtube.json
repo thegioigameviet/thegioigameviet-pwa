@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T19:36:59.323Z",
+  "updated": "2026-07-21T02:05:22.474Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "CCIWOhHYVtc",
+      "title": "LIÊN MINH HUYỀN THOẠI vs LIÊN QUÂN MOBILE: 10 Điểm Khác Biệt Một Trời Một Vực Game Thủ Cần Biết",
+      "description": "Trong làng game MOBA tại Việt Nam, Liên Minh Huyền Thoại (LOL) trên PC và Liên Quân Mobile (AOV) trên Smartphone chính là ...",
+      "thumbnail": "https://i.ytimg.com/vi/CCIWOhHYVtc/hqdefault.jpg",
+      "published": "2026-07-21T01:58:11Z",
+      "duration": 752,
+      "url": "https://www.youtube.com/watch?v=CCIWOhHYVtc"
+    },
     {
       "id": "LFLU88nnI3U",
       "title": "Where Winds Meet: 3 Cách Kiếm BẢO TIỀN Nhiều Nhất - Đổi CORE Mua Ngoại Trang Cho F2P!",
@@ -51,15 +60,6 @@
       "published": "2026-07-12T10:46:16Z",
       "duration": 571,
       "url": "https://www.youtube.com/watch?v=7smWF4BvMXA"
-    },
-    {
-      "id": "EJFT2VDe_io",
-      "title": "Vạn Thắng Nam Đế: Chọn XUẤT THÂN Nào Ngày Đầu Open Beta?",
-      "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Hôm nay, ngày 10/7/2026, siêu phẩm chiến thuật SLG mang bản ...",
-      "thumbnail": "https://i.ytimg.com/vi/EJFT2VDe_io/hqdefault.jpg",
-      "published": "2026-07-10T09:28:43Z",
-      "duration": 724,
-      "url": "https://www.youtube.com/watch?v=EJFT2VDe_io"
     }
   ]
 }
