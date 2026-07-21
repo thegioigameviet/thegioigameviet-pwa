@@ -226,6 +226,11 @@
     box-shadow:0 0 10px rgba(155,89,182,.35);
 
 }
+.character-card.xanh img{
+    border:3px solid #3498db;
+    border-radius:14px;
+    box-shadow:0 0 10px rgba(52,152,219,.35);
+}
 /* ===== CONTAINER ===== */
 
 .tier-section{
