@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-21T19:10:26.770Z",
+  "updated": "2026-07-22T02:03:31.242Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 3,
+  "total": 6,
   "videos": [
     {
       "id": "CCIWOhHYVtc",
@@ -17,22 +17,49 @@
       "url": "https://www.youtube.com/watch?v=CCIWOhHYVtc"
     },
     {
-      "id": "Ke_zMDTZdOs",
-      "title": "Where Winds Meet Cho Newbie  | Lộ Trình Lên Cấp 80 Chuẩn Nhất | Không Kẹt Cấp Không, Phí Tài Nguyên",
-      "description": "Như huynh đệ tỷ muội đều đã rõ, Where Winds Meet hiện đã mở cấp tối đa lên đến 80, kéo theo rất nhiều thay đổi trong lộ trình ...",
-      "thumbnail": "https://i.ytimg.com/vi/Ke_zMDTZdOs/hqdefault.jpg",
-      "published": "2026-01-23T05:29:59Z",
-      "duration": 645,
-      "url": "https://www.youtube.com/watch?v=Ke_zMDTZdOs"
+      "id": "MXtgCmXOx0c",
+      "title": "Chỉ vì một cục Bát Âm mà náo loạn cả vùng Giang Nam, cuối cùng ai mới là kẻ thắng cuộc?",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/MXtgCmXOx0c/hqdefault.jpg",
+      "published": "2026-07-17T12:35:35Z",
+      "duration": 108,
+      "url": "https://www.youtube.com/watch?v=MXtgCmXOx0c"
     },
     {
-      "id": "3rNoWJyavdw",
-      "title": "Gameplay Và GiftCode Kiếm Khách Phong Lăng – MMORPG Võ Hiệp Kết Duyên, Hóa Thần Chiến Đấu",
-      "description": "Hôm nay chúng ta sẽ cùng khám phá Kiếm Khách Phong Lăng – một game MMORPG võ hiệp 3D cực kỳ cuốn hút với đồ họa ...",
-      "thumbnail": "https://i.ytimg.com/vi/3rNoWJyavdw/hqdefault.jpg",
-      "published": "2025-06-21T05:34:35Z",
-      "duration": 502,
-      "url": "https://www.youtube.com/watch?v=3rNoWJyavdw"
+      "id": "DVyUxWFOFUs",
+      "title": "Trận Chiến Giang Nam Giành &quot;Bát Âm&quot; Và Cái Kết Cười Ra Nước Mắt | Where Winds Meet Phim Ngắn #1",
+      "description": "Chào mừng anh em đã đến với tập đầu tiên trong chuỗi Phim Ngắn Hài Hước \"Where Winds Meet\" (Yến Vân Thập Lục Thanh) ...",
+      "thumbnail": "https://i.ytimg.com/vi/DVyUxWFOFUs/hqdefault.jpg",
+      "published": "2026-07-15T12:08:14Z",
+      "duration": 108,
+      "url": "https://www.youtube.com/watch?v=DVyUxWFOFUs"
+    },
+    {
+      "id": "UbUAPsHKpss",
+      "title": "Việt Hóa Wuthering Waves Android Siêu Nhanh - Bước Chuẩn Bị &amp; Fix Lỗi Chi Tiết",
+      "description": "Sau hơn một năm ra mắt, bom tấn nhập vai hành động thế giới mở Wuthering Waves của nhà Kuro Games vẫn chứng minh được ...",
+      "thumbnail": "https://i.ytimg.com/vi/UbUAPsHKpss/hqdefault.jpg",
+      "published": "2026-07-14T02:04:29Z",
+      "duration": 740,
+      "url": "https://www.youtube.com/watch?v=UbUAPsHKpss"
+    },
+    {
+      "id": "7smWF4BvMXA",
+      "title": "Võ Lâm 1 Lên Đồ Họa 3D? KIẾM VŨ SƠN HÀ - Game Thuần Việt Đa Nền Tảng + Full Giftcode!",
+      "description": "Nếu anh em từng có một thời thanh xuân dữ dội, cắm chốt tại các quán net những năm 2000 để cày cấp, săn boss, cống hiến cho ...",
+      "thumbnail": "https://i.ytimg.com/vi/7smWF4BvMXA/hqdefault.jpg",
+      "published": "2026-07-12T10:46:16Z",
+      "duration": 571,
+      "url": "https://www.youtube.com/watch?v=7smWF4BvMXA"
+    },
+    {
+      "id": "EJFT2VDe_io",
+      "title": "Vạn Thắng Nam Đế: Chọn XUẤT THÂN Nào Ngày Đầu Open Beta?",
+      "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Hôm nay, ngày 10/7/2026, siêu phẩm chiến thuật SLG mang bản ...",
+      "thumbnail": "https://i.ytimg.com/vi/EJFT2VDe_io/hqdefault.jpg",
+      "published": "2026-07-10T09:28:43Z",
+      "duration": 724,
+      "url": "https://www.youtube.com/watch?v=EJFT2VDe_io"
     }
   ]
 }
