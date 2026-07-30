@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T01:52:19.198Z",
+  "updated": "2026-07-30T08:13:29.943Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "rxeHwOqd2Mc",
+      "title": "Game Kiếm Hiệp &quot;MADE IN VIETNAM&quot; Siêu Khủng: Project E Tân Nguyên Kiếm Hiệp!",
+      "description": "Làng game Việt vừa đón nhận một thông tin cực kỳ tự hào! Một tựa game MMORPG kiếm hiệp đồ họa 3D thế hệ mới do chính đội ...",
+      "thumbnail": "https://i.ytimg.com/vi/rxeHwOqd2Mc/hqdefault.jpg",
+      "published": "2026-07-30T06:13:02Z",
+      "duration": 732,
+      "url": "https://www.youtube.com/watch?v=rxeHwOqd2Mc"
+    },
     {
       "id": "x7SgFV30zYs",
       "title": "Rise of Kingdoms Hay RISE OF FARMERS? Khi Game Chiến Thuật Biến Thành Game Nông Trại!",
@@ -51,15 +60,6 @@
       "published": "2026-07-12T10:46:16Z",
       "duration": 571,
       "url": "https://www.youtube.com/watch?v=7smWF4BvMXA"
-    },
-    {
-      "id": "EJFT2VDe_io",
-      "title": "Vạn Thắng Nam Đế: Chọn XUẤT THÂN Nào Ngày Đầu Open Beta?",
-      "description": "Chào anh em game thủ đã quay trở lại với Thế Giới Game Việt! Hôm nay, ngày 10/7/2026, siêu phẩm chiến thuật SLG mang bản ...",
-      "thumbnail": "https://i.ytimg.com/vi/EJFT2VDe_io/hqdefault.jpg",
-      "published": "2026-07-10T09:28:43Z",
-      "duration": 724,
-      "url": "https://www.youtube.com/watch?v=EJFT2VDe_io"
     }
   ]
 }
