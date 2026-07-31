@@ -1,55 +1,41 @@
-document.addEventListener("DOMContentLoaded", function () {
+$(document).ready(function(){
+  var container = $("#youtube-feed");
+  if (container.length === 0) return; // trang không có widget thì bỏ qua
 
-    const container = document.getElementById("youtube-feed");
+  container.html('<div class="loader"></div>');
 
-    if (!container) return;
+  $.ajax({
+    url: "https://pwa.thegioigameviet.com/youtube.json",
+    type: "GET",
+    dataType: "json",
+    cache: true,
+    success: function(data){
+      if (!data.videos || data.videos.length === 0) {
+        container.html(msgError());
+        return;
+      }
 
-    fetch("https://pwa.thegioigameviet.com/youtube.json")
-        .then(response => response.json())
-        .then(data => {
+      var html = '<div class="content-block video-items">';
 
-            if (!data.videos || data.videos.length === 0) return;
+      $.each(data.videos, function(r, video){
+        html += '<div class="video-item item-' + r + '">' +
+                  '<a title="' + video.title + '" class="entry-image-wrap is-video" href="' + video.url + '" target="_blank" rel="noopener">' +
+                    '<span class="entry-thumb" data-image="' + video.thumbnail + '"></span>' +
+                  '</a>' +
+                  '<div class="entry-header">' +
+                    '<h2 class="entry-title">' +
+                      '<a title="' + video.title + '" href="' + video.url + '" target="_blank" rel="noopener">' + video.title + '</a>' +
+                    '</h2>' +
+                  '</div>' +
+                '</div>';
+      });
 
-            let html = '<div class="video-items">';
-
-            data.videos.forEach(video => {
-
-                html += `
-                <article class="video-item">
-
-                    <a class="entry-image-wrap"
-                       href="${video.url}"
-                       target="_blank"
-                       rel="noopener">
-
-                        <img
-                            src="${video.thumbnail}"
-                            alt="${video.title}"
-                            loading="lazy">
-
-                    </a>
-
-                    <div class="entry-header">
-
-                        <h3 class="entry-title">
-                            <a href="${video.url}"
-                               target="_blank"
-                               rel="noopener">
-                                ${video.title}
-                            </a>
-                        </h3>
-
-                    </div>
-
-                </article>`;
-
-            });
-
-            html += "</div>";
-
-            container.innerHTML = html;
-
-        })
-        .catch(console.error);
-
+      html += '</div>';
+      container.html(html);
+      container.find("span.entry-thumb").lazyify(); // đồng bộ lazy-load ảnh giống theme
+    },
+    error: function(){
+      container.html(msgError());
+    }
+  });
 });
