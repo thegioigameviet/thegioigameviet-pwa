@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T09:32:04.770Z",
+  "updated": "2026-08-03T14:25:33.074Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "yEX1y7yoww8",
+      "title": "Vũ Trụ Honor of Kings Mở Rộng: HOK ACE Có Đủ Sức Đánh Bại Đấu Trường Chân Lý?",
+      "description": "Thương hiệu game tỷ đô Honor of Kings (Vương Giả Vinh Diệu) của Tencent đang tiếp tục trướng nở với tốc độ chóng mặt!",
+      "thumbnail": "https://i.ytimg.com/vi/yEX1y7yoww8/hqdefault.jpg",
+      "published": "2026-08-03T11:08:21Z",
+      "duration": 467,
+      "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
+    },
     {
       "id": "b8QTZ14kiQY",
       "title": "LORDNINE: Vũ Khí Thứ 10 &quot;LƯỠI HÁI TỬ THẦN&quot; (Scythe) - Biến Hình 200 Linh Hồn Bá Đạo!",
@@ -51,15 +60,6 @@
       "published": "2026-07-17T12:35:35Z",
       "duration": 108,
       "url": "https://www.youtube.com/watch?v=MXtgCmXOx0c"
-    },
-    {
-      "id": "DVyUxWFOFUs",
-      "title": "Trận Chiến Giang Nam Giành &quot;Bát Âm&quot; Và Cái Kết Cười Ra Nước Mắt | Where Winds Meet Phim Ngắn #1",
-      "description": "Chào mừng anh em đã đến với tập đầu tiên trong chuỗi Phim Ngắn Hài Hước \"Where Winds Meet\" (Yến Vân Thập Lục Thanh) ...",
-      "thumbnail": "https://i.ytimg.com/vi/DVyUxWFOFUs/hqdefault.jpg",
-      "published": "2026-07-15T12:08:14Z",
-      "duration": 108,
-      "url": "https://www.youtube.com/watch?v=DVyUxWFOFUs"
     }
   ]
 }
