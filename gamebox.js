@@ -146,13 +146,10 @@ if (downloadHTML) {
           <div class="game-description">
             ${data.description || ''}
           </div>
-
- ${downloadHTML}
-
         </div>
 
       </div>
-
+ ${downloadHTML}
 <div class="gallery-wrapper">
 
     <button class="gallery-prev">❮</button>
