@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T01:57:34.031Z",
+  "updated": "2026-08-04T08:27:21.738Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -15,15 +15,6 @@
       "published": "2026-08-03T11:08:21Z",
       "duration": 467,
       "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
-    },
-    {
-      "id": "b8QTZ14kiQY",
-      "title": "LORDNINE: Vũ Khí Thứ 10 &quot;LƯỠI HÁI TỬ THẦN&quot; (Scythe) - Biến Hình 200 Linh Hồn Bá Đạo!",
-      "description": "Sau thời gian dài duy trì 9 loại vũ khí truyền thống, nhà phát hành Smilegate cuối cùng đã chính thức hé lộ Vũ khí Mastery thứ 10 ...",
-      "thumbnail": "https://i.ytimg.com/vi/b8QTZ14kiQY/hqdefault.jpg",
-      "published": "2026-07-31T09:09:56Z",
-      "duration": 728,
-      "url": "https://www.youtube.com/watch?v=b8QTZ14kiQY"
     },
     {
       "id": "rxeHwOqd2Mc",
@@ -60,6 +51,15 @@
       "published": "2026-07-17T12:35:35Z",
       "duration": 108,
       "url": "https://www.youtube.com/watch?v=MXtgCmXOx0c"
+    },
+    {
+      "id": "DVyUxWFOFUs",
+      "title": "Trận Chiến Giang Nam Giành &quot;Bát Âm&quot; Và Cái Kết Cười Ra Nước Mắt | Where Winds Meet Phim Ngắn #1",
+      "description": "Chào mừng anh em đã đến với tập đầu tiên trong chuỗi Phim Ngắn Hài Hước \"Where Winds Meet\" (Yến Vân Thập Lục Thanh) ...",
+      "thumbnail": "https://i.ytimg.com/vi/DVyUxWFOFUs/hqdefault.jpg",
+      "published": "2026-07-15T12:08:14Z",
+      "duration": 108,
+      "url": "https://www.youtube.com/watch?v=DVyUxWFOFUs"
     }
   ]
 }
