@@ -43,7 +43,7 @@ if (data.pc) {
        rel="nofollow noopener">
       <span class="dl-icon">
         <img alt="Download PC"
-             src="https://pwa.thegioigameviet.com/images/windows.webp"
+             src="https://pwa.thegioigameviet.com/images/windows.png"
              width="30"
              height="30">
       </span>
