@@ -34,24 +34,6 @@ postBody.style.display='none';
   });
 // Download buttons
 let downloadHTML = "";
-
-if (data.pc) {
-  downloadHTML += `
-    <a class="download-btn ios-btn"
-       href="${data.pc}"
-       target="_blank"
-       rel="nofollow noopener">
-      <span class="dl-icon">
-        <img alt="Download PC"
-             src="https://pwa.thegioigameviet.com/images/windows.png"
-             width="30"
-             height="30">
-      </span>
-      <span style="color:white;">Tải PC</span>
-    </a>
-  `;
-}
-
 if (data.android) {
   downloadHTML += `
     <a class="download-btn android-btn"
@@ -86,6 +68,23 @@ if (data.ios) {
   `;
 }
 
+if (data.pc) {
+  downloadHTML += `
+    <a class="download-btn ios-btn"
+       href="${data.pc}"
+       target="_blank"
+       rel="nofollow noopener">
+      <span class="dl-icon">
+        <img alt="Download PC"
+             src="https://pwa.thegioigameviet.com/images/windows.png"
+             width="30"
+             height="30">
+      </span>
+      <span style="color:white;">Tải PC</span>
+    </a>
+  `;
+}
+  
 if (downloadHTML) {
   downloadHTML = `<div class="download-group">${downloadHTML}</div>`;
 }
