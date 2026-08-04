@@ -91,10 +91,80 @@ postBody.style.display='none';
           <div class="game-description">
             ${data.description || ''}
           </div>
+rawData.split("\n").forEach(line => {
+    const parts = line.split("=");
 
-        <div class="download-group"> <a class="download-btn android-btn" href="${data.android || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img alt="Dowload Android" border="0" height="30" src="https://pwa.thegioigameviet.com/images/android.webp" width="30" /></span><span style="color: black;"> Tải Android </a></span> <a class="download-btn ios-btn" href="${data.ios || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img alt="Dowload IOS" border="0" height="30" src="https://pwa.thegioigameviet.com/images/ios.webp" width="30" /></span><span style="color: white;"> Tải iOS </span></a> </div>
+    if (parts.length >= 2) {
+        const key = parts[0].trim();
+        const value = parts.slice(1).join("=").trim();
+        data[key] = value;
+    }
+});
+// Download buttons
+let downloadButtons = "";
 
-        </div>
+// PC
+if (data.pc) {
+    downloadButtons += `
+        <a class="download-btn ios-btn"
+           href="${data.pc}"
+           target="_blank"
+           rel="nofollow noopener">
+            <span class="dl-icon">
+                <img
+                    src="https://pwa.thegioigameviet.com/images/windows.webp"
+                    width="30"
+                    height="30"
+                    alt="Download PC">
+            </span>
+            <span style="color:white;">Tải PC</span>
+        </a>
+    `;
+}
+
+// Android
+if (data.android) {
+    downloadButtons += `
+        <a class="download-btn android-btn"
+           href="${data.android}"
+           target="_blank"
+           rel="nofollow noopener">
+            <span class="dl-icon">
+                <img
+                    src="https://pwa.thegioigameviet.com/images/android.webp"
+                    width="30"
+                    height="30"
+                    alt="Download Android">
+            </span>
+            <span style="color:black;">Tải Android</span>
+        </a>
+    `;
+}
+
+// iOS
+if (data.ios) {
+    downloadButtons += `
+        <a class="download-btn ios-btn"
+           href="${data.ios}"
+           target="_blank"
+           rel="nofollow noopener">
+            <span class="dl-icon">
+                <img
+                    src="https://pwa.thegioigameviet.com/images/ios.webp"
+                    width="30"
+                    height="30"
+                    alt="Download iOS">
+            </span>
+            <span style="color:white;">Tải iOS</span>
+        </a>
+    `;
+}
+
+const downloadHTML = downloadButtons
+    ? `<div class="download-group">${downloadButtons}</div>`
+    : "";
+
+${downloadHTML}
 
       </div>
 
@@ -147,3 +217,4 @@ if (gallery) {
 
 }
 });
+
