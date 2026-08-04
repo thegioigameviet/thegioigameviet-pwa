@@ -130,17 +130,17 @@ if (downloadHTML) {
           <div class="game-meta">
 
             <div class="meta-item">
-              <span>🎮 Category:</span>
-              <strong>${data.category || 'Updating'}</strong>
+              <span>🎮 Thể loại:</span>
+              <strong>${data.category || 'Đang Cập Nhật'}</strong>
             </div>
 
             <div class="meta-item">
-              <span>🏢 Publisher:</span>
-              <strong>${data.publisher || 'Updating'}</strong>
+              <span>🏢 Nhà phát hành:</span>
+              <strong>${data.publisher || 'Đang Cập Nhật'}</strong>
             </div>
   <div class="meta-item">
-    <span>📅 Release Date:</span>
-    <strong>${data.release || 'Updating'}</strong>
+    <span>📅 Ngày phát hành:</span>
+    <strong>${data.release || 'Đang Cập Nhật'}</strong>
   </div>
           </div>
 
