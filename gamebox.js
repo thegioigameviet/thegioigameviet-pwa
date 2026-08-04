@@ -1,1 +1,205 @@
-document.addEventListener("DOMContentLoaded", function () { const postBody = document.querySelector(".post-body"); if (!postBody) return; let content = postBody.innerHTML; // Tìm gamebox const gameBoxRegex = /\[gamebox\]([\s\S]*?)\[\/gamebox\]/i; const match = content.match(gameBoxRegex); if (!match) return; postBody.style.display='none'; const rawData = match[1].trim(); const data = {}; rawData.split("\n").forEach(line => { const parts = line.split("="); if (parts.length >= 2) { const key = parts[0].trim(); const value = parts.slice(1).join("=").trim(); data[key] = value; } }); // Gallery xử lý let galleryHTML = ""; if (data.gallery) { const images = data.gallery.split(","); images.forEach(img => { galleryHTML += <div class="game-thumb"> <a href="${img.trim()}"><img loading="lazy" src="${img.trim()}" alt="${data.title}" /></a> </div> ; }); } // Render game box const gameBoxHTML = <section class="modern-game-box"> <div class="game-top"> <div class="game-cover"> <img src="${data.thumbnail || ''}" alt="${data.title || ''}" loading="eager" /> </div> <div class="game-info"> <h1 class="game-title"> ${data.title || ''} </h1> <div class="game-meta"> <div class="meta-item"> <span>🎮 Thể loại:</span> <strong>${data.category || 'Đang Cập Nhật'}</strong> </div> <div class="meta-item"> <span>🏢 Nhà phát hành:</span> <strong>${data.publisher || 'Đang Cập Nhật'}</strong> </div> <div class="meta-item"> <span>📅 Ngày phát hành:</span> <strong>${data.release || 'Đang Cập Nhật'}</strong> </div> </div> <div class="game-description"> ${data.description || ''} </div> <div class="download-group"> <a class="download-btn android-btn" href="${data.android || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img alt="Dowload Android" border="0" height="30" src="https://pwa.thegioigameviet.com/images/android.webp" width="30" /></span><span style="color: black;"> Tải Android </a></span> <a class="download-btn ios-btn" href="${data.ios || '#'}" target="_blank" rel="nofollow noopener" > <span class="dl-icon"><img alt="Dowload IOS" border="0" height="30" src="https://pwa.thegioigameviet.com/images/ios.webp" width="30" /></span><span style="color: white;"> Tải iOS </span></a> </div> </div> </div> <div class="gallery-wrapper"> <button class="gallery-prev">❮</button> <div class="game-gallery"> ${galleryHTML} </div> <button class="gallery-next">❯</button> </div> </section> ; // Thay shortcode bằng gamebox content = content.replace(gameBoxRegex, gameBoxHTML); // Render phần chi tiết content = content.replace( /\[chitiet\]([\s\S]*?)\[\/chitiet\]/i, <div class="game-detail">$1</div> ); postBody.innerHTML = content; postBody.style.display=''; const gallery = document.querySelector(".game-gallery"); if (gallery) { const prev = document.querySelector(".gallery-prev"); const next = document.querySelector(".gallery-next"); next.addEventListener("click", () => { gallery.scrollBy({ left: 340, behavior: "smooth" }); }); prev.addEventListener("click", () => { gallery.scrollBy({ left: -340, behavior: "smooth" }); }); } });
+document.addEventListener("DOMContentLoaded", function () {
+
+  const postBody = document.querySelector(".post-body");
+
+  if (!postBody) return;
+
+  let content = postBody.innerHTML;
+
+  // Tìm gamebox
+  const gameBoxRegex = /\[gamebox\]([\s\S]*?)\[\/gamebox\]/i;
+
+  const match = content.match(gameBoxRegex);
+
+  if (!match) return;
+postBody.style.display='none';
+  const rawData = match[1].trim();
+
+  const data = {};
+
+  rawData.split("\n").forEach(line => {
+
+    const parts = line.split("=");
+
+    if (parts.length >= 2) {
+
+      const key = parts[0].trim();
+
+      const value = parts.slice(1).join("=").trim();
+
+      data[key] = value;
+
+    }
+
+  });
+// Download buttons
+let downloadHTML = "";
+
+if (data.pc) {
+  downloadHTML += `
+    <a class="download-btn ios-btn"
+       href="${data.pc}"
+       target="_blank"
+       rel="nofollow noopener">
+      <span class="dl-icon">
+        <img alt="Download PC"
+             src="https://pwa.thegioigameviet.com/images/windows.webp"
+             width="30"
+             height="30">
+      </span>
+      <span style="color:white;">Tải PC</span>
+    </a>
+  `;
+}
+
+if (data.android) {
+  downloadHTML += `
+    <a class="download-btn android-btn"
+       href="${data.android}"
+       target="_blank"
+       rel="nofollow noopener">
+      <span class="dl-icon">
+        <img alt="Download Android"
+             src="https://pwa.thegioigameviet.com/images/android.webp"
+             width="30"
+             height="30">
+      </span>
+      <span style="color:black;">Tải Android</span>
+    </a>
+  `;
+}
+
+if (data.ios) {
+  downloadHTML += `
+    <a class="download-btn ios-btn"
+       href="${data.ios}"
+       target="_blank"
+       rel="nofollow noopener">
+      <span class="dl-icon">
+        <img alt="Download iOS"
+             src="https://pwa.thegioigameviet.com/images/ios.webp"
+             width="30"
+             height="30">
+      </span>
+      <span style="color:white;">Tải iOS</span>
+    </a>
+  `;
+}
+
+if (downloadHTML) {
+  downloadHTML = `<div class="download-group">${downloadHTML}</div>`;
+}
+  // Gallery xử lý
+  let galleryHTML = "";
+
+  if (data.gallery) {
+
+    const images = data.gallery.split(",");
+
+    images.forEach(img => {
+
+      galleryHTML += `
+        <div class="game-thumb">
+          <a href="${img.trim()}"><img loading="lazy" src="${img.trim()}" alt="${data.title}" /></a>
+        </div>
+      `;
+
+    });
+
+  }
+
+  // Render game box
+  const gameBoxHTML = `
+    <section class="modern-game-box">
+      <div class="game-top">
+
+        <div class="game-cover">
+          <img
+            src="${data.thumbnail || ''}"
+            alt="${data.title || ''}"
+            loading="eager"
+          />
+        </div>
+
+        <div class="game-info">
+
+          <h1 class="game-title">
+            ${data.title || ''}
+          </h1>
+
+          <div class="game-meta">
+
+            <div class="meta-item">
+              <span>🎮 Category:</span>
+              <strong>${data.category || 'Updating'}</strong>
+            </div>
+
+            <div class="meta-item">
+              <span>🏢 Publisher:</span>
+              <strong>${data.publisher || 'Updating'}</strong>
+            </div>
+  <div class="meta-item">
+    <span>📅 Release Date:</span>
+    <strong>${data.release || 'Updating'}</strong>
+  </div>
+          </div>
+
+          <div class="game-description">
+            ${data.description || ''}
+          </div>
+
+ ${downloadHTML}
+
+        </div>
+
+      </div>
+
+<div class="gallery-wrapper">
+
+    <button class="gallery-prev">❮</button>
+
+    <div class="game-gallery">
+        ${galleryHTML}
+    </div>
+
+    <button class="gallery-next">❯</button>
+
+</div>
+
+    </section>
+  `;
+
+  // Thay shortcode bằng gamebox
+  content = content.replace(gameBoxRegex, gameBoxHTML);
+
+  // Render phần chi tiết
+  content = content.replace(
+    /\[chitiet\]([\s\S]*?)\[\/chitiet\]/i,
+    `<div class="game-detail">$1</div>`
+  );
+
+postBody.innerHTML = content;
+postBody.style.display='';
+  const gallery = document.querySelector(".game-gallery");
+
+if (gallery) {
+
+    const prev = document.querySelector(".gallery-prev");
+    const next = document.querySelector(".gallery-next");
+
+    next.addEventListener("click", () => {
+        gallery.scrollBy({
+            left: 340,
+            behavior: "smooth"
+        });
+    });
+
+    prev.addEventListener("click", () => {
+        gallery.scrollBy({
+            left: -340,
+            behavior: "smooth"
+        });
+    });
+
+}
+});
