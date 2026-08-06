@@ -43,8 +43,8 @@ if (data.android) {
       <span class="dl-icon">
         <img alt="Download Android"
              src="https://pwa.thegioigameviet.com/images/android.webp"
-             width="30"
-             height="30">
+             width="25"
+             height="25">
       </span>
       <span style="color:black;">Android</span>
     </a>
@@ -60,8 +60,8 @@ if (data.ios) {
       <span class="dl-icon">
         <img alt="Download iOS"
              src="https://pwa.thegioigameviet.com/images/ios.webp"
-             width="30"
-             height="30">
+             width="25"
+             height="25">
       </span>
       <span style="color:white;">iOS</span>
     </a>
@@ -77,8 +77,8 @@ if (data.pc) {
       <span class="dl-icon">
         <img alt="Download PC"
              src="https://pwa.thegioigameviet.com/images/windows.png"
-             width="30"
-             height="30">
+             width="25"
+             height="25">
       </span>
       <span style="color:white;">PC</span>
     </a>
