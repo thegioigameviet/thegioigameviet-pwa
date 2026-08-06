@@ -46,7 +46,7 @@ if (data.android) {
              width="25"
              height="25">
       </span>
-      <span style="color:black;  font-size: 12px;">Android</span>
+      <span style="color:#000;font-size:.95rem;white-space:nowrap;">Android</span>
     </a>
   `;
 }
@@ -80,7 +80,7 @@ if (data.pc) {
              width="25"
              height="25">
       </span>
-      <span style="color:white;">PC</span>
+      <span style="color:white;">Windows</span>
     </a>
   `;
 }
