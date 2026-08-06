@@ -46,7 +46,7 @@ if (data.android) {
              width="30"
              height="30">
       </span>
-      <span style="color:black;">Tải Android</span>
+      <span style="color:black;">Android</span>
     </a>
   `;
 }
@@ -63,7 +63,7 @@ if (data.ios) {
              width="30"
              height="30">
       </span>
-      <span style="color:white;">Tải iOS</span>
+      <span style="color:white;">iOS</span>
     </a>
   `;
 }
@@ -80,7 +80,7 @@ if (data.pc) {
              width="30"
              height="30">
       </span>
-      <span style="color:white;">Tải PC</span>
+      <span style="color:white;">PC</span>
     </a>
   `;
 }
