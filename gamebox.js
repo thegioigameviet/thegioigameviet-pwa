@@ -46,7 +46,7 @@ if (data.android) {
              width="25"
              height="25">
       </span>
-      <span style="color:black;">Android</span>
+      <span style="color:black;  font-size: 12px;">Android</span>
     </a>
   `;
 }
