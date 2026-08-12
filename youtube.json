@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T01:21:07.356Z",
+  "updated": "2026-08-12T07:15:16.087Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "xtprtBVt5Ng",
+      "title": "Neverness To Everness vs Zenless Zone Zero: NTE Có Phải ZZZ Phiên Bản Thế Giới Mở?",
+      "description": "Mỗi khi trailer hay thông tin mới của Neverness To Everness (NTE) xuất hiện, câu hỏi được cãi xôn xao nhất dưới phần bình luận ...",
+      "thumbnail": "https://i.ytimg.com/vi/xtprtBVt5Ng/hqdefault.jpg",
+      "published": "2026-08-12T02:18:25Z",
+      "duration": 940,
+      "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
+    },
     {
       "id": "Gr2jShrMA5c",
       "title": "Hướng Dẫn Tải ROAD TO EMPRESS II: Thịnh Thế Thiên Hạ Trên Android &amp; iPhone!",
@@ -51,15 +60,6 @@
       "published": "2026-07-25T10:49:12Z",
       "duration": 742,
       "url": "https://www.youtube.com/watch?v=JG__SGrc_NA"
-    },
-    {
-      "id": "MXtgCmXOx0c",
-      "title": "Chỉ vì một cục Bát Âm mà náo loạn cả vùng Giang Nam, cuối cùng ai mới là kẻ thắng cuộc?",
-      "description": "",
-      "thumbnail": "https://i.ytimg.com/vi/MXtgCmXOx0c/hqdefault.jpg",
-      "published": "2026-07-17T12:35:35Z",
-      "duration": 108,
-      "url": "https://www.youtube.com/watch?v=MXtgCmXOx0c"
     }
   ]
 }
