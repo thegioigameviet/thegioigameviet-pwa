@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T18:29:32.477Z",
+  "updated": "2026-08-18T00:52:56.073Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,15 +7,6 @@
   },
   "total": 6,
   "videos": [
-    {
-      "id": "WelljveSA-o",
-      "title": "Where Winds Meet 2.1: Chi Tiết Bản Cập Nhật Ngày 20/8 - Boss Cơ Giới &amp; Mê Cung Vạn Biến!",
-      "description": "Bản cập nhật lớn 2.1 của Where Winds Meet (Yến Vân Thập Lục Thanh) sẽ chính thức lên sóng vào ngày 20 tháng 8 tới đây!",
-      "thumbnail": "https://i.ytimg.com/vi/WelljveSA-o/hqdefault.jpg",
-      "published": "2026-08-15T03:41:14Z",
-      "duration": 282,
-      "url": "https://www.youtube.com/watch?v=WelljveSA-o"
-    },
     {
       "id": "xtprtBVt5Ng",
       "title": "Neverness To Everness vs Zenless Zone Zero: NTE Có Phải ZZZ Phiên Bản Thế Giới Mở?",
@@ -60,6 +51,15 @@
       "published": "2026-07-26T09:48:57Z",
       "duration": 726,
       "url": "https://www.youtube.com/watch?v=x7SgFV30zYs"
+    },
+    {
+      "id": "JG__SGrc_NA",
+      "title": "So Sánh Khinh Công: Where Winds Meet vs Nghịch Thủy Hàn - Game Nào Bay Đã Hơn?",
+      "description": "Trong dòng game kiếm hiệp Võ Lâm, Khinh công không chỉ là công cụ di chuyển mà còn là \"linh hồn\" tạo nên cảm giác phiêu bạt ...",
+      "thumbnail": "https://i.ytimg.com/vi/JG__SGrc_NA/hqdefault.jpg",
+      "published": "2026-07-25T10:49:12Z",
+      "duration": 742,
+      "url": "https://www.youtube.com/watch?v=JG__SGrc_NA"
     }
   ]
 }
