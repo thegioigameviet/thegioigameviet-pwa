@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T06:32:15.463Z",
+  "updated": "2026-08-18T12:32:41.301Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "RIEjOpWl1sk",
+      "title": "Hell Let Loose: Vietnam – Khi chiến tranh Việt Nam được tái hiện bằng một Game FPS chiến thuật 50v50",
+      "description": "Nếu anh em đã quá chán nản với phong cách \"chạy và bắn\" (Run and Gun) tốc độ cao của Call of Duty hay muốn tìm kiếm một ...",
+      "thumbnail": "https://i.ytimg.com/vi/RIEjOpWl1sk/hqdefault.jpg",
+      "published": "2026-08-18T10:57:34Z",
+      "duration": 912,
+      "url": "https://www.youtube.com/watch?v=RIEjOpWl1sk"
+    },
     {
       "id": "xtprtBVt5Ng",
       "title": "Neverness To Everness vs Zenless Zone Zero: NTE Có Phải ZZZ Phiên Bản Thế Giới Mở?",
@@ -51,15 +60,6 @@
       "published": "2026-07-26T09:48:57Z",
       "duration": 726,
       "url": "https://www.youtube.com/watch?v=x7SgFV30zYs"
-    },
-    {
-      "id": "JG__SGrc_NA",
-      "title": "So Sánh Khinh Công: Where Winds Meet vs Nghịch Thủy Hàn - Game Nào Bay Đã Hơn?",
-      "description": "Trong dòng game kiếm hiệp Võ Lâm, Khinh công không chỉ là công cụ di chuyển mà còn là \"linh hồn\" tạo nên cảm giác phiêu bạt ...",
-      "thumbnail": "https://i.ytimg.com/vi/JG__SGrc_NA/hqdefault.jpg",
-      "published": "2026-07-25T10:49:12Z",
-      "duration": 742,
-      "url": "https://www.youtube.com/watch?v=JG__SGrc_NA"
     }
   ]
 }
