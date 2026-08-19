@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-19T06:33:02.383Z",
+  "updated": "2026-08-19T12:33:41.084Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 3,
+  "total": 6,
   "videos": [
     {
       "id": "RIEjOpWl1sk",
@@ -17,22 +17,49 @@
       "url": "https://www.youtube.com/watch?v=RIEjOpWl1sk"
     },
     {
-      "id": "Ke_zMDTZdOs",
-      "title": "Where Winds Meet Cho Newbie  | Lộ Trình Lên Cấp 80 Chuẩn Nhất | Không Kẹt Cấp Không, Phí Tài Nguyên",
-      "description": "Như huynh đệ tỷ muội đều đã rõ, Where Winds Meet hiện đã mở cấp tối đa lên đến 80, kéo theo rất nhiều thay đổi trong lộ trình ...",
-      "thumbnail": "https://i.ytimg.com/vi/Ke_zMDTZdOs/hqdefault.jpg",
-      "published": "2026-01-23T05:29:59Z",
-      "duration": 645,
-      "url": "https://www.youtube.com/watch?v=Ke_zMDTZdOs"
+      "id": "xtprtBVt5Ng",
+      "title": "Neverness To Everness vs Zenless Zone Zero: NTE Có Phải ZZZ Phiên Bản Thế Giới Mở?",
+      "description": "Mỗi khi trailer hay thông tin mới của Neverness To Everness (NTE) xuất hiện, câu hỏi được cãi xôn xao nhất dưới phần bình luận ...",
+      "thumbnail": "https://i.ytimg.com/vi/xtprtBVt5Ng/hqdefault.jpg",
+      "published": "2026-08-12T02:18:25Z",
+      "duration": 940,
+      "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
     },
     {
-      "id": "3rNoWJyavdw",
-      "title": "Gameplay Và GiftCode Kiếm Khách Phong Lăng – MMORPG Võ Hiệp Kết Duyên, Hóa Thần Chiến Đấu",
-      "description": "Hôm nay chúng ta sẽ cùng khám phá Kiếm Khách Phong Lăng – một game MMORPG võ hiệp 3D cực kỳ cuốn hút với đồ họa ...",
-      "thumbnail": "https://i.ytimg.com/vi/3rNoWJyavdw/hqdefault.jpg",
-      "published": "2025-06-21T05:34:35Z",
-      "duration": 502,
-      "url": "https://www.youtube.com/watch?v=3rNoWJyavdw"
+      "id": "Gr2jShrMA5c",
+      "title": "Hướng Dẫn Tải ROAD TO EMPRESS II: Thịnh Thế Thiên Hạ Trên Android &amp; iPhone!",
+      "description": "Nếu anh em từng say đắm những mưu đồ quyền lực nghẹt thở trong các bộ phim truyền hình kinh điển như Võ Mị Nương Truyền ...",
+      "thumbnail": "https://i.ytimg.com/vi/Gr2jShrMA5c/hqdefault.jpg",
+      "published": "2026-08-06T03:05:42Z",
+      "duration": 395,
+      "url": "https://www.youtube.com/watch?v=Gr2jShrMA5c"
+    },
+    {
+      "id": "yEX1y7yoww8",
+      "title": "Vũ Trụ Honor of Kings Mở Rộng: HOK ACE Có Đủ Sức Đánh Bại Đấu Trường Chân Lý?",
+      "description": "Thương hiệu game tỷ đô Honor of Kings (Vương Giả Vinh Diệu) của Tencent đang tiếp tục trướng nở với tốc độ chóng mặt!",
+      "thumbnail": "https://i.ytimg.com/vi/yEX1y7yoww8/hqdefault.jpg",
+      "published": "2026-08-03T11:08:21Z",
+      "duration": 467,
+      "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
+    },
+    {
+      "id": "rxeHwOqd2Mc",
+      "title": "Game Kiếm Hiệp &quot;MADE IN VIETNAM&quot; Siêu Khủng: Project E Tân Nguyên Kiếm Hiệp!",
+      "description": "Làng game Việt vừa đón nhận một thông tin cực kỳ tự hào! Một tựa game MMORPG kiếm hiệp đồ họa 3D thế hệ mới do chính đội ...",
+      "thumbnail": "https://i.ytimg.com/vi/rxeHwOqd2Mc/hqdefault.jpg",
+      "published": "2026-07-30T06:13:02Z",
+      "duration": 732,
+      "url": "https://www.youtube.com/watch?v=rxeHwOqd2Mc"
+    },
+    {
+      "id": "x7SgFV30zYs",
+      "title": "Rise of Kingdoms Hay RISE OF FARMERS? Khi Game Chiến Thuật Biến Thành Game Nông Trại!",
+      "description": "Đã bao giờ anh em đăng nhập vào Rise of Kingdoms (RoK) và chợt giật mình tự hỏi: \"Rốt cuộc mình đang chơi game chiến tranh ...",
+      "thumbnail": "https://i.ytimg.com/vi/x7SgFV30zYs/hqdefault.jpg",
+      "published": "2026-07-26T09:48:57Z",
+      "duration": 726,
+      "url": "https://www.youtube.com/watch?v=x7SgFV30zYs"
     }
   ]
 }
