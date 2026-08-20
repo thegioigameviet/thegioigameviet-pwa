@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T06:34:55.270Z",
+  "updated": "2026-08-20T12:34:42.186Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "fIhoQIgISa8",
+      "title": "Phantom Blade Zero: Đối Thủ Cực &quot;Khủng&quot; Khiến Where Winds Meet Phải Đè Phòng!",
+      "description": "Nếu như Where Winds Meet mang lại cảm giác được thực sự hòa mình vào một thế giới võ lâm rộng lớn, nơi anh em làm một ...",
+      "thumbnail": "https://i.ytimg.com/vi/fIhoQIgISa8/hqdefault.jpg",
+      "published": "2026-08-20T11:25:16Z",
+      "duration": 1119,
+      "url": "https://www.youtube.com/watch?v=fIhoQIgISa8"
+    },
     {
       "id": "RIEjOpWl1sk",
       "title": "Hell Let Loose: Vietnam – Khi chiến tranh Việt Nam được tái hiện bằng một Game FPS chiến thuật 50v50",
@@ -51,15 +60,6 @@
       "published": "2026-07-30T06:13:02Z",
       "duration": 732,
       "url": "https://www.youtube.com/watch?v=rxeHwOqd2Mc"
-    },
-    {
-      "id": "x7SgFV30zYs",
-      "title": "Rise of Kingdoms Hay RISE OF FARMERS? Khi Game Chiến Thuật Biến Thành Game Nông Trại!",
-      "description": "Đã bao giờ anh em đăng nhập vào Rise of Kingdoms (RoK) và chợt giật mình tự hỏi: \"Rốt cuộc mình đang chơi game chiến tranh ...",
-      "thumbnail": "https://i.ytimg.com/vi/x7SgFV30zYs/hqdefault.jpg",
-      "published": "2026-07-26T09:48:57Z",
-      "duration": 726,
-      "url": "https://www.youtube.com/watch?v=x7SgFV30zYs"
     }
   ]
 }
