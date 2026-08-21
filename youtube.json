@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T06:35:09.578Z",
+  "updated": "2026-08-21T12:34:12.489Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -24,15 +24,6 @@
       "published": "2026-08-20T11:25:16Z",
       "duration": 1119,
       "url": "https://www.youtube.com/watch?v=fIhoQIgISa8"
-    },
-    {
-      "id": "RIEjOpWl1sk",
-      "title": "Hell Let Loose: Vietnam – Khi chiến tranh Việt Nam được tái hiện bằng một Game FPS chiến thuật 50v50",
-      "description": "Nếu anh em đã quá chán nản với phong cách \"chạy và bắn\" (Run and Gun) tốc độ cao của Call of Duty hay muốn tìm kiếm một ...",
-      "thumbnail": "https://i.ytimg.com/vi/RIEjOpWl1sk/hqdefault.jpg",
-      "published": "2026-08-18T10:57:34Z",
-      "duration": 912,
-      "url": "https://www.youtube.com/watch?v=RIEjOpWl1sk"
     },
     {
       "id": "xtprtBVt5Ng",
@@ -60,6 +51,15 @@
       "published": "2026-08-03T11:08:21Z",
       "duration": 467,
       "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
+    },
+    {
+      "id": "rxeHwOqd2Mc",
+      "title": "Game Kiếm Hiệp &quot;MADE IN VIETNAM&quot; Siêu Khủng: Project E Tân Nguyên Kiếm Hiệp!",
+      "description": "Làng game Việt vừa đón nhận một thông tin cực kỳ tự hào! Một tựa game MMORPG kiếm hiệp đồ họa 3D thế hệ mới do chính đội ...",
+      "thumbnail": "https://i.ytimg.com/vi/rxeHwOqd2Mc/hqdefault.jpg",
+      "published": "2026-07-30T06:13:02Z",
+      "duration": 732,
+      "url": "https://www.youtube.com/watch?v=rxeHwOqd2Mc"
     }
   ]
 }
