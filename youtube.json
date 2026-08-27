@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T06:42:09.186Z",
+  "updated": "2026-08-27T21:35:24.708Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "ljC4HekDaJk",
+      "title": "Siêu Phẩm Tu Tiên Sinh Tồn UE5 Từ Snail Games: Cửu Âm Chân Kinh Chuyển Thể Tu Tiên!",
+      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Nếu anh em đã từng gắn liền tuổi thơ với siêu phẩm Cửu Âm Chân ...",
+      "thumbnail": "https://i.ytimg.com/vi/ljC4HekDaJk/hqdefault.jpg",
+      "published": "2026-08-27T10:52:29Z",
+      "duration": 584,
+      "url": "https://www.youtube.com/watch?v=ljC4HekDaJk"
+    },
     {
       "id": "S9VcY58kfj4",
       "title": "Phantom Blade Zero Full Gameplay Walkthrough | 40 Minutes of Pure Gameplay",
@@ -51,15 +60,6 @@
       "published": "2026-08-12T02:18:25Z",
       "duration": 940,
       "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
-    },
-    {
-      "id": "Gr2jShrMA5c",
-      "title": "Hướng Dẫn Tải ROAD TO EMPRESS II: Thịnh Thế Thiên Hạ Trên Android &amp; iPhone!",
-      "description": "Nếu anh em từng say đắm những mưu đồ quyền lực nghẹt thở trong các bộ phim truyền hình kinh điển như Võ Mị Nương Truyền ...",
-      "thumbnail": "https://i.ytimg.com/vi/Gr2jShrMA5c/hqdefault.jpg",
-      "published": "2026-08-06T03:05:42Z",
-      "duration": 395,
-      "url": "https://www.youtube.com/watch?v=Gr2jShrMA5c"
     }
   ]
 }
