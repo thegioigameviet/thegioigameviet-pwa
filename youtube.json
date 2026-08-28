@@ -1,12 +1,21 @@
 {
-  "updated": "2026-08-28T08:32:21.632Z",
+  "updated": "2026-08-28T21:38:48.304Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 2,
+  "total": 3,
   "videos": [
+    {
+      "id": "zBw9QMu7ZPU",
+      "title": "Cửu Âm Chân Kinh Trở Lại! 9 Yin Sutra: Wuxia - Thế Giới Mở Sandbox Võ Hiệp Siêu Đỉnh",
+      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Snail Games đang chuẩn bị mang thương hiệu kiếm hiệp huyền ...",
+      "thumbnail": "https://i.ytimg.com/vi/zBw9QMu7ZPU/hqdefault.jpg",
+      "published": "2026-08-28T11:33:30Z",
+      "duration": 725,
+      "url": "https://www.youtube.com/watch?v=zBw9QMu7ZPU"
+    },
     {
       "id": "ljC4HekDaJk",
       "title": "Siêu Phẩm Tu Tiên Sinh Tồn UE5 Từ Snail Games: Cửu Âm Chân Kinh Chuyển Thể Tu Tiên!",
