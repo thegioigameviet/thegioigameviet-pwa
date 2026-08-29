@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-29T12:07:08.129Z",
+  "updated": "2026-08-29T20:16:52.290Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 4,
+  "total": 3,
   "videos": [
     {
       "id": "lBKpXR3AdH8",
@@ -33,15 +33,6 @@
       "published": "2026-08-27T10:52:29Z",
       "duration": 584,
       "url": "https://www.youtube.com/watch?v=ljC4HekDaJk"
-    },
-    {
-      "id": "JHNk3nTV1XY",
-      "title": "Funtap Chính Thức Hợp Tác NetEase Phát Hành Where Winds Meet Tại Việt Nam!",
-      "description": "Cộng đồng game thủ Where Winds Meet (Yến Vân Thập Lục Thanh) tại Việt Nam vừa nhận được một thông tin cực kỳ chấn động: ...",
-      "thumbnail": "https://i.ytimg.com/vi/JHNk3nTV1XY/hqdefault.jpg",
-      "published": "2026-08-21T00:51:42Z",
-      "duration": 544,
-      "url": "https://www.youtube.com/watch?v=JHNk3nTV1XY"
     }
   ]
 }
