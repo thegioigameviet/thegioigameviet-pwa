@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-30T15:52:09.092Z",
+  "updated": "2026-08-30T20:23:00.493Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 6,
+  "total": 4,
   "videos": [
     {
       "id": "j9xlXb7qzak",
@@ -42,24 +42,6 @@
       "published": "2026-08-27T10:52:29Z",
       "duration": 584,
       "url": "https://www.youtube.com/watch?v=ljC4HekDaJk"
-    },
-    {
-      "id": "S9VcY58kfj4",
-      "title": "Phantom Blade Zero Full Gameplay Walkthrough | 40 Minutes of Pure Gameplay",
-      "description": "Experience 40 minutes of pure Phantom Blade Zero gameplay with no commentary. This gameplay showcases the game's ...",
-      "thumbnail": "https://i.ytimg.com/vi/S9VcY58kfj4/hqdefault.jpg",
-      "published": "2026-08-24T02:00:26Z",
-      "duration": 3566,
-      "url": "https://www.youtube.com/watch?v=S9VcY58kfj4"
-    },
-    {
-      "id": "ppg7sOm33JE",
-      "title": "Where Winds Meet Việt Nam Ấn Định Ngày Ra Mắt 10/09! Funtap Lên Sóng Mobile",
-      "description": "Cuối cùng thì thông tin mà cộng đồng Where Winds Meet (Yến Vân Thập Lục Thanh) tại Việt Nam nóng lòng chờ đợi đã có câu ...",
-      "thumbnail": "https://i.ytimg.com/vi/ppg7sOm33JE/hqdefault.jpg",
-      "published": "2026-08-23T09:23:43Z",
-      "duration": 407,
-      "url": "https://www.youtube.com/watch?v=ppg7sOm33JE"
     }
   ]
 }
