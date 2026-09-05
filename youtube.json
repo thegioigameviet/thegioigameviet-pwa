@@ -1,12 +1,21 @@
 {
-  "updated": "2026-09-04T20:08:47.865Z",
+  "updated": "2026-09-05T02:29:04.795Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 2,
+  "total": 3,
   "videos": [
+    {
+      "id": "D6H2bxRUmfI",
+      "title": "Nghịch Thủy Hàn Biến &quot;Kiếm Hiệp Lai Showbiz&quot;: Gen Z Đã Thay Đổi Game Kiếm Hiệp Như Thế Nào?",
+      "description": "Ngày xưa, chúng ta vào game kiếm hiệp chỉ để cày cấp, săn đồ, gia nhập bang hội và đua top lực chiến. Nhưng với thế hệ Gen Z ...",
+      "thumbnail": "https://i.ytimg.com/vi/D6H2bxRUmfI/hqdefault.jpg",
+      "published": "2026-09-05T02:06:00Z",
+      "duration": 738,
+      "url": "https://www.youtube.com/watch?v=D6H2bxRUmfI"
+    },
     {
       "id": "6Wc8FFXWeDg",
       "title": "DLSS 5 Là Gì? NVIDIA Đang Dùng AI Để &quot;Vẽ&quot; Lại Đồ Họa Game Nhìn Như Phim Điện Ảnh!",
