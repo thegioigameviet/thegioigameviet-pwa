@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-06T14:45:54.069Z",
+  "updated": "2026-09-06T19:52:08.628Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 3,
+  "total": 2,
   "videos": [
     {
       "id": "D6H2bxRUmfI",
@@ -15,15 +15,6 @@
       "published": "2026-09-05T02:06:00Z",
       "duration": 738,
       "url": "https://www.youtube.com/watch?v=D6H2bxRUmfI"
-    },
-    {
-      "id": "6Wc8FFXWeDg",
-      "title": "DLSS 5 Là Gì? NVIDIA Đang Dùng AI Để &quot;Vẽ&quot; Lại Đồ Họa Game Nhìn Như Phim Điện Ảnh!",
-      "description": "VIDIA chính thức ra mắt DLSS 5 tích hợp công nghệ đột phá **3D-Guided Neural Rendering**, đánh dấu bước chuyển mình quan ...",
-      "thumbnail": "https://i.ytimg.com/vi/6Wc8FFXWeDg/hqdefault.jpg",
-      "published": "2026-09-03T03:49:17Z",
-      "duration": 1010,
-      "url": "https://www.youtube.com/watch?v=6Wc8FFXWeDg"
     },
     {
       "id": "j9xlXb7qzak",
