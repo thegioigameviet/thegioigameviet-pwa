@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T02:22:39.941Z",
+  "updated": "2026-09-07T11:19:47.455Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -8,6 +8,15 @@
   "total": 2,
   "videos": [
     {
+      "id": "-aGSXTZIXqY",
+      "title": "Download Bản Thay Thế THE ISLE Cho Mobile: Path of Titans Khác Biệt Gì Với Bản Gốc?",
+      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Nếu anh em từng mê mẩn lối chơi hóa thân thành khủng long sinh ...",
+      "thumbnail": "https://i.ytimg.com/vi/-aGSXTZIXqY/hqdefault.jpg",
+      "published": "2026-09-07T02:32:53Z",
+      "duration": 733,
+      "url": "https://www.youtube.com/watch?v=-aGSXTZIXqY"
+    },
+    {
       "id": "D6H2bxRUmfI",
       "title": "Nghịch Thủy Hàn Biến &quot;Kiếm Hiệp Lai Showbiz&quot;: Gen Z Đã Thay Đổi Game Kiếm Hiệp Như Thế Nào?",
       "description": "Ngày xưa, chúng ta vào game kiếm hiệp chỉ để cày cấp, săn đồ, gia nhập bang hội và đua top lực chiến. Nhưng với thế hệ Gen Z ...",
@@ -15,15 +24,6 @@
       "published": "2026-09-05T02:06:00Z",
       "duration": 738,
       "url": "https://www.youtube.com/watch?v=D6H2bxRUmfI"
-    },
-    {
-      "id": "j9xlXb7qzak",
-      "title": "Tại Sao VNG Nhường Where Winds Meet Cho Funtap? Sự Thật Về Thương Vụ Bom Tấn NetEase!",
-      "description": "Sự kiện Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức thuộc về nhà phát hành Funtap thay vì VNGGames đã tạo nên ...",
-      "thumbnail": "https://i.ytimg.com/vi/j9xlXb7qzak/hqdefault.jpg",
-      "published": "2026-08-30T11:25:56Z",
-      "duration": 1117,
-      "url": "https://www.youtube.com/watch?v=j9xlXb7qzak"
     }
   ]
 }
