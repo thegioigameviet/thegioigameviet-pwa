@@ -1,12 +1,21 @@
 {
-  "updated": "2026-09-08T02:35:30.304Z",
+  "updated": "2026-09-08T10:25:47.973Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 2,
+  "total": 3,
   "videos": [
+    {
+      "id": "pplMN1vhEhE",
+      "title": "Where Winds Meet Funtap Liên Thông Server Vậy Có Nên Chuyển Từ Bản Global Sang Không?",
+      "description": "Sự kiện được mong chờ nhất tháng 9 đã tới: Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức ra mắt tại Việt Nam thông ...",
+      "thumbnail": "https://i.ytimg.com/vi/pplMN1vhEhE/hqdefault.jpg",
+      "published": "2026-09-08T03:16:56Z",
+      "duration": 819,
+      "url": "https://www.youtube.com/watch?v=pplMN1vhEhE"
+    },
     {
       "id": "-aGSXTZIXqY",
       "title": "Download Bản Thay Thế THE ISLE Cho Mobile: Path of Titans Khác Biệt Gì Với Bản Gốc?",
