@@ -1,12 +1,21 @@
 {
-  "updated": "2026-09-10T10:24:02.167Z",
+  "updated": "2026-09-10T15:40:22.067Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 2,
+  "total": 3,
   "videos": [
+    {
+      "id": "rcArdIFve8A",
+      "title": "Where Winds Meet: Tổng Hợp 10 Loại Vũ Khí – Tân Thủ Nên Chọn Món Binh Khí Nào?",
+      "description": "Sự kiện được mong chờ nhất đã đến: Where Winds Meet (Yên Vân Thập Lục Thanh) chính thức mở cửa tại Việt Nam vào lúc ...",
+      "thumbnail": "https://i.ytimg.com/vi/rcArdIFve8A/hqdefault.jpg",
+      "published": "2026-09-10T10:46:36Z",
+      "duration": 1009,
+      "url": "https://www.youtube.com/watch?v=rcArdIFve8A"
+    },
     {
       "id": "pplMN1vhEhE",
       "title": "Where Winds Meet Funtap Liên Thông Server Vậy Có Nên Chuyển Từ Bản Global Sang Không?",
