@@ -3,7 +3,7 @@ const fs = require("fs");
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const CHANNEL_ID = "UCOx1_ve_BdqOURfvE_5SzDQ";
 
-const SEARCH_RESULTS = 15;
+const SEARCH_RESULTS = 50;
 const OUTPUT_RESULTS = 6;
 
 function parseDuration(duration) {
@@ -14,7 +14,7 @@ function parseDuration(duration) {
     const m = parseInt(match?.[2] || 0);
     const s = parseInt(match?.[3] || 0);
 
-    return h * 3600 + m * 90 + s;
+    return h * 3600 + m * 60 + s;
 
 }
 
