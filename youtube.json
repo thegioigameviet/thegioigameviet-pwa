@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-11T20:19:19.574Z",
+  "updated": "2026-09-12T02:40:32.962Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 3,
+  "total": 6,
   "videos": [
     {
       "id": "rcArdIFve8A",
@@ -13,7 +13,7 @@
       "description": "Sự kiện được mong chờ nhất đã đến: Where Winds Meet (Yên Vân Thập Lục Thanh) chính thức mở cửa tại Việt Nam vào lúc ...",
       "thumbnail": "https://i.ytimg.com/vi/rcArdIFve8A/hqdefault.jpg",
       "published": "2026-09-10T10:46:36Z",
-      "duration": 1009,
+      "duration": 679,
       "url": "https://www.youtube.com/watch?v=rcArdIFve8A"
     },
     {
@@ -22,17 +22,44 @@
       "description": "Sự kiện được mong chờ nhất tháng 9 đã tới: Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức ra mắt tại Việt Nam thông ...",
       "thumbnail": "https://i.ytimg.com/vi/pplMN1vhEhE/hqdefault.jpg",
       "published": "2026-09-08T03:16:56Z",
-      "duration": 819,
+      "duration": 549,
       "url": "https://www.youtube.com/watch?v=pplMN1vhEhE"
     },
     {
-      "id": "6Wc8FFXWeDg",
-      "title": "DLSS 5 Là Gì? NVIDIA Đang Dùng AI Để &quot;Vẽ&quot; Lại Đồ Họa Game Nhìn Như Phim Điện Ảnh!",
-      "description": "VIDIA chính thức ra mắt DLSS 5 tích hợp công nghệ đột phá **3D-Guided Neural Rendering**, đánh dấu bước chuyển mình quan ...",
-      "thumbnail": "https://i.ytimg.com/vi/6Wc8FFXWeDg/hqdefault.jpg",
-      "published": "2026-09-03T03:49:17Z",
-      "duration": 1010,
-      "url": "https://www.youtube.com/watch?v=6Wc8FFXWeDg"
+      "id": "lBKpXR3AdH8",
+      "title": "Where Winds Meet Funtap: Server Việt Nam Có Liên Thông Global? Tài Khoản Cũ Sẽ Đi Đâu?",
+      "description": "Sau khi Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức ấn định ngày ra mắt tại Việt Nam vào 10/09/2026 thông qua ...",
+      "thumbnail": "https://i.ytimg.com/vi/lBKpXR3AdH8/hqdefault.jpg",
+      "published": "2026-08-29T01:02:01Z",
+      "duration": 547,
+      "url": "https://www.youtube.com/watch?v=lBKpXR3AdH8"
+    },
+    {
+      "id": "fIhoQIgISa8",
+      "title": "Phantom Blade Zero: Đối Thủ Cực &quot;Khủng&quot; Khiến Where Winds Meet Phải Đè Phòng!",
+      "description": "Nếu như Where Winds Meet mang lại cảm giác được thực sự hòa mình vào một thế giới võ lâm rộng lớn, nơi anh em làm một ...",
+      "thumbnail": "https://i.ytimg.com/vi/fIhoQIgISa8/hqdefault.jpg",
+      "published": "2026-08-20T11:25:16Z",
+      "duration": 759,
+      "url": "https://www.youtube.com/watch?v=fIhoQIgISa8"
+    },
+    {
+      "id": "xtprtBVt5Ng",
+      "title": "Neverness To Everness vs Zenless Zone Zero: NTE Có Phải ZZZ Phiên Bản Thế Giới Mở?",
+      "description": "Mỗi khi trailer hay thông tin mới của Neverness To Everness (NTE) xuất hiện, câu hỏi được cãi xôn xao nhất dưới phần bình luận ...",
+      "thumbnail": "https://i.ytimg.com/vi/xtprtBVt5Ng/hqdefault.jpg",
+      "published": "2026-08-12T02:18:25Z",
+      "duration": 640,
+      "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
+    },
+    {
+      "id": "yEX1y7yoww8",
+      "title": "Vũ Trụ Honor of Kings Mở Rộng: HOK ACE Có Đủ Sức Đánh Bại Đấu Trường Chân Lý?",
+      "description": "Thương hiệu game tỷ đô Honor of Kings (Vương Giả Vinh Diệu) của Tencent đang tiếp tục trướng nở với tốc độ chóng mặt!",
+      "thumbnail": "https://i.ytimg.com/vi/yEX1y7yoww8/hqdefault.jpg",
+      "published": "2026-08-03T11:08:21Z",
+      "duration": 317,
+      "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
     }
   ]
 }
