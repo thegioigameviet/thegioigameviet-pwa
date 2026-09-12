@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T09:55:30.892Z",
+  "updated": "2026-09-12T14:49:40.129Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -15,6 +15,15 @@
       "published": "2026-09-10T10:46:36Z",
       "duration": 679,
       "url": "https://www.youtube.com/watch?v=rcArdIFve8A"
+    },
+    {
+      "id": "pplMN1vhEhE",
+      "title": "Where Winds Meet Funtap Liên Thông Server Vậy Có Nên Chuyển Từ Bản Global Sang Không?",
+      "description": "Sự kiện được mong chờ nhất tháng 9 đã tới: Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức ra mắt tại Việt Nam thông ...",
+      "thumbnail": "https://i.ytimg.com/vi/pplMN1vhEhE/hqdefault.jpg",
+      "published": "2026-09-08T03:16:56Z",
+      "duration": 549,
+      "url": "https://www.youtube.com/watch?v=pplMN1vhEhE"
     },
     {
       "id": "lBKpXR3AdH8",
@@ -51,15 +60,6 @@
       "published": "2026-08-03T11:08:21Z",
       "duration": 317,
       "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
-    },
-    {
-      "id": "de4uU6JBVN8",
-      "title": "Clash of Clans vs Rise of Kingdoms: Sự Tiến Hóa Hay Cái Bẫy &quot;Mất Ngủ&quot; Của Game Chiến Thuật?",
-      "description": "Chào anh em đồng môn trên kênh Thế Giới Game Việt! Hôm nay chúng ta sẽ cùng ngồi lại, uống một ngụm trà và bàn về câu ...",
-      "thumbnail": "https://i.ytimg.com/vi/de4uU6JBVN8/hqdefault.jpg",
-      "published": "2026-05-26T02:03:06Z",
-      "duration": 382,
-      "url": "https://www.youtube.com/watch?v=de4uU6JBVN8"
     }
   ]
 }
