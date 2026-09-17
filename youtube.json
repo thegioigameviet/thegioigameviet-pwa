@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T02:56:19.690Z",
+  "updated": "2026-09-17T10:48:21.181Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "1Qer6H9gRmo",
+      "title": "ANIIMO – Pokémon Thế Hệ Mới? Game Thế Giới Mở Cho Bạn HÓA THÀNH QUÁI VẬT!",
+      "description": "Sẽ thế nào nếu kết hợp yếu tố bắt quái của Pokémon, thế giới mở sinh tồn của Palworld và lối chơi nhập vai hành động (ARPG) ...",
+      "thumbnail": "https://i.ytimg.com/vi/1Qer6H9gRmo/hqdefault.jpg",
+      "published": "2026-09-17T05:37:36Z",
+      "duration": 491,
+      "url": "https://www.youtube.com/watch?v=1Qer6H9gRmo"
+    },
     {
       "id": "fXYBh3i4sSY",
       "title": "Where Winds Meet: Tổng Hợp 12 Môn Phái Giang Hồ – Nên Bái Sư Phái Nào?",
@@ -51,15 +60,6 @@
       "published": "2026-08-20T11:25:16Z",
       "duration": 759,
       "url": "https://www.youtube.com/watch?v=fIhoQIgISa8"
-    },
-    {
-      "id": "xtprtBVt5Ng",
-      "title": "Neverness To Everness vs Zenless Zone Zero: NTE Có Phải ZZZ Phiên Bản Thế Giới Mở?",
-      "description": "Mỗi khi trailer hay thông tin mới của Neverness To Everness (NTE) xuất hiện, câu hỏi được cãi xôn xao nhất dưới phần bình luận ...",
-      "thumbnail": "https://i.ytimg.com/vi/xtprtBVt5Ng/hqdefault.jpg",
-      "published": "2026-08-12T02:18:25Z",
-      "duration": 640,
-      "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
     }
   ]
 }
