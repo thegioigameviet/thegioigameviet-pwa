@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T19:54:02.497Z",
+  "updated": "2026-09-20T02:54:10.907Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -24,15 +24,6 @@
       "published": "2026-09-16T01:26:09Z",
       "duration": 578,
       "url": "https://www.youtube.com/watch?v=fXYBh3i4sSY"
-    },
-    {
-      "id": "6dRhFu2yMbQ",
-      "title": "Where Winds Meet: Tổng Hợp 11 Lưu Phái Võ Học – Tân Thủ &amp; Cao Thủ Nên Chọn Lối Chơi Nào?",
-      "description": "Trong Where Winds Meet (Yến Vân Thập Lục Thanh), vũ khí mới chỉ là phần nổi! Thứ thực sự định hình phong cách chiến đấu ...",
-      "thumbnail": "https://i.ytimg.com/vi/6dRhFu2yMbQ/hqdefault.jpg",
-      "published": "2026-09-13T00:40:38Z",
-      "duration": 783,
-      "url": "https://www.youtube.com/watch?v=6dRhFu2yMbQ"
     },
     {
       "id": "lBKpXR3AdH8",
@@ -60,6 +51,15 @@
       "published": "2026-08-12T02:18:25Z",
       "duration": 640,
       "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
+    },
+    {
+      "id": "yEX1y7yoww8",
+      "title": "Vũ Trụ Honor of Kings Mở Rộng: HOK ACE Có Đủ Sức Đánh Bại Đấu Trường Chân Lý?",
+      "description": "Thương hiệu game tỷ đô Honor of Kings (Vương Giả Vinh Diệu) của Tencent đang tiếp tục trướng nở với tốc độ chóng mặt!",
+      "thumbnail": "https://i.ytimg.com/vi/yEX1y7yoww8/hqdefault.jpg",
+      "published": "2026-08-03T11:08:21Z",
+      "duration": 317,
+      "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
     }
   ]
 }
