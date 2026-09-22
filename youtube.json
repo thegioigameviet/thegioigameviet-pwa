@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T02:51:56.713Z",
+  "updated": "2026-09-22T10:46:41.797Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "CM6JCMTl8Jc",
+      "title": "Hướng Dẫn Tải Aniimo Mobile Trên Android &amp; iOS Tại Việt Nam Cực Dễ",
+      "description": "Tựa game thế giới mở thu phục thú Aniimo sẽ chính thức mở server toàn cầu vào ngày 23/9/2026! Tuy nhiên, khu vực Việt Nam ...",
+      "thumbnail": "https://i.ytimg.com/vi/CM6JCMTl8Jc/hqdefault.jpg",
+      "published": "2026-09-22T05:43:57Z",
+      "duration": 551,
+      "url": "https://www.youtube.com/watch?v=CM6JCMTl8Jc"
+    },
     {
       "id": "lzd_vWB2U4E",
       "title": "TOP 7 Tà Phái Bá Đạo Nhất Where Winds Meet - Có Nên Tự Do Sáng Tạo Combo &quot;Dị&quot;",
@@ -51,15 +60,6 @@
       "published": "2026-08-12T02:18:25Z",
       "duration": 640,
       "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
-    },
-    {
-      "id": "yEX1y7yoww8",
-      "title": "Vũ Trụ Honor of Kings Mở Rộng: HOK ACE Có Đủ Sức Đánh Bại Đấu Trường Chân Lý?",
-      "description": "Thương hiệu game tỷ đô Honor of Kings (Vương Giả Vinh Diệu) của Tencent đang tiếp tục trướng nở với tốc độ chóng mặt!",
-      "thumbnail": "https://i.ytimg.com/vi/yEX1y7yoww8/hqdefault.jpg",
-      "published": "2026-08-03T11:08:21Z",
-      "duration": 317,
-      "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
     }
   ]
 }
