@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T02:42:16.406Z",
+  "updated": "2026-09-24T10:56:27.398Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "tH108Rpmscc",
+      "title": "Aniimo: 8 Điều Tân Thủ CẦN BIẾT Ngay Để Không &quot;Thọt&quot; Tài Khoản!",
+      "description": "Anh em nghĩ Aniimo chỉ đơn giản là một tựa game bắt quái, nuôi quái rồi đem đi đánh theo lượt giống Pokémon? Nếu giữ suy ...",
+      "thumbnail": "https://i.ytimg.com/vi/tH108Rpmscc/hqdefault.jpg",
+      "published": "2026-09-24T07:14:28Z",
+      "duration": 532,
+      "url": "https://www.youtube.com/watch?v=tH108Rpmscc"
+    },
     {
       "id": "CM6JCMTl8Jc",
       "title": "Hướng Dẫn Tải Aniimo Mobile Trên Android &amp; iOS Tại Việt Nam Cực Dễ",
@@ -51,15 +60,6 @@
       "published": "2026-08-12T02:18:25Z",
       "duration": 640,
       "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
-    },
-    {
-      "id": "yEX1y7yoww8",
-      "title": "Vũ Trụ Honor of Kings Mở Rộng: HOK ACE Có Đủ Sức Đánh Bại Đấu Trường Chân Lý?",
-      "description": "Thương hiệu game tỷ đô Honor of Kings (Vương Giả Vinh Diệu) của Tencent đang tiếp tục trướng nở với tốc độ chóng mặt!",
-      "thumbnail": "https://i.ytimg.com/vi/yEX1y7yoww8/hqdefault.jpg",
-      "published": "2026-08-03T11:08:21Z",
-      "duration": 317,
-      "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
     }
   ]
 }
