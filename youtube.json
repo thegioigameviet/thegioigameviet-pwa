@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T03:37:10.194Z",
+  "updated": "2026-10-01T12:14:25.801Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "Rw0qG7daGp0",
+      "title": "Xóa PUBG Chơi Game Gì? Rules of Survival Legacy Trở Lại: Game Thay Thế Chuẩn Nhất Cho Fan PUBG!",
+      "description": "PUBG PC đang gặp biến lớn, cộng đồng người đòi nghỉ game, người xóa game, người lại đi tìm một tựa Battle Royale khác để ...",
+      "thumbnail": "https://i.ytimg.com/vi/Rw0qG7daGp0/hqdefault.jpg",
+      "published": "2026-10-01T05:39:16Z",
+      "duration": 483,
+      "url": "https://www.youtube.com/watch?v=Rw0qG7daGp0"
+    },
     {
       "id": "wz7ejv1j2Fw",
       "title": "Xóa PUBG Thì Chơi Game Gì? Top 7 Game Bắn Súng Thay Thế Nóng Nhất 2026!",
@@ -51,15 +60,6 @@
       "published": "2026-08-03T11:08:21Z",
       "duration": 317,
       "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
-    },
-    {
-      "id": "de4uU6JBVN8",
-      "title": "Clash of Clans vs Rise of Kingdoms: Sự Tiến Hóa Hay Cái Bẫy &quot;Mất Ngủ&quot; Của Game Chiến Thuật?",
-      "description": "Chào anh em đồng môn trên kênh Thế Giới Game Việt! Hôm nay chúng ta sẽ cùng ngồi lại, uống một ngụm trà và bàn về câu ...",
-      "thumbnail": "https://i.ytimg.com/vi/de4uU6JBVN8/hqdefault.jpg",
-      "published": "2026-05-26T02:03:06Z",
-      "duration": 382,
-      "url": "https://www.youtube.com/watch?v=de4uU6JBVN8"
     }
   ]
 }
