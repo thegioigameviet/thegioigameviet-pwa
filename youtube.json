@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-01T22:13:42.319Z",
+  "updated": "2026-10-02T03:37:05.850Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
     "url": "https://www.youtube.com/channel/UCOx1_ve_BdqOURfvE_5SzDQ"
   },
-  "total": 1,
+  "total": 6,
   "videos": [
     {
       "id": "Rw0qG7daGp0",
@@ -15,6 +15,51 @@
       "published": "2026-10-01T05:39:16Z",
       "duration": 483,
       "url": "https://www.youtube.com/watch?v=Rw0qG7daGp0"
+    },
+    {
+      "id": "lBKpXR3AdH8",
+      "title": "Where Winds Meet Funtap: Server Việt Nam Có Liên Thông Global? Tài Khoản Cũ Sẽ Đi Đâu?",
+      "description": "Sau khi Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức ấn định ngày ra mắt tại Việt Nam vào 10/09/2026 thông qua ...",
+      "thumbnail": "https://i.ytimg.com/vi/lBKpXR3AdH8/hqdefault.jpg",
+      "published": "2026-08-29T01:02:01Z",
+      "duration": 547,
+      "url": "https://www.youtube.com/watch?v=lBKpXR3AdH8"
+    },
+    {
+      "id": "fIhoQIgISa8",
+      "title": "Phantom Blade Zero: Đối Thủ Cực &quot;Khủng&quot; Khiến Where Winds Meet Phải Đè Phòng!",
+      "description": "Nếu như Where Winds Meet mang lại cảm giác được thực sự hòa mình vào một thế giới võ lâm rộng lớn, nơi anh em làm một ...",
+      "thumbnail": "https://i.ytimg.com/vi/fIhoQIgISa8/hqdefault.jpg",
+      "published": "2026-08-20T11:25:16Z",
+      "duration": 759,
+      "url": "https://www.youtube.com/watch?v=fIhoQIgISa8"
+    },
+    {
+      "id": "xtprtBVt5Ng",
+      "title": "Neverness To Everness vs Zenless Zone Zero: NTE Có Phải ZZZ Phiên Bản Thế Giới Mở?",
+      "description": "Mỗi khi trailer hay thông tin mới của Neverness To Everness (NTE) xuất hiện, câu hỏi được cãi xôn xao nhất dưới phần bình luận ...",
+      "thumbnail": "https://i.ytimg.com/vi/xtprtBVt5Ng/hqdefault.jpg",
+      "published": "2026-08-12T02:18:25Z",
+      "duration": 640,
+      "url": "https://www.youtube.com/watch?v=xtprtBVt5Ng"
+    },
+    {
+      "id": "yEX1y7yoww8",
+      "title": "Vũ Trụ Honor of Kings Mở Rộng: HOK ACE Có Đủ Sức Đánh Bại Đấu Trường Chân Lý?",
+      "description": "Thương hiệu game tỷ đô Honor of Kings (Vương Giả Vinh Diệu) của Tencent đang tiếp tục trướng nở với tốc độ chóng mặt!",
+      "thumbnail": "https://i.ytimg.com/vi/yEX1y7yoww8/hqdefault.jpg",
+      "published": "2026-08-03T11:08:21Z",
+      "duration": 317,
+      "url": "https://www.youtube.com/watch?v=yEX1y7yoww8"
+    },
+    {
+      "id": "de4uU6JBVN8",
+      "title": "Clash of Clans vs Rise of Kingdoms: Sự Tiến Hóa Hay Cái Bẫy &quot;Mất Ngủ&quot; Của Game Chiến Thuật?",
+      "description": "Chào anh em đồng môn trên kênh Thế Giới Game Việt! Hôm nay chúng ta sẽ cùng ngồi lại, uống một ngụm trà và bàn về câu ...",
+      "thumbnail": "https://i.ytimg.com/vi/de4uU6JBVN8/hqdefault.jpg",
+      "published": "2026-05-26T02:03:06Z",
+      "duration": 382,
+      "url": "https://www.youtube.com/watch?v=de4uU6JBVN8"
     }
   ]
 }
