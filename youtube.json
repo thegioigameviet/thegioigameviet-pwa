@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T11:39:19.935Z",
+  "updated": "2026-10-04T16:17:48.791Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "hd3WPou_2cI",
+      "title": "Phantom Blade Zero Có Tiếng Việt | Giá Bán, Cấu Hình PC &amp; Ngày Ra Mắt",
+      "description": "PHANTOM BLADE ZERO đã có ngày phát hành chính thức, giá bán, cấu hình PC và đặc biệt là hỗ trợ TIẾNG VIỆT! Sau thời ...",
+      "thumbnail": "https://i.ytimg.com/vi/hd3WPou_2cI/hqdefault.jpg",
+      "published": "2026-10-04T11:42:11Z",
+      "duration": 564,
+      "url": "https://www.youtube.com/watch?v=hd3WPou_2cI"
+    },
     {
       "id": "93OWtSKytnA",
       "title": "Võ Lâm Tình Kiếm 3D: Mẹo Cày Cấp 1 Đến 50 Nhanh Nhất &amp; Nhận Đồ Hoàng Kim!",
@@ -35,31 +44,22 @@
       "url": "https://www.youtube.com/watch?v=Rw0qG7daGp0"
     },
     {
-      "id": "wz7ejv1j2Fw",
-      "title": "Xóa PUBG Thì Chơi Game Gì? Top 7 Game Bắn Súng Thay Thế Nóng Nhất 2026!",
-      "description": "Sự cố ban vĩnh viễn tuyển thủ và làn sóng xóa game PUBG PC đang khiến cộng đồng sục sôi. Nhưng xóa PUBG PC rồi thì chơi ...",
-      "thumbnail": "https://i.ytimg.com/vi/wz7ejv1j2Fw/hqdefault.jpg",
-      "published": "2026-09-27T10:35:04Z",
-      "duration": 562,
-      "url": "https://www.youtube.com/watch?v=wz7ejv1j2Fw"
+      "id": "lBKpXR3AdH8",
+      "title": "Where Winds Meet Funtap: Server Việt Nam Có Liên Thông Global? Tài Khoản Cũ Sẽ Đi Đâu?",
+      "description": "Sau khi Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức ấn định ngày ra mắt tại Việt Nam vào 10/09/2026 thông qua ...",
+      "thumbnail": "https://i.ytimg.com/vi/lBKpXR3AdH8/hqdefault.jpg",
+      "published": "2026-08-29T01:02:01Z",
+      "duration": 547,
+      "url": "https://www.youtube.com/watch?v=lBKpXR3AdH8"
     },
     {
-      "id": "tH108Rpmscc",
-      "title": "Aniimo: 8 Điều Tân Thủ CẦN BIẾT Ngay Để Không &quot;Thọt&quot; Tài Khoản!",
-      "description": "Anh em nghĩ Aniimo chỉ đơn giản là một tựa game bắt quái, nuôi quái rồi đem đi đánh theo lượt giống Pokémon? Nếu giữ suy ...",
-      "thumbnail": "https://i.ytimg.com/vi/tH108Rpmscc/hqdefault.jpg",
-      "published": "2026-09-24T07:14:28Z",
-      "duration": 532,
-      "url": "https://www.youtube.com/watch?v=tH108Rpmscc"
-    },
-    {
-      "id": "fXYBh3i4sSY",
-      "title": "Where Winds Meet: Tổng Hợp 12 Môn Phái Giang Hồ – Nên Bái Sư Phái Nào?",
-      "description": "Trong Where Winds Meet (Yến Vân Thập Lục Thanh), hệ thống Môn Phái mang đến một trải nghiệm hoàn toàn mới lạ so với các ...",
-      "thumbnail": "https://i.ytimg.com/vi/fXYBh3i4sSY/hqdefault.jpg",
-      "published": "2026-09-16T01:26:09Z",
-      "duration": 578,
-      "url": "https://www.youtube.com/watch?v=fXYBh3i4sSY"
+      "id": "fIhoQIgISa8",
+      "title": "Phantom Blade Zero: Đối Thủ Cực &quot;Khủng&quot; Khiến Where Winds Meet Phải Đè Phòng!",
+      "description": "Nếu như Where Winds Meet mang lại cảm giác được thực sự hòa mình vào một thế giới võ lâm rộng lớn, nơi anh em làm một ...",
+      "thumbnail": "https://i.ytimg.com/vi/fIhoQIgISa8/hqdefault.jpg",
+      "published": "2026-08-20T11:25:16Z",
+      "duration": 759,
+      "url": "https://www.youtube.com/watch?v=fIhoQIgISa8"
     }
   ]
 }
