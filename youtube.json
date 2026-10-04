@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T03:49:55.246Z",
+  "updated": "2026-10-04T11:39:19.935Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -44,15 +44,6 @@
       "url": "https://www.youtube.com/watch?v=wz7ejv1j2Fw"
     },
     {
-      "id": "n2KrkS5_epY",
-      "title": "Drama PUBG Lớn Nhất Lịch Sử VN: Himass &amp; TanVuu Bị Ban Vĩnh Viễn, KRAFTON Xử Lý Ra Sao?",
-      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Chỉ trong vài ngày, cộng đồng PUBG Việt Nam đã chứng kiến một ...",
-      "thumbnail": "https://i.ytimg.com/vi/n2KrkS5_epY/hqdefault.jpg",
-      "published": "2026-09-25T02:54:17Z",
-      "duration": 685,
-      "url": "https://www.youtube.com/watch?v=n2KrkS5_epY"
-    },
-    {
       "id": "tH108Rpmscc",
       "title": "Aniimo: 8 Điều Tân Thủ CẦN BIẾT Ngay Để Không &quot;Thọt&quot; Tài Khoản!",
       "description": "Anh em nghĩ Aniimo chỉ đơn giản là một tựa game bắt quái, nuôi quái rồi đem đi đánh theo lượt giống Pokémon? Nếu giữ suy ...",
@@ -60,6 +51,15 @@
       "published": "2026-09-24T07:14:28Z",
       "duration": 532,
       "url": "https://www.youtube.com/watch?v=tH108Rpmscc"
+    },
+    {
+      "id": "fXYBh3i4sSY",
+      "title": "Where Winds Meet: Tổng Hợp 12 Môn Phái Giang Hồ – Nên Bái Sư Phái Nào?",
+      "description": "Trong Where Winds Meet (Yến Vân Thập Lục Thanh), hệ thống Môn Phái mang đến một trải nghiệm hoàn toàn mới lạ so với các ...",
+      "thumbnail": "https://i.ytimg.com/vi/fXYBh3i4sSY/hqdefault.jpg",
+      "published": "2026-09-16T01:26:09Z",
+      "duration": 578,
+      "url": "https://www.youtube.com/watch?v=fXYBh3i4sSY"
     }
   ]
 }
