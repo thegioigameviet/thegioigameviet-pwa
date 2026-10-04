@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T20:27:41.027Z",
+  "updated": "2026-10-04T03:49:55.246Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "93OWtSKytnA",
+      "title": "Võ Lâm Tình Kiếm 3D: Mẹo Cày Cấp 1 Đến 50 Nhanh Nhất &amp; Nhận Đồ Hoàng Kim!",
+      "description": "Nếu anh em là tín đồ của dòng game Võ Lâm Truyền Kỳ và đang sửa soạn hành trang bước vào Võ Lâm Tình Kiếm 3D, chắc ...",
+      "thumbnail": "https://i.ytimg.com/vi/93OWtSKytnA/hqdefault.jpg",
+      "published": "2026-10-04T01:46:23Z",
+      "duration": 486,
+      "url": "https://www.youtube.com/watch?v=93OWtSKytnA"
+    },
     {
       "id": "l8QxQl2uyW4",
       "title": "11 Tuổi Chơi Game Gì Giành HCV ASIAD 2026: Người Nhật Chơi Game Gì Mà Kỳ Lạ Vậy?",
@@ -51,15 +60,6 @@
       "published": "2026-09-24T07:14:28Z",
       "duration": 532,
       "url": "https://www.youtube.com/watch?v=tH108Rpmscc"
-    },
-    {
-      "id": "CM6JCMTl8Jc",
-      "title": "Hướng Dẫn Tải Aniimo Mobile Trên Android &amp; iOS Tại Việt Nam Cực Dễ",
-      "description": "Tựa game thế giới mở thu phục thú Aniimo sẽ chính thức mở server toàn cầu vào ngày 23/9/2026! Tuy nhiên, khu vực Việt Nam ...",
-      "thumbnail": "https://i.ytimg.com/vi/CM6JCMTl8Jc/hqdefault.jpg",
-      "published": "2026-09-22T05:43:57Z",
-      "duration": 551,
-      "url": "https://www.youtube.com/watch?v=CM6JCMTl8Jc"
     }
   ]
 }
