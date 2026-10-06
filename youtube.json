@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T23:35:26.722Z",
+  "updated": "2026-10-06T04:21:42.645Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -44,15 +44,6 @@
       "url": "https://www.youtube.com/watch?v=tH108Rpmscc"
     },
     {
-      "id": "fXYBh3i4sSY",
-      "title": "Where Winds Meet: Tổng Hợp 12 Môn Phái Giang Hồ – Nên Bái Sư Phái Nào?",
-      "description": "Trong Where Winds Meet (Yến Vân Thập Lục Thanh), hệ thống Môn Phái mang đến một trải nghiệm hoàn toàn mới lạ so với các ...",
-      "thumbnail": "https://i.ytimg.com/vi/fXYBh3i4sSY/hqdefault.jpg",
-      "published": "2026-09-16T01:26:09Z",
-      "duration": 578,
-      "url": "https://www.youtube.com/watch?v=fXYBh3i4sSY"
-    },
-    {
       "id": "D6H2bxRUmfI",
       "title": "Nghịch Thủy Hàn Biến &quot;Kiếm Hiệp Lai Showbiz&quot;: Gen Z Đã Thay Đổi Game Kiếm Hiệp Như Thế Nào?",
       "description": "Ngày xưa, chúng ta vào game kiếm hiệp chỉ để cày cấp, săn đồ, gia nhập bang hội và đua top lực chiến. Nhưng với thế hệ Gen Z ...",
@@ -60,6 +51,15 @@
       "published": "2026-09-05T02:06:00Z",
       "duration": 498,
       "url": "https://www.youtube.com/watch?v=D6H2bxRUmfI"
+    },
+    {
+      "id": "lBKpXR3AdH8",
+      "title": "Where Winds Meet Funtap: Server Việt Nam Có Liên Thông Global? Tài Khoản Cũ Sẽ Đi Đâu?",
+      "description": "Sau khi Where Winds Meet (Yến Vân Thập Lục Thanh) chính thức ấn định ngày ra mắt tại Việt Nam vào 10/09/2026 thông qua ...",
+      "thumbnail": "https://i.ytimg.com/vi/lBKpXR3AdH8/hqdefault.jpg",
+      "published": "2026-08-29T01:02:01Z",
+      "duration": 547,
+      "url": "https://www.youtube.com/watch?v=lBKpXR3AdH8"
     }
   ]
 }
