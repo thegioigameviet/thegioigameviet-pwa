@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T22:09:14.703Z",
+  "updated": "2026-10-07T03:47:54.719Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "tsopBGa8wzk",
+      "title": "Cách Tải AION 2 Mobile Trên Android &amp; iOS Mới Nhất | Đăng Ký Tài khoản &amp; Sửa Lỗi Máy Chủ!",
+      "description": "Như anh em đã biết, bom tấn AION 2 đã chính thức trình làng phiên bản Global. Bên cạnh phiên bản PC trên Steam và trang chủ, ...",
+      "thumbnail": "https://i.ytimg.com/vi/tsopBGa8wzk/hqdefault.jpg",
+      "published": "2026-10-07T00:53:50Z",
+      "duration": 493,
+      "url": "https://www.youtube.com/watch?v=tsopBGa8wzk"
+    },
     {
       "id": "hd3WPou_2cI",
       "title": "Phantom Blade Zero Có Tiếng Việt | Giá Bán, Cấu Hình PC &amp; Ngày Ra Mắt",
@@ -51,15 +60,6 @@
       "published": "2026-09-27T10:35:04Z",
       "duration": 562,
       "url": "https://www.youtube.com/watch?v=wz7ejv1j2Fw"
-    },
-    {
-      "id": "n2KrkS5_epY",
-      "title": "Drama PUBG Lớn Nhất Lịch Sử VN: Himass &amp; TanVuu Bị Ban Vĩnh Viễn, KRAFTON Xử Lý Ra Sao?",
-      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Chỉ trong vài ngày, cộng đồng PUBG Việt Nam đã chứng kiến một ...",
-      "thumbnail": "https://i.ytimg.com/vi/n2KrkS5_epY/hqdefault.jpg",
-      "published": "2026-09-25T02:54:17Z",
-      "duration": 685,
-      "url": "https://www.youtube.com/watch?v=n2KrkS5_epY"
     }
   ]
 }
