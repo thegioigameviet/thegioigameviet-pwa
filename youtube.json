@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T22:44:34.406Z",
+  "updated": "2026-10-09T04:06:42.507Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "H34h3a9zB2A",
+      "title": "Tại Sao Steam Bị Chặn Ngày Càng Căng Tại Việt Nam? Tương Lai Của Steam Tại Ra Sao?",
+      "description": "Thời gian gần đây, cộng đồng game thủ PC tại Việt Nam đang gặp phải một bài toán cực kỳ đau đầu: Steam ngày càng khó kết ...",
+      "thumbnail": "https://i.ytimg.com/vi/H34h3a9zB2A/hqdefault.jpg",
+      "published": "2026-10-09T01:31:43Z",
+      "duration": 563,
+      "url": "https://www.youtube.com/watch?v=H34h3a9zB2A"
+    },
     {
       "id": "tsopBGa8wzk",
       "title": "Cách Tải AION 2 Mobile Trên Android &amp; iOS Mới Nhất | Đăng Ký Tài khoản &amp; Sửa Lỗi Máy Chủ!",
@@ -51,15 +60,6 @@
       "published": "2026-10-01T05:39:16Z",
       "duration": 483,
       "url": "https://www.youtube.com/watch?v=Rw0qG7daGp0"
-    },
-    {
-      "id": "wz7ejv1j2Fw",
-      "title": "Xóa PUBG Thì Chơi Game Gì? Top 7 Game Bắn Súng Thay Thế Nóng Nhất 2026!",
-      "description": "Sự cố ban vĩnh viễn tuyển thủ và làn sóng xóa game PUBG PC đang khiến cộng đồng sục sôi. Nhưng xóa PUBG PC rồi thì chơi ...",
-      "thumbnail": "https://i.ytimg.com/vi/wz7ejv1j2Fw/hqdefault.jpg",
-      "published": "2026-09-27T10:35:04Z",
-      "duration": 562,
-      "url": "https://www.youtube.com/watch?v=wz7ejv1j2Fw"
     }
   ]
 }
