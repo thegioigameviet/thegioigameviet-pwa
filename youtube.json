@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T22:10:43.028Z",
+  "updated": "2026-10-14T03:07:30.886Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "kwWRFSzhJ4g",
+      "title": "Võ Lâm Truyền Kỳ 3D Hồi Sinh Sau 10 Năm: Trải Nghiệm JX3 Chơi Ngay Trên Trình Duyệt!",
+      "description": "Nếu anh em thuộc thế hệ 8x, 9x từng dành cả tuổi thanh xuân cho các siêu phẩm MMORPG 3D, chắc chắn cái tên Võ Lâm Truyền ...",
+      "thumbnail": "https://i.ytimg.com/vi/kwWRFSzhJ4g/hqdefault.jpg",
+      "published": "2026-10-14T00:51:06Z",
+      "duration": 577,
+      "url": "https://www.youtube.com/watch?v=kwWRFSzhJ4g"
+    },
     {
       "id": "wPiaNk3MTRM",
       "title": "Bao Nhiêu Game Thủ Việt Dùng Steam? Vì Sao Valve Vẫn &quot;Ngó Lơ&quot; Tình Trạng Steam Bị Chặn?",
@@ -51,15 +60,6 @@
       "published": "2026-10-04T01:46:23Z",
       "duration": 486,
       "url": "https://www.youtube.com/watch?v=93OWtSKytnA"
-    },
-    {
-      "id": "l8QxQl2uyW4",
-      "title": "11 Tuổi Chơi Game Gì Giành HCV ASIAD 2026: Người Nhật Chơi Game Gì Mà Kỳ Lạ Vậy?",
-      "description": "Một cậu bé 11 tuổi - Yuki Kurihara (biệt danh Yuuki) bước lên sân khấu ASIAD Aichi-Nagoya 2026, đánh bại cao thủ Hàn Quốc ...",
-      "thumbnail": "https://i.ytimg.com/vi/l8QxQl2uyW4/hqdefault.jpg",
-      "published": "2026-10-03T01:41:30Z",
-      "duration": 543,
-      "url": "https://www.youtube.com/watch?v=l8QxQl2uyW4"
     }
   ]
 }
