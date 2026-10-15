@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T21:11:50.423Z",
+  "updated": "2026-10-15T02:46:55.191Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "ZtX-vycS-6g",
+      "title": "Chơi Game STEAM Trên Android Không Cần PC/Cloud Gaming! DroidDeck: Biến Điện Thoại Thành Steam.",
+      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Anh em có tin được không: Giờ đây chúng ta hoàn toàn có thể chạy ...",
+      "thumbnail": "https://i.ytimg.com/vi/ZtX-vycS-6g/hqdefault.jpg",
+      "published": "2026-10-15T01:37:25Z",
+      "duration": 543,
+      "url": "https://www.youtube.com/watch?v=ZtX-vycS-6g"
+    },
     {
       "id": "kwWRFSzhJ4g",
       "title": "Võ Lâm Truyền Kỳ 3D Hồi Sinh Sau 10 Năm: Trải Nghiệm JX3 Chơi Ngay Trên Trình Duyệt!",
@@ -51,15 +60,6 @@
       "published": "2026-10-04T11:42:11Z",
       "duration": 564,
       "url": "https://www.youtube.com/watch?v=hd3WPou_2cI"
-    },
-    {
-      "id": "93OWtSKytnA",
-      "title": "Võ Lâm Tình Kiếm 3D: Mẹo Cày Cấp 1 Đến 50 Nhanh Nhất &amp; Nhận Đồ Hoàng Kim!",
-      "description": "Nếu anh em là tín đồ của dòng game Võ Lâm Truyền Kỳ và đang sửa soạn hành trang bước vào Võ Lâm Tình Kiếm 3D, chắc ...",
-      "thumbnail": "https://i.ytimg.com/vi/93OWtSKytnA/hqdefault.jpg",
-      "published": "2026-10-04T01:46:23Z",
-      "duration": 486,
-      "url": "https://www.youtube.com/watch?v=93OWtSKytnA"
     }
   ]
 }
