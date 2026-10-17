@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T20:23:24.797Z",
+  "updated": "2026-10-17T02:34:58.657Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "cVY0rfq9olA",
+      "title": "PUBG Pha Trộn Liên Quân Mobile Sẽ Ra Sao? | Siêu Phẩm FPS Mới - ECC: REDLINE ",
+      "description": "Anh em thử tưởng tượng: Sẽ ra sao nếu cảm giác chạy bo sinh tồn căng thẳng của PUBG được kết hợp cùng cơ chế kiếm tiền, ...",
+      "thumbnail": "https://i.ytimg.com/vi/cVY0rfq9olA/hqdefault.jpg",
+      "published": "2026-10-17T01:07:20Z",
+      "duration": 493,
+      "url": "https://www.youtube.com/watch?v=cVY0rfq9olA"
+    },
     {
       "id": "ZtX-vycS-6g",
       "title": "Chơi Game STEAM Trên Android Không Cần PC/Cloud Gaming! DroidDeck: Biến Điện Thoại Thành Steam.",
@@ -51,15 +60,6 @@
       "published": "2026-10-07T00:53:50Z",
       "duration": 493,
       "url": "https://www.youtube.com/watch?v=tsopBGa8wzk"
-    },
-    {
-      "id": "hd3WPou_2cI",
-      "title": "Phantom Blade Zero Có Tiếng Việt | Giá Bán, Cấu Hình PC &amp; Ngày Ra Mắt",
-      "description": "PHANTOM BLADE ZERO đã có ngày phát hành chính thức, giá bán, cấu hình PC và đặc biệt là hỗ trợ TIẾNG VIỆT! Sau thời ...",
-      "thumbnail": "https://i.ytimg.com/vi/hd3WPou_2cI/hqdefault.jpg",
-      "published": "2026-10-04T11:42:11Z",
-      "duration": 564,
-      "url": "https://www.youtube.com/watch?v=hd3WPou_2cI"
     }
   ]
 }
