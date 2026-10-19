@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T19:57:10.064Z",
+  "updated": "2026-10-19T02:50:02.805Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "ih-A6rsW5Sg",
+      "title": "Naraka: Bladepoint Mobile: Tại Sao NetEase Vẫn Chưa Cho Game Thủ Quốc Tế &quot;Bốc Đầu&quot;?",
+      "description": "Là một trong những thương hiệu Battle Royale võ hiệp thành công nhất trên PC với hàng triệu người chơi và các giải đấu Esports ...",
+      "thumbnail": "https://i.ytimg.com/vi/ih-A6rsW5Sg/hqdefault.jpg",
+      "published": "2026-10-19T01:10:51Z",
+      "duration": 685,
+      "url": "https://www.youtube.com/watch?v=ih-A6rsW5Sg"
+    },
     {
       "id": "cVY0rfq9olA",
       "title": "PUBG Pha Trộn Liên Quân Mobile Sẽ Ra Sao? | Siêu Phẩm FPS Mới - ECC: REDLINE ",
@@ -51,15 +60,6 @@
       "published": "2026-10-09T01:31:43Z",
       "duration": 563,
       "url": "https://www.youtube.com/watch?v=H34h3a9zB2A"
-    },
-    {
-      "id": "tsopBGa8wzk",
-      "title": "Cách Tải AION 2 Mobile Trên Android &amp; iOS Mới Nhất | Đăng Ký Tài khoản &amp; Sửa Lỗi Máy Chủ!",
-      "description": "Như anh em đã biết, bom tấn AION 2 đã chính thức trình làng phiên bản Global. Bên cạnh phiên bản PC trên Steam và trang chủ, ...",
-      "thumbnail": "https://i.ytimg.com/vi/tsopBGa8wzk/hqdefault.jpg",
-      "published": "2026-10-07T00:53:50Z",
-      "duration": 493,
-      "url": "https://www.youtube.com/watch?v=tsopBGa8wzk"
     }
   ]
 }
