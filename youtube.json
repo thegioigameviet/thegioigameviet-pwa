@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T18:09:57.902Z",
+  "updated": "2026-10-20T03:00:09.037Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "ID3yRBmUGNA",
+      "title": "Thiên Nhai Minh Nguyệt Đao Chính Thức Đóng Cửa: Thua Where Winds Meet &amp; Nghịch Thủy Hàn Hay Vì VNG?",
+      "description": "Sau đúng 1 năm kể từ ngày Thế Giới Game Việt từng lên tiếng về những bất cập trong vận hành của Thiên Nhai Minh Nguyệt ...",
+      "thumbnail": "https://i.ytimg.com/vi/ID3yRBmUGNA/hqdefault.jpg",
+      "published": "2026-10-20T01:30:08Z",
+      "duration": 628,
+      "url": "https://www.youtube.com/watch?v=ID3yRBmUGNA"
+    },
     {
       "id": "ih-A6rsW5Sg",
       "title": "Naraka: Bladepoint Mobile: Tại Sao NetEase Vẫn Chưa Cho Game Thủ Quốc Tế &quot;Bốc Đầu&quot;?",
@@ -51,15 +60,6 @@
       "published": "2026-10-12T01:26:43Z",
       "duration": 653,
       "url": "https://www.youtube.com/watch?v=wPiaNk3MTRM"
-    },
-    {
-      "id": "H34h3a9zB2A",
-      "title": "Tại Sao Steam Bị Chặn Ngày Càng Căng Tại Việt Nam? Tương Lai Của Steam Tại Ra Sao?",
-      "description": "Thời gian gần đây, cộng đồng game thủ PC tại Việt Nam đang gặp phải một bài toán cực kỳ đau đầu: Steam ngày càng khó kết ...",
-      "thumbnail": "https://i.ytimg.com/vi/H34h3a9zB2A/hqdefault.jpg",
-      "published": "2026-10-09T01:31:43Z",
-      "duration": 563,
-      "url": "https://www.youtube.com/watch?v=H34h3a9zB2A"
     }
   ]
 }
