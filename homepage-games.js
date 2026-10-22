@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       html +=
       '<div class="latest-game-card">' +
         '<a href="' + link + '" class="latest-game-thumb">' +
-          '<img src="' + (game.thumbnail || '') + '" alt="' + (game.title || '') + '">' +
+          '<img loading="lazy" decoding="async" src="' + (game.thumbnail || '') + '" alt="' + (game.title || '') + '">' +
         '</a>' +
         '<div class="latest-game-info">' +
           '<span class="game-category">' + (game.category || 'Game') + '</span>' +
