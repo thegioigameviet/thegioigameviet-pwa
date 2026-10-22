@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T21:06:32.278Z",
+  "updated": "2026-10-22T02:53:32.128Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "p2CNsj08MfA",
+      "title": "Roco Kingdom: World vs Aniimo: Đâu Mới Là &quot;Pokémon Truyền Nhân&quot; Đáng Chơi Nhất?",
+      "description": "Cuộc chiến trong dòng game bắt thú (Monster-Catching) thế giới mở đang trở nên nóng hơn bao giờ hết! Một bên là Roco ...",
+      "thumbnail": "https://i.ytimg.com/vi/p2CNsj08MfA/hqdefault.jpg",
+      "published": "2026-10-22T02:21:22Z",
+      "duration": 549,
+      "url": "https://www.youtube.com/watch?v=p2CNsj08MfA"
+    },
     {
       "id": "ID3yRBmUGNA",
       "title": "Thiên Nhai Minh Nguyệt Đao Chính Thức Đóng Cửa: Thua Where Winds Meet &amp; Nghịch Thủy Hàn Hay Vì VNG?",
@@ -51,15 +60,6 @@
       "published": "2026-10-14T00:51:06Z",
       "duration": 577,
       "url": "https://www.youtube.com/watch?v=kwWRFSzhJ4g"
-    },
-    {
-      "id": "wPiaNk3MTRM",
-      "title": "Bao Nhiêu Game Thủ Việt Dùng Steam? Vì Sao Valve Vẫn &quot;Ngó Lơ&quot; Tình Trạng Steam Bị Chặn?",
-      "description": "Nối tiếp video phân tích mâu thuẫn pháp lý khiến Steam ngày càng khó truy cập tại Việt Nam, câu hỏi lớn hơn đặt ra là: Việt Nam ...",
-      "thumbnail": "https://i.ytimg.com/vi/wPiaNk3MTRM/hqdefault.jpg",
-      "published": "2026-10-12T01:26:43Z",
-      "duration": 653,
-      "url": "https://www.youtube.com/watch?v=wPiaNk3MTRM"
     }
   ]
 }
