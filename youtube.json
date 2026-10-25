@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T02:46:39.282Z",
+  "updated": "2026-10-25T10:31:41.782Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "D7vbjZoICdM",
+      "title": "Blood Message (Quy Đường): Siêu Phẩm AAA Chơi Đơn Đầu Tiên Của NetEase Đồ Họa UE5!",
+      "description": "Anh em đã quá quen thuộc với những siêu phẩm online triệu đô của NetEase như Where Winds Meet, Nghịch Thủy Hàn hay ...",
+      "thumbnail": "https://i.ytimg.com/vi/D7vbjZoICdM/hqdefault.jpg",
+      "published": "2026-10-25T04:37:44Z",
+      "duration": 497,
+      "url": "https://www.youtube.com/watch?v=D7vbjZoICdM"
+    },
     {
       "id": "p2CNsj08MfA",
       "title": "Roco Kingdom: World vs Aniimo: Đâu Mới Là &quot;Pokémon Truyền Nhân&quot; Đáng Chơi Nhất?",
@@ -51,15 +60,6 @@
       "published": "2026-10-15T01:37:25Z",
       "duration": 543,
       "url": "https://www.youtube.com/watch?v=ZtX-vycS-6g"
-    },
-    {
-      "id": "kwWRFSzhJ4g",
-      "title": "Võ Lâm Truyền Kỳ 3D Hồi Sinh Sau 10 Năm: Trải Nghiệm JX3 Chơi Ngay Trên Trình Duyệt!",
-      "description": "Nếu anh em thuộc thế hệ 8x, 9x từng dành cả tuổi thanh xuân cho các siêu phẩm MMORPG 3D, chắc chắn cái tên Võ Lâm Truyền ...",
-      "thumbnail": "https://i.ytimg.com/vi/kwWRFSzhJ4g/hqdefault.jpg",
-      "published": "2026-10-14T00:51:06Z",
-      "duration": 577,
-      "url": "https://www.youtube.com/watch?v=kwWRFSzhJ4g"
     }
   ]
 }
