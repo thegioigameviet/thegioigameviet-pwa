@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T21:42:20.213Z",
+  "updated": "2026-10-28T03:34:25.094Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "TDvwoTZR6mk",
+      "title": "AI Sẽ Cứu Ngành Game Hay Biến Nó Thành &quot;Nồi Lẩu Game Rác&quot;?",
+      "description": "Hãy thử tưởng tượng một ngày nào đó, chỉ với một chiếc máy tính và vài câu lệnh AI, một cá nhân có thể tự tay tạo ra một tựa ...",
+      "thumbnail": "https://i.ytimg.com/vi/TDvwoTZR6mk/hqdefault.jpg",
+      "published": "2026-10-28T01:29:10Z",
+      "duration": 869,
+      "url": "https://www.youtube.com/watch?v=TDvwoTZR6mk"
+    },
     {
       "id": "D7vbjZoICdM",
       "title": "Blood Message (Quy Đường): Siêu Phẩm AAA Chơi Đơn Đầu Tiên Của NetEase Đồ Họa UE5!",
@@ -51,15 +60,6 @@
       "published": "2026-10-17T01:07:20Z",
       "duration": 493,
       "url": "https://www.youtube.com/watch?v=cVY0rfq9olA"
-    },
-    {
-      "id": "ZtX-vycS-6g",
-      "title": "Chơi Game STEAM Trên Android Không Cần PC/Cloud Gaming! DroidDeck: Biến Điện Thoại Thành Steam.",
-      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Anh em có tin được không: Giờ đây chúng ta hoàn toàn có thể chạy ...",
-      "thumbnail": "https://i.ytimg.com/vi/ZtX-vycS-6g/hqdefault.jpg",
-      "published": "2026-10-15T01:37:25Z",
-      "duration": 543,
-      "url": "https://www.youtube.com/watch?v=ZtX-vycS-6g"
     }
   ]
 }
