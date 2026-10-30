@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:18:48.170Z",
+  "updated": "2026-10-30T03:57:09.259Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "lLcWJ6dIOBY",
+      "title": "ANANTA: GTA Gặp Spider-Man Trong Một Thế Giới Anime?",
+      "description": "ANANTA là tựa game nhập vai hành động thế giới mở đô thị do Naked Rain phát triển và NetEase Games công bố, dự kiến ra ...",
+      "thumbnail": "https://i.ytimg.com/vi/lLcWJ6dIOBY/hqdefault.jpg",
+      "published": "2026-10-30T02:33:16Z",
+      "duration": 639,
+      "url": "https://www.youtube.com/watch?v=lLcWJ6dIOBY"
+    },
     {
       "id": "TDvwoTZR6mk",
       "title": "AI Sẽ Cứu Ngành Game Hay Biến Nó Thành &quot;Nồi Lẩu Game Rác&quot;?",
@@ -51,15 +60,6 @@
       "published": "2026-10-19T01:10:51Z",
       "duration": 685,
       "url": "https://www.youtube.com/watch?v=ih-A6rsW5Sg"
-    },
-    {
-      "id": "cVY0rfq9olA",
-      "title": "PUBG Pha Trộn Liên Quân Mobile Sẽ Ra Sao? | Siêu Phẩm FPS Mới - ECC: REDLINE ",
-      "description": "Anh em thử tưởng tượng: Sẽ ra sao nếu cảm giác chạy bo sinh tồn căng thẳng của PUBG được kết hợp cùng cơ chế kiếm tiền, ...",
-      "thumbnail": "https://i.ytimg.com/vi/cVY0rfq9olA/hqdefault.jpg",
-      "published": "2026-10-17T01:07:20Z",
-      "duration": 493,
-      "url": "https://www.youtube.com/watch?v=cVY0rfq9olA"
     }
   ]
 }
