@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T22:46:27.056Z",
+  "updated": "2026-11-04T04:26:33.338Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "_QwcSiRzs3c",
+      "title": "Vì Sao Hơn 1 Triệu Lượt Vào Game Online Chỉ Để… KHÔNG CHƠI GÌ?",
+      "description": "Một tựa game online không PvP, không cày cấp, không săn Boss, thậm chí không có tính năng chat… vậy mà lại thu hút hơn 1 ...",
+      "thumbnail": "https://i.ytimg.com/vi/_QwcSiRzs3c/hqdefault.jpg",
+      "published": "2026-11-04T01:54:15Z",
+      "duration": 487,
+      "url": "https://www.youtube.com/watch?v=_QwcSiRzs3c"
+    },
     {
       "id": "0n_3iMjq6L4",
       "title": "Tại Sao Pokémon UNITE Đóng Cửa: Tencent (10 Xu) Đã Vận Hành Tệ Đến Mức Nào?",
@@ -51,15 +60,6 @@
       "published": "2026-10-22T02:21:22Z",
       "duration": 549,
       "url": "https://www.youtube.com/watch?v=p2CNsj08MfA"
-    },
-    {
-      "id": "ID3yRBmUGNA",
-      "title": "Thiên Nhai Minh Nguyệt Đao Chính Thức Đóng Cửa: Thua Where Winds Meet &amp; Nghịch Thủy Hàn Hay Vì VNG?",
-      "description": "Sau đúng 1 năm kể từ ngày Thế Giới Game Việt từng lên tiếng về những bất cập trong vận hành của Thiên Nhai Minh Nguyệt ...",
-      "thumbnail": "https://i.ytimg.com/vi/ID3yRBmUGNA/hqdefault.jpg",
-      "published": "2026-10-20T01:30:08Z",
-      "duration": 628,
-      "url": "https://www.youtube.com/watch?v=ID3yRBmUGNA"
     }
   ]
 }
