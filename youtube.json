@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T23:08:17.001Z",
+  "updated": "2026-11-06T04:42:06.393Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "760kLGABW7o",
+      "title": "Phantom Blade Zero Kiếm 223 Triệu USD Sau 5 Ngày – Where Winds Meet Cả Năm Không Bằng?",
+      "description": "Cùng là game kiếm hiệp Trung Quốc, nhưng tại sao **Phantom Blade Zero chỉ cần 5 ngày đã đạt doanh thu ước tính 223 triệu ...",
+      "thumbnail": "https://i.ytimg.com/vi/760kLGABW7o/hqdefault.jpg",
+      "published": "2026-11-06T01:04:34Z",
+      "duration": 381,
+      "url": "https://www.youtube.com/watch?v=760kLGABW7o"
+    },
     {
       "id": "_QwcSiRzs3c",
       "title": "Vì Sao Hơn 1 Triệu Lượt Vào Game Online Chỉ Để… KHÔNG CHƠI GÌ?",
@@ -51,15 +60,6 @@
       "published": "2026-10-25T04:37:44Z",
       "duration": 497,
       "url": "https://www.youtube.com/watch?v=D7vbjZoICdM"
-    },
-    {
-      "id": "p2CNsj08MfA",
-      "title": "Roco Kingdom: World vs Aniimo: Đâu Mới Là &quot;Pokémon Truyền Nhân&quot; Đáng Chơi Nhất?",
-      "description": "Cuộc chiến trong dòng game bắt thú (Monster-Catching) thế giới mở đang trở nên nóng hơn bao giờ hết! Một bên là Roco ...",
-      "thumbnail": "https://i.ytimg.com/vi/p2CNsj08MfA/hqdefault.jpg",
-      "published": "2026-10-22T02:21:22Z",
-      "duration": 549,
-      "url": "https://www.youtube.com/watch?v=p2CNsj08MfA"
     }
   ]
 }
