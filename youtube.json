@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:54:47.091Z",
+  "updated": "2026-11-10T01:03:42.404Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "zl2OqI7JZn4",
+      "title": "ANANTA: Giải Mã Bí Ẩn Cốt Truyện! Chaos Là Gì? Chúng Ta Sẽ Khám Phá Những Gì?",
+      "description": "ANANTA có gì ngoài một thế giới mở giống GTA phong cách anime? Đằng sau những thành phố hiện đại, các cuộc truy đuổi ...",
+      "thumbnail": "https://i.ytimg.com/vi/zl2OqI7JZn4/hqdefault.jpg",
+      "published": "2026-11-10T00:56:35Z",
+      "duration": 688,
+      "url": "https://www.youtube.com/watch?v=zl2OqI7JZn4"
+    },
     {
       "id": "NoiV-YfyYSs",
       "title": "Cửu Âm 3D, Nhất Mộng, Thiên Nhai Đều Đóng Cửa – VNG Vẫn Làm Kiếm Hiệp Tình?",
@@ -51,15 +60,6 @@
       "published": "2026-10-30T02:33:16Z",
       "duration": 639,
       "url": "https://www.youtube.com/watch?v=lLcWJ6dIOBY"
-    },
-    {
-      "id": "TDvwoTZR6mk",
-      "title": "AI Sẽ Cứu Ngành Game Hay Biến Nó Thành &quot;Nồi Lẩu Game Rác&quot;?",
-      "description": "Hãy thử tưởng tượng một ngày nào đó, chỉ với một chiếc máy tính và vài câu lệnh AI, một cá nhân có thể tự tay tạo ra một tựa ...",
-      "thumbnail": "https://i.ytimg.com/vi/TDvwoTZR6mk/hqdefault.jpg",
-      "published": "2026-10-28T01:29:10Z",
-      "duration": 869,
-      "url": "https://www.youtube.com/watch?v=TDvwoTZR6mk"
     }
   ]
 }
