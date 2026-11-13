@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T23:04:53.594Z",
+  "updated": "2026-11-13T04:37:57.908Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "i8OFvHwWxAE",
+      "title": "Where Winds Meet Sau 1 Năm: Càng Ra Võ Học Mới, Game Thủ Càng Chán?",
+      "description": "Where Winds Meet (Yên Vân Thập Lục Thanh) chuẩn bị kỷ niệm 1 năm phát hành toàn cầu! Sau gần một năm phát triển, hệ thống ...",
+      "thumbnail": "https://i.ytimg.com/vi/i8OFvHwWxAE/hqdefault.jpg",
+      "published": "2026-11-13T01:34:55Z",
+      "duration": 641,
+      "url": "https://www.youtube.com/watch?v=i8OFvHwWxAE"
+    },
     {
       "id": "J_sXelfH_g4",
       "title": "Tại Sao Rise of Kingdoms Có Tướng Indonesia, Philippines Nhưng Không Có Tướng Việt Nam?",
@@ -51,15 +60,6 @@
       "published": "2026-11-04T01:54:15Z",
       "duration": 487,
       "url": "https://www.youtube.com/watch?v=_QwcSiRzs3c"
-    },
-    {
-      "id": "0n_3iMjq6L4",
-      "title": "Tại Sao Pokémon UNITE Đóng Cửa: Tencent (10 Xu) Đã Vận Hành Tệ Đến Mức Nào?",
-      "description": "Sở hữu thương hiệu giải trí đắt giá nhất hành tinh (Pokémon), đứng sau là tập đoàn Tencent Games (10 Xu) cùng TiMi Studio ...",
-      "thumbnail": "https://i.ytimg.com/vi/0n_3iMjq6L4/hqdefault.jpg",
-      "published": "2026-10-31T01:07:02Z",
-      "duration": 536,
-      "url": "https://www.youtube.com/watch?v=0n_3iMjq6L4"
     }
   ]
 }
