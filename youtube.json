@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T04:21:23.741Z",
+  "updated": "2026-11-15T13:17:21.218Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "VaJSN56_QFM",
+      "title": "ĐAO KIẾM 2 TRỞ LẠI SAU 12 NĂM! Liệu Có Lên Mobile?",
+      "description": "ĐAO KIẾM 2 chính thức trở lại thị trường game Việt Nam sau hơn 12 năm kể từ lần phát hành đầu tiên bởi SGame vào năm 2014.",
+      "thumbnail": "https://i.ytimg.com/vi/VaJSN56_QFM/hqdefault.jpg",
+      "published": "2026-11-15T09:30:38Z",
+      "duration": 506,
+      "url": "https://www.youtube.com/watch?v=VaJSN56_QFM"
+    },
     {
       "id": "i8OFvHwWxAE",
       "title": "Where Winds Meet Sau 1 Năm: Càng Ra Võ Học Mới, Game Thủ Càng Chán?",
@@ -51,15 +60,6 @@
       "published": "2026-11-06T01:04:34Z",
       "duration": 381,
       "url": "https://www.youtube.com/watch?v=760kLGABW7o"
-    },
-    {
-      "id": "_QwcSiRzs3c",
-      "title": "Vì Sao Hơn 1 Triệu Lượt Vào Game Online Chỉ Để… KHÔNG CHƠI GÌ?",
-      "description": "Một tựa game online không PvP, không cày cấp, không săn Boss, thậm chí không có tính năng chat… vậy mà lại thu hút hơn 1 ...",
-      "thumbnail": "https://i.ytimg.com/vi/_QwcSiRzs3c/hqdefault.jpg",
-      "published": "2026-11-04T01:54:15Z",
-      "duration": 487,
-      "url": "https://www.youtube.com/watch?v=_QwcSiRzs3c"
     }
   ]
 }
