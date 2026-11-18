@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T00:22:14.345Z",
+  "updated": "2026-11-18T14:56:21.591Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "M60RBGSopG8",
+      "title": "Tại Sao Game Thủ Yêu Thích GTA – Tựa Game Phơi Bày Mặt Tối Của Xã Hội Mỹ?",
+      "description": "Trong khi phần lớn các tựa game AAA đều cố gắng biến người chơi thành những người hùng chính nghĩa đi giải cứu thế giới, ...",
+      "thumbnail": "https://i.ytimg.com/vi/M60RBGSopG8/hqdefault.jpg",
+      "published": "2026-11-18T11:20:43Z",
+      "duration": 571,
+      "url": "https://www.youtube.com/watch?v=M60RBGSopG8"
+    },
     {
       "id": "VaJSN56_QFM",
       "title": "ĐAO KIẾM 2 TRỞ LẠI SAU 12 NĂM! Liệu Có Lên Mobile?",
@@ -51,15 +60,6 @@
       "published": "2026-11-07T00:50:16Z",
       "duration": 487,
       "url": "https://www.youtube.com/watch?v=NoiV-YfyYSs"
-    },
-    {
-      "id": "760kLGABW7o",
-      "title": "Phantom Blade Zero Kiếm 223 Triệu USD Sau 5 Ngày – Where Winds Meet Cả Năm Không Bằng?",
-      "description": "Cùng là game kiếm hiệp Trung Quốc, nhưng tại sao **Phantom Blade Zero chỉ cần 5 ngày đã đạt doanh thu ước tính 223 triệu ...",
-      "thumbnail": "https://i.ytimg.com/vi/760kLGABW7o/hqdefault.jpg",
-      "published": "2026-11-06T01:04:34Z",
-      "duration": 381,
-      "url": "https://www.youtube.com/watch?v=760kLGABW7o"
     }
   ]
 }
