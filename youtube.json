@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T00:09:21.569Z",
+  "updated": "2026-11-20T14:44:53.374Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "3NCx9m0SSv0",
+      "title": "Đấu La Đại Lục Game Thế Giới Mở Mới! Game Thủ Việt Làm Sao Chơi?",
+      "description": "Đấu La Đại Lục: Tru Tà Truyền Thuyết** – tựa game MMORPG thế giới mở mới lấy cảm hứng từ vũ trụ Đấu La Đại Lục đã chính ...",
+      "thumbnail": "https://i.ytimg.com/vi/3NCx9m0SSv0/hqdefault.jpg",
+      "published": "2026-11-20T01:25:24Z",
+      "duration": 487,
+      "url": "https://www.youtube.com/watch?v=3NCx9m0SSv0"
+    },
     {
       "id": "M60RBGSopG8",
       "title": "Tại Sao Game Thủ Yêu Thích GTA – Tựa Game Phơi Bày Mặt Tối Của Xã Hội Mỹ?",
@@ -51,15 +60,6 @@
       "published": "2026-11-10T00:56:35Z",
       "duration": 688,
       "url": "https://www.youtube.com/watch?v=zl2OqI7JZn4"
-    },
-    {
-      "id": "NoiV-YfyYSs",
-      "title": "Cửu Âm 3D, Nhất Mộng, Thiên Nhai Đều Đóng Cửa – VNG Vẫn Làm Kiếm Hiệp Tình?",
-      "description": "Thị trường game kiếm hiệp Việt Nam đang dần thoái trào? Hàng loạt MMORPG đình đám như Cửu Âm 3D, Nhất Mộng Giang Hồ ...",
-      "thumbnail": "https://i.ytimg.com/vi/NoiV-YfyYSs/hqdefault.jpg",
-      "published": "2026-11-07T00:50:16Z",
-      "duration": 487,
-      "url": "https://www.youtube.com/watch?v=NoiV-YfyYSs"
     }
   ]
 }
