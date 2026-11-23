@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:13:53.295Z",
+  "updated": "2026-11-23T17:05:39.736Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "WmH18YWSvrc",
+      "title": "GANGSTAR MIRAGE CITY ONLINE: Game Giống GTA Online Trên Mobile! Hướng Dẫn Tải Android, iOS &amp; PC",
+      "description": "Gangstar Mirage City Online – tựa game thế giới mở mang phong cách GTA Online trên điện thoại, kế thừa tinh thần của dòng ...",
+      "thumbnail": "https://i.ytimg.com/vi/WmH18YWSvrc/hqdefault.jpg",
+      "published": "2026-11-23T13:16:26Z",
+      "duration": 499,
+      "url": "https://www.youtube.com/watch?v=WmH18YWSvrc"
+    },
     {
       "id": "sDRfchzd68I",
       "title": "Không Có Máy Chơi GTA VI? Thử Ngay Game Thế Giới Mở Kiểu GTA Trên Mobile!",
@@ -51,15 +60,6 @@
       "published": "2026-11-15T09:30:38Z",
       "duration": 506,
       "url": "https://www.youtube.com/watch?v=VaJSN56_QFM"
-    },
-    {
-      "id": "i8OFvHwWxAE",
-      "title": "Where Winds Meet Sau 1 Năm: Càng Ra Võ Học Mới, Game Thủ Càng Chán?",
-      "description": "Where Winds Meet (Yên Vân Thập Lục Thanh) chuẩn bị kỷ niệm 1 năm phát hành toàn cầu! Sau gần một năm phát triển, hệ thống ...",
-      "thumbnail": "https://i.ytimg.com/vi/i8OFvHwWxAE/hqdefault.jpg",
-      "published": "2026-11-13T01:34:55Z",
-      "duration": 641,
-      "url": "https://www.youtube.com/watch?v=i8OFvHwWxAE"
     }
   ]
 }
