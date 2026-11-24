@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:05:39.736Z",
+  "updated": "2026-11-24T03:42:29.268Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "EufQsNEoG0E",
+      "title": "Hướng Dẫn Tải GANGSTAR MIRAGE CITY ONLINE: Game Giống GTA Online Trên Mobile!  #GTAMobile",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/EufQsNEoG0E/hqdefault.jpg",
+      "published": "2026-11-24T00:00:42Z",
+      "duration": 75,
+      "url": "https://www.youtube.com/watch?v=EufQsNEoG0E"
+    },
     {
       "id": "WmH18YWSvrc",
       "title": "GANGSTAR MIRAGE CITY ONLINE: Game Giống GTA Online Trên Mobile! Hướng Dẫn Tải Android, iOS &amp; PC",
@@ -51,15 +60,6 @@
       "published": "2026-11-18T11:20:43Z",
       "duration": 571,
       "url": "https://www.youtube.com/watch?v=M60RBGSopG8"
-    },
-    {
-      "id": "VaJSN56_QFM",
-      "title": "ĐAO KIẾM 2 TRỞ LẠI SAU 12 NĂM! Liệu Có Lên Mobile?",
-      "description": "ĐAO KIẾM 2 chính thức trở lại thị trường game Việt Nam sau hơn 12 năm kể từ lần phát hành đầu tiên bởi SGame vào năm 2014.",
-      "thumbnail": "https://i.ytimg.com/vi/VaJSN56_QFM/hqdefault.jpg",
-      "published": "2026-11-15T09:30:38Z",
-      "duration": 506,
-      "url": "https://www.youtube.com/watch?v=VaJSN56_QFM"
     }
   ]
 }
