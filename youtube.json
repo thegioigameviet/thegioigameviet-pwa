@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T01:26:23.333Z",
+  "updated": "2026-11-26T16:11:47.961Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "BFBOpaxTL6E",
+      "title": "Giang Hồ Hàn Quốc Khác Gì Kiếm Hiệp Trung Quốc? | Hiệp Khách: Bảo Khí Trở Lại",
+      "description": "Chào mừng anh em đã quay trở lại với Thế Giới Game Việt! Nhắc đến dòng game võ hiệp tuổi thơ, Hiệp Khách Giang Hồ ...",
+      "thumbnail": "https://i.ytimg.com/vi/BFBOpaxTL6E/hqdefault.jpg",
+      "published": "2026-11-26T05:51:33Z",
+      "duration": 546,
+      "url": "https://www.youtube.com/watch?v=BFBOpaxTL6E"
+    },
     {
       "id": "EufQsNEoG0E",
       "title": "Hướng Dẫn Tải GANGSTAR MIRAGE CITY ONLINE: Game Giống GTA Online Trên Mobile!  #GTAMobile",
@@ -51,15 +60,6 @@
       "published": "2026-11-20T01:25:24Z",
       "duration": 487,
       "url": "https://www.youtube.com/watch?v=3NCx9m0SSv0"
-    },
-    {
-      "id": "M60RBGSopG8",
-      "title": "Tại Sao Game Thủ Yêu Thích GTA – Tựa Game Phơi Bày Mặt Tối Của Xã Hội Mỹ?",
-      "description": "Trong khi phần lớn các tựa game AAA đều cố gắng biến người chơi thành những người hùng chính nghĩa đi giải cứu thế giới, ...",
-      "thumbnail": "https://i.ytimg.com/vi/M60RBGSopG8/hqdefault.jpg",
-      "published": "2026-11-18T11:20:43Z",
-      "duration": 571,
-      "url": "https://www.youtube.com/watch?v=M60RBGSopG8"
     }
   ]
 }
