@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T01:23:43.993Z",
+  "updated": "2026-11-27T15:57:33.422Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "tRage1uY_8k",
+      "title": "Hướng Dẫn Cài &quot;DLSS 5&quot; Cho Where Winds Meet Mobile – Mở Khóa 120 FPS!",
+      "description": "Bạn muốn chơi Where Winds Meet trên điện thoại với hình ảnh mượt mà hơn như DLSS 5 trên PC? Trong video hôm nay, Thế ...",
+      "thumbnail": "https://i.ytimg.com/vi/tRage1uY_8k/hqdefault.jpg",
+      "published": "2026-11-27T02:10:20Z",
+      "duration": 421,
+      "url": "https://www.youtube.com/watch?v=tRage1uY_8k"
+    },
     {
       "id": "BFBOpaxTL6E",
       "title": "Giang Hồ Hàn Quốc Khác Gì Kiếm Hiệp Trung Quốc? | Hiệp Khách: Bảo Khí Trở Lại",
@@ -51,15 +60,6 @@
       "published": "2026-11-21T01:14:59Z",
       "duration": 543,
       "url": "https://www.youtube.com/watch?v=Y2mQrDB0w38"
-    },
-    {
-      "id": "3NCx9m0SSv0",
-      "title": "Đấu La Đại Lục Game Thế Giới Mở Mới! Game Thủ Việt Làm Sao Chơi?",
-      "description": "Đấu La Đại Lục: Tru Tà Truyền Thuyết** – tựa game MMORPG thế giới mở mới lấy cảm hứng từ vũ trụ Đấu La Đại Lục đã chính ...",
-      "thumbnail": "https://i.ytimg.com/vi/3NCx9m0SSv0/hqdefault.jpg",
-      "published": "2026-11-20T01:25:24Z",
-      "duration": 487,
-      "url": "https://www.youtube.com/watch?v=3NCx9m0SSv0"
     }
   ]
 }
