@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T00:56:55.721Z",
+  "updated": "2026-11-28T14:54:28.601Z",
   "channel": {
     "id": "UCOx1_ve_BdqOURfvE_5SzDQ",
     "name": "Thế Giới Game Việt",
@@ -7,6 +7,15 @@
   },
   "total": 6,
   "videos": [
+    {
+      "id": "F8Aytrbxsf8",
+      "title": "Kiếm hiệp Trung nặng đạo nghĩa, còn Hiệp Khách Giang Hồ lại hài hước, lầy lội cực cuốn! #Yulgang",
+      "description": "Kiếm hiệp Trung: Đại hiệp gánh cả thiên hạ. Giang hồ Hàn (Hiệp Khách Giang Hồ): Đại hiệp ham vui, mê mỹ nhân, bật cười ...",
+      "thumbnail": "https://i.ytimg.com/vi/F8Aytrbxsf8/hqdefault.jpg",
+      "published": "2026-11-28T01:40:19Z",
+      "duration": 102,
+      "url": "https://www.youtube.com/watch?v=F8Aytrbxsf8"
+    },
     {
       "id": "tRage1uY_8k",
       "title": "Hướng Dẫn Cài &quot;DLSS 5&quot; Cho Where Winds Meet Mobile – Mở Khóa 120 FPS!",
@@ -51,15 +60,6 @@
       "published": "2026-11-22T09:02:16Z",
       "duration": 509,
       "url": "https://www.youtube.com/watch?v=sDRfchzd68I"
-    },
-    {
-      "id": "Y2mQrDB0w38",
-      "title": "Top 5 Game Mobile Hay Nhất 2026 - Where Winds Meet Có Đạt Được Giải?",
-      "description": "Where Winds Meet tiếp tục khẳng định sức hút khi góp mặt trong danh sách đề cử **Best Mobile Game tại The Game Awards ...",
-      "thumbnail": "https://i.ytimg.com/vi/Y2mQrDB0w38/hqdefault.jpg",
-      "published": "2026-11-21T01:14:59Z",
-      "duration": 543,
-      "url": "https://www.youtube.com/watch?v=Y2mQrDB0w38"
     }
   ]
 }
